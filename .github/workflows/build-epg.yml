@@ -1,0 +1,43 @@
+name: Build Custom US EPG
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * *"
+  push:
+    branches: [ "main" ]
+    paths:
+      - "build_epg.py"
+      - ".github/workflows/build-epg.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build EPG
+        run: python build_epg.py
+
+      - name: Commit refreshed guide
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Refresh custom US EPG"
+            git push
+          fi
