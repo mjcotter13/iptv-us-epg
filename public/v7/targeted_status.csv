@@ -1,26 +1,26 @@
-id,name,group,site,site_id,programmes,success
-ESPNDeportes.us@SD,ESPN Deportes,Sports,tvtv.us,25595,0,NO
-ESPNU.us@SD,ESPNU,Sports,ontvtonight.com,us#69026524/espnu,15,YES
-F1Channel.ie@US,F1 Channel,Sports,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6896595a58a6658b3d6a501a,0,NO
-NBCSportsNOW.us@SD,NBC Sports NOW,Sports,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-5fc70600598c41002da3dd43,0,NO
-NFLChannel.us@SD,NFL Channel,Sports,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-61e805952502a7a6fa84d70f,0,NO
-NFLNetwork.us@SD,The NFL Network,Sports,ontvtonight.com,us#69023748/the-nfl-network,9,YES
-SlopesTV.us@SD,Slopes TV,Sports,distro.tv,42167,0,NO
-TVSBoxing.us@SD,TVS Boxing Network,Sports,watchyour.tv,786,27,YES
-TVSClassicSports.us@SD,TVS Classic Sports,Sports,watchyour.tv,735,27,YES
-TVSTurbo.us@SD,TVS Turbo Network,Sports,watchyour.tv,793,27,YES
-TVSWomenSports.us@SD,TVS Women's Sports Network,Sports,watchyour.tv,798,27,YES
-TennisChannel.us@SD,The Tennis,Sports,tvguide.com,9200017917,10,YES
-USANetwork.us@East,USA,Comedy;Movies;Series;Sports,tvguide.com,9233004106,30,YES
-XFCTV.us@SD,XFC TV,Sports,distro.tv,51671,0,NO
-beINSportsUSA.us@SD,beIN Sports (English),Sports,ontvtonight.com,us#317907389/bein-sports-english,26,YES
-WPLG101.us@HD,"ABC (WPLG-DT1) Miami, FL",News,tvtv.us,20493,0,NO
-WMARTV21.us@HD,ABC (WMAR-DT1) Washington D.C.,News,tvtv.us,21230,0,NO
-WTXLTV271.us@HD,"ABC (WTXL1) Tallahassee, FL",News,tvtv.us,43832,0,NO
-WMURTV91.us@HD,"ABC (WMUR) Manchester, NH HD",News;Weather,tvpassport.com,abc-wmur-manchester-nh-hd/3655,0,NO
-WFTV91.us@HD,"ABC 9 (WFTV-DT1) Orlando, FL",News,tvtv.us,20491,0,NO
-WWAY31.us@HD,"ABC (WWAY) Wilmington, NC",News,tvtv.us,43730,0,NO
-AmericasVoice.us@SD,America's Voice,News,i.mjh.nz,Roku/all#d748045d77105901b8e25fcc34aa9e2f,19,YES
-EntertainmentTonight.us@SD,Entertainment Tonight,Entertainment;News,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6578bb741a12778a8550d158,0,NO
-WXIITV201.us@HD,"NBC (WXII) Winston-Salem, NC HD",News,tvpassport.com,nbc-wxii-winston-salem-nc-hd/4721,0,NO
-WGAL81.us@HD,"NBC (WGAL) Lancaster, PA HD",News,tvpassport.com,nbc-wgal-lancaster-pa-hd/6701,0,NO
+id,name,group,site,site_id,attempt_used,programmes,success
+ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,gatotv.com,espn_deportes,1,18,YES
+ESPNU.us@SD,ESPNU (720p),Sports,ontvtonight.com,us#69026524/espnu,1,15,YES
+F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,i.mjh.nz,Roku/all#d2564cef9feeec6c58a076d6f6a90491,2,11,YES
+NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,i.mjh.nz,Roku/all#a90a91570ce0536cbb22b591ad7e0da2,2,24,YES
+NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,i.mjh.nz,PlutoTV/us#5ced7d5df64be98e07ed47b6,2,7,YES
+SlopesTV.us@SD,Slopes TV (720p),Sports,i.mjh.nz,Plex/au#697140a85d851f5e69414688-616df1be2cf008a748c8cb53,2,5,YES
+TennisChannel.us@SD,Tennis Channel (1080p),Sports,tvguide.com,9200017917,1,10,YES
+USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,tvguide.com,9233004106,1,30,YES
+XFCTV.us@SD,XFC TV (720p),Sports,i.mjh.nz,Plex/au#697140a85d851f5e69414688-621670feab2095ca85353ad4,2,2,YES
+WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,tvpassport.com,abc-wplg-miami-fl-hd/5722,1,33,YES
+WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,tvpassport.com,abc-wmar-baltimore-md-hd/5727,1,29,YES
+WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,tvpassport.com,abc-wtxl-tallahassee-fl-hd/5768,1,28,YES
+WMURTV91.us@HD,ABC 9 Manchester NH (WMUR-TV) (720p),News;Weather,tvpassport.com,abc-wmur-manchester-nh-hd/3655,1,27,YES
+WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,i.mjh.nz,Roku/all#28cca0d6e56f5527bb6bc15c8a30d133,1,40,YES
+WWAY31.us@HD,ABC WWAY 3,News,tvpassport.com,abc-wway-wilmington-nc-hd/4797,1,28,YES
+EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,i.mjh.nz,PlutoTV/us#5dc0c78281eddb0009a02d5e,2,17,YES
+WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,tvpassport.com,nbc-wxii-winston-salem-nc-hd/4721,1,29,YES
+WGAL81.us@HD,NBC 8 Lancaster PA (WGAL) (720p),News,tvpassport.com,nbc-wgal-lancaster-pa-hd/6701,1,28,YES
+News12Conneticut.us@SD,News12 Conneticut [Geo-blocked],News,,,,0,NO
+News12LongIsland.us@SD,News12 Long Island (1080p) [Geo-blocked],News,,,,0,NO
+NewsNet.us@SD,NewsNet (720p) [Not 24/7],News,,,,0,NO
+RTenEspanol.ru@SD,RT en Espanol (1080p),News,cableplus.com.uy,1502,1,51,YES
+WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,tvpassport.com,abc-wbrz-baton-rouge-la-hd/5764,1,26,YES
+WJBK21.us@HD,WJBK-DT1 (1080p),News,ontvtonight.com,us#69022917/wjbk-hdtv,1,27,YES
+CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,tvguide.com,9233003673,1,28,YES

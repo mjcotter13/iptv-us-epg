@@ -1,0 +1,65 @@
+id,name,group,attempt,site,site_id,programmes,success
+ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,1,gatotv.com,espn_deportes,18,YES
+ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,2,tvtv.us,25595,0,NO
+ESPNU.us@SD,ESPNU (720p),Sports,1,ontvtonight.com,us#69026524/espnu,15,YES
+ESPNU.us@SD,ESPNU (720p),Sports,2,ontvtonight.com,us#69031963/espnu-hdtv,15,YES
+ESPNU.us@SD,ESPNU (720p),Sports,3,tvguide.com,9233011350,17,YES
+F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6896595a58a6658b3d6a501a,0,NO
+F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,2,i.mjh.nz,Roku/all#d2564cef9feeec6c58a076d6f6a90491,11,YES
+F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,3,plex.tv,6896595a58a6658b3d6a501a,13,YES
+NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-5fc70600598c41002da3dd43,0,NO
+NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,2,i.mjh.nz,Roku/all#a90a91570ce0536cbb22b591ad7e0da2,24,YES
+NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,3,plex.tv,5fc70600598c41002da3dd43,18,YES
+NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-61e805952502a7a6fa84d70f,0,NO
+NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,2,i.mjh.nz,PlutoTV/us#5ced7d5df64be98e07ed47b6,7,YES
+NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,3,i.mjh.nz,Roku/all#998e7fd5826653fc84880c91e2620a33,14,YES
+SlopesTV.us@SD,Slopes TV (720p),Sports,1,distro.tv,42167,0,NO
+SlopesTV.us@SD,Slopes TV (720p),Sports,2,i.mjh.nz,Plex/au#697140a85d851f5e69414688-616df1be2cf008a748c8cb53,5,YES
+SlopesTV.us@SD,Slopes TV (720p),Sports,3,i.mjh.nz,Plex/ca#647f8d22a2fc3fadb4721685-616df1be2cf008a748c8cb53,21,YES
+TennisChannel.us@SD,Tennis Channel (1080p),Sports,1,tvguide.com,9200017917,10,YES
+TennisChannel.us@SD,Tennis Channel (1080p),Sports,2,i.mjh.nz,PlutoTV/de#6870c9333ffa5e0c914e9205,12,YES
+TennisChannel.us@SD,Tennis Channel (1080p),Sports,3,i.mjh.nz,PlutoTV/gb#6627621d56fc840008e47c90,21,YES
+USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,1,tvguide.com,9233004106,30,YES
+USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,2,tvtv.us,11207,0,NO
+XFCTV.us@SD,XFC TV (720p),Sports,1,distro.tv,51671,0,NO
+XFCTV.us@SD,XFC TV (720p),Sports,2,i.mjh.nz,Plex/au#697140a85d851f5e69414688-621670feab2095ca85353ad4,2,YES
+XFCTV.us@SD,XFC TV (720p),Sports,3,i.mjh.nz,Plex/ca#647f8d22a2fc3fadb4721685-621670feab2095ca85353ad4,7,YES
+WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,1,tvpassport.com,abc-wplg-miami-fl-hd/5722,33,YES
+WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,2,tvpassport.com,abc-wplg-miami-fl/3358,33,YES
+WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,3,tvtv.us,20493,0,NO
+WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,1,tvpassport.com,abc-wmar-baltimore-md-hd/5727,29,YES
+WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,2,tvpassport.com,abc-wmar-baltimore-md/3230,29,YES
+WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,3,tvtv.us,21230,0,NO
+WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,1,tvpassport.com,abc-wtxl-tallahassee-fl-hd/5768,28,YES
+WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,2,tvpassport.com,abc-wtxl-tallahassee-fl/1346,28,YES
+WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,3,tvtv.us,43832,0,NO
+WMURTV91.us@HD,ABC 9 Manchester NH (WMUR-TV) (720p),News;Weather,1,tvpassport.com,abc-wmur-manchester-nh-hd/3655,27,YES
+WMURTV91.us@HD,ABC 9 Manchester NH (WMUR-TV) (720p),News;Weather,2,tvpassport.com,abc-wmur-manchester-nh/642,27,YES
+WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,1,i.mjh.nz,Roku/all#28cca0d6e56f5527bb6bc15c8a30d133,40,YES
+WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,2,xumo.tv,350#9995107,0,NO
+WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,3,tvpassport.com,abc-wftv-orlando-fl-hd/5725,25,YES
+WWAY31.us@HD,ABC WWAY 3,News,1,tvpassport.com,abc-wway-wilmington-nc-hd/4797,28,YES
+WWAY31.us@HD,ABC WWAY 3,News,2,tvpassport.com,abc-wway-wilmington-nc/2943,28,YES
+WWAY31.us@HD,ABC WWAY 3,News,3,tvtv.us,43730,0,NO
+EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6578bb741a12778a8550d158,0,NO
+EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,2,i.mjh.nz,PlutoTV/us#5dc0c78281eddb0009a02d5e,17,YES
+EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,3,i.mjh.nz,Roku/all#392a421311b35de594961680be62564c,38,YES
+WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,1,tvpassport.com,nbc-wxii-winston-salem-nc-hd/4721,29,YES
+WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,2,tvpassport.com,nbc-wxii-winston-salem-nc/1413,29,YES
+WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,3,epgshare01.online,"US_LOCALS2#NBC.(WXII).Winston-Salem,.NC.us",0,NO
+WGAL81.us@HD,NBC 8 Lancaster PA (WGAL) (720p),News,1,tvpassport.com,nbc-wgal-lancaster-pa-hd/6701,28,YES
+WGAL81.us@HD,NBC 8 Lancaster PA (WGAL) (720p),News,2,tvpassport.com,nbc-wgal-lancaster-pa/3235,28,YES
+News12Conneticut.us@SD,News12 Conneticut [Geo-blocked],News,1,tvtv.us,27512,0,NO
+News12LongIsland.us@SD,News12 Long Island (1080p) [Geo-blocked],News,1,tvtv.us,10999,0,NO
+NewsNet.us@SD,NewsNet (720p) [Not 24/7],News,1,tvtv.us,92205,0,NO
+RTenEspanol.ru@SD,RT en Espanol (1080p),News,1,cableplus.com.uy,1502,51,YES
+RTenEspanol.ru@SD,RT en Espanol (1080p),News,2,mi.tv,ar#russia-today-hd,52,YES
+RTenEspanol.ru@SD,RT en Espanol (1080p),News,3,programacion.tcc.com.uy,271,52,YES
+WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,1,tvpassport.com,abc-wbrz-baton-rouge-la-hd/5764,26,YES
+WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,2,tvpassport.com,abc-wbrz-baton-rouge-la/1742,26,YES
+WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,3,tvtv.us,30436,0,NO
+WJBK21.us@HD,WJBK-DT1 (1080p),News,1,ontvtonight.com,us#69022917/wjbk-hdtv,27,YES
+WJBK21.us@HD,WJBK-DT1 (1080p),News,2,tvpassport.com,fox-wjbk-detroit-mi-dv/3951,25,YES
+WJBK21.us@HD,WJBK-DT1 (1080p),News,3,tvpassport.com,fox-wjbk-detroit-mi-hd/2815,25,YES
+CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,1,tvguide.com,9233003673,28,YES
+CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,2,osn.com,212,41,YES
