@@ -20,41 +20,31 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-
       - name: Clone official IPTV-org EPG repository
         run: git clone --depth 1 https://github.com/iptv-org/epg.git _iptv_epg
-
       - name: Install IPTV-org EPG dependencies
         working-directory: _iptv_epg
         run: npm ci
-
-      - name: Prepare all high-value unmatched channels
+      - name: Prepare exact and conservative fuzzy candidates
         run: python v7_prepare.py
-
       - name: Run conditional targeted grabs
         run: python v7_run.py
-
       - name: Merge targeted results
         run: python v7_merge.py
-
       - name: Build merged production EPG
         run: python build_epg.py
-
-      - name: Preserve V7.2 diagnostics
+      - name: Preserve V7.3 diagnostics
         run: |
           mkdir -p public/v7
           cp v7_work/channels.csv public/v7/channels.csv
@@ -62,7 +52,6 @@ jobs:
           cp v7_targeted_status.csv public/v7/targeted_status.csv
           cp v7_attempt_status.csv public/v7/attempt_status.csv
           cp v7_targeted_guide.xml public/v7/targeted_guide.xml
-
       - name: Commit refreshed guide
         run: |
           git config user.name "github-actions[bot]"
