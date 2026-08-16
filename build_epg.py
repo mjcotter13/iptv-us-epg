@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom IPTV-org US EPG Builder — Version 6.0
+Custom IPTV-org US EPG Builder — Version 6.1
 
 Goal:
   Build one XMLTV guide whose channel IDs exactly match the tvg-id values in
@@ -58,7 +58,7 @@ ADDITIVE_EPG_URLS = [
 OUTDIR = Path("public")
 OUTDIR.mkdir(exist_ok=True)
 
-UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/6.0"
+UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/6.1"
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
 # Curated aliases for high-value channels whose playlist branding differs from EPG branding.
@@ -527,7 +527,10 @@ with tempfile.TemporaryDirectory() as tmp:
         if match:
             source_name, sid, score, method, prog_count = match
             additive_matches[row["id"]] = {
-                **row,
+                "id": row["id"],
+                "name": row["name"],
+                "tvg_name": row["tvg_name"],
+                "group": row["group"],
                 "source": source_name,
                 "source_id": sid,
                 "method": "additive-" + method,
@@ -550,7 +553,7 @@ with tempfile.TemporaryDirectory() as tmp:
     tv = ET.Element(
         "tv",
         {
-            "generator-info-name": "Custom IPTV-org US EPG Builder v6.0",
+            "generator-info-name": "Custom IPTV-org US EPG Builder v6.1",
             "generator-info-url": "https://github.com/iptv-org/iptv",
         },
     )
@@ -618,7 +621,7 @@ with tempfile.TemporaryDirectory() as tmp:
         new_tv = ET.Element(
             "tv",
             {
-                "generator-info-name": "Custom IPTV-org US EPG Builder v6.0",
+                "generator-info-name": "Custom IPTV-org US EPG Builder v6.1",
                 "generator-info-url": "https://github.com/iptv-org/iptv",
             },
         )
