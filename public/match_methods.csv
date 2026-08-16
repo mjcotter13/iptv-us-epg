@@ -2,6 +2,6 @@ method,matched_channels
 primary-exact-normalized-name,242
 primary-exact-id-base,219
 fallback-exact-normalized-name,139
-additive-fallback-exact-id,47
-additive-fallback-exact-normalized-name,38
+additive-fallback-exact-id,40
+additive-fallback-exact-normalized-name,37
 fallback-safe-fuzzy,17
