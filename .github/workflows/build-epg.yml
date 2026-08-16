@@ -9,6 +9,7 @@ on:
     paths:
       - "build_epg.py"
       - "v7_prepare.py"
+      - "v7_run.py"
       - "v7_merge.py"
       - ".github/workflows/build-epg.yml"
 
@@ -41,46 +42,11 @@ jobs:
         working-directory: _iptv_epg
         run: npm ci
 
-      - name: Prepare 25 high-value channels with fallback mappings
+      - name: Prepare all high-value unmatched channels
         run: python v7_prepare.py
 
-      - name: Grab each mapping attempt in a fresh Node process
-        shell: bash
-        run: |
-          python - <<'PY'
-          import csv, subprocess, os
-          from pathlib import Path
-
-          attempts = list(csv.DictReader(open("v7_work/attempts.csv", encoding="utf-8")))
-
-          for a in attempts:
-              cid = a["id"]
-              print(f"===== {cid} | attempt {a['attempt']} | {a['site']} =====", flush=True)
-
-              env = os.environ.copy()
-              env["NODE_OPTIONS"] = "--max-old-space-size=2048"
-
-              cmd = [
-                  "npm", "run", "grab", "---",
-                  f"--channels=../v7_work/{a['channel_file']}",
-                  f"--output=../v7_work/{a['guide_file']}",
-                  "--days=1",
-                  "--maxConnections=1",
-                  "--delay=1000",
-                  "--timeout=30000",
-              ]
-
-              try:
-                  subprocess.run(
-                      cmd,
-                      cwd="_iptv_epg",
-                      env=env,
-                      check=False,
-                      timeout=150,
-                  )
-              except subprocess.TimeoutExpired:
-                  print(f"WARNING: timed out: {cid} attempt {a['attempt']}", flush=True)
-          PY
+      - name: Run conditional targeted grabs
+        run: python v7_run.py
 
       - name: Merge targeted results
         run: python v7_merge.py
@@ -88,7 +54,7 @@ jobs:
       - name: Build merged production EPG
         run: python build_epg.py
 
-      - name: Preserve V7.1 diagnostics
+      - name: Preserve V7.2 diagnostics
         run: |
           mkdir -p public/v7
           cp v7_work/channels.csv public/v7/channels.csv
