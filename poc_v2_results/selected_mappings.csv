@@ -1,0 +1,6 @@
+xmltv_id,name,site,site_id,lang,source_file,channel_file
+ESPNU.us@SD,ESPNU,ontvtonight.com,us#69026524/espnu,en,_iptv_epg/sites/ontvtonight.com/ontvtonight.com_us.channels.xml,ESPNU_us_SD.channels.xml
+NFLNetwork.us@SD,The NFL Network,ontvtonight.com,us#69023748/the-nfl-network,en,_iptv_epg/sites/ontvtonight.com/ontvtonight.com_us.channels.xml,NFLNetwork_us_SD.channels.xml
+TennisChannel.us@SD,The Tennis,tvguide.com,9200017917,en,_iptv_epg/sites/tvguide.com/tvguide.com.channels.xml,TennisChannel_us_SD.channels.xml
+MTV.us@East,MTV,tvguide.com,9200014754,en,_iptv_epg/sites/tvguide.com/tvguide.com.channels.xml,MTV_us_East.channels.xml
+USANetwork.us@East,USA,tvguide.com,9233004106,en,_iptv_epg/sites/tvguide.com/tvguide.com.channels.xml,USANetwork_us_East.channels.xml

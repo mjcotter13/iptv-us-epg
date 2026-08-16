@@ -1,0 +1,8 @@
+targets=5
+channels_with_programmes=5
+channels_without_programmes=0
+ESPNU.us@SD=15 programmes
+NFLNetwork.us@SD=9 programmes
+TennisChannel.us@SD=10 programmes
+MTV.us@East=53 programmes
+USANetwork.us@East=30 programmes
