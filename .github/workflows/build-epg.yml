@@ -8,6 +8,8 @@ on:
     branches: [ "main" ]
     paths:
       - "build_epg.py"
+      - "v7_prepare.py"
+      - "v7_merge.py"
       - ".github/workflows/build-epg.yml"
 
 permissions:
@@ -16,7 +18,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Check out repository
@@ -27,8 +29,51 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build EPG
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Clone official IPTV-org EPG repository
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git _iptv_epg
+
+      - name: Install IPTV-org EPG dependencies
+        working-directory: _iptv_epg
+        run: npm ci
+
+      - name: Select 25 high-value targeted channels
+        run: python v7_prepare.py
+
+      - name: Grab targeted channels one at a time
+        shell: bash
+        run: |
+          tail -n +2 v7_work/targets.csv | while IFS=, read -r id name group site site_id xmltv_id safe channel_file guide_file source_file; do
+            # CSV values used here do not contain commas for the selected control fields.
+            echo "===== $id | $site ====="
+            (
+              cd _iptv_epg
+              NODE_OPTIONS=--max-old-space-size=2048 npm run grab --- \
+                --channels="../v7_work/${channel_file}" \
+                --output="../v7_work/${guide_file}" \
+                --days=1 \
+                --maxConnections=1 \
+                --delay=1000 \
+                --timeout=30000
+            ) || echo "WARNING: grab failed for $id"
+          done
+
+      - name: Merge targeted results
+        run: python v7_merge.py
+
+      - name: Build merged production EPG
         run: python build_epg.py
+
+      - name: Preserve V7 diagnostics
+        run: |
+          mkdir -p public/v7
+          cp v7_work/targets.csv public/v7/targets.csv
+          cp v7_targeted_status.csv public/v7/targeted_status.csv
+          cp v7_targeted_guide.xml public/v7/targeted_guide.xml
 
       - name: Commit refreshed guide
         run: |
