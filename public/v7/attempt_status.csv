@@ -1,65 +1,61 @@
-id,name,group,attempt,site,site_id,programmes,success
-ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,1,gatotv.com,espn_deportes,18,YES
-ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,2,tvtv.us,25595,0,NO
-ESPNU.us@SD,ESPNU (720p),Sports,1,ontvtonight.com,us#69026524/espnu,15,YES
-ESPNU.us@SD,ESPNU (720p),Sports,2,ontvtonight.com,us#69031963/espnu-hdtv,15,YES
-ESPNU.us@SD,ESPNU (720p),Sports,3,tvguide.com,9233011350,17,YES
-F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6896595a58a6658b3d6a501a,0,NO
-F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,2,i.mjh.nz,Roku/all#d2564cef9feeec6c58a076d6f6a90491,11,YES
-F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,3,plex.tv,6896595a58a6658b3d6a501a,13,YES
-NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-5fc70600598c41002da3dd43,0,NO
-NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,2,i.mjh.nz,Roku/all#a90a91570ce0536cbb22b591ad7e0da2,24,YES
-NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,3,plex.tv,5fc70600598c41002da3dd43,18,YES
-NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-61e805952502a7a6fa84d70f,0,NO
-NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,2,i.mjh.nz,PlutoTV/us#5ced7d5df64be98e07ed47b6,7,YES
-NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,3,i.mjh.nz,Roku/all#998e7fd5826653fc84880c91e2620a33,14,YES
-SlopesTV.us@SD,Slopes TV (720p),Sports,1,distro.tv,42167,0,NO
-SlopesTV.us@SD,Slopes TV (720p),Sports,2,i.mjh.nz,Plex/au#697140a85d851f5e69414688-616df1be2cf008a748c8cb53,5,YES
-SlopesTV.us@SD,Slopes TV (720p),Sports,3,i.mjh.nz,Plex/ca#647f8d22a2fc3fadb4721685-616df1be2cf008a748c8cb53,21,YES
-TennisChannel.us@SD,Tennis Channel (1080p),Sports,1,tvguide.com,9200017917,10,YES
-TennisChannel.us@SD,Tennis Channel (1080p),Sports,2,i.mjh.nz,PlutoTV/de#6870c9333ffa5e0c914e9205,12,YES
-TennisChannel.us@SD,Tennis Channel (1080p),Sports,3,i.mjh.nz,PlutoTV/gb#6627621d56fc840008e47c90,21,YES
-USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,1,tvguide.com,9233004106,30,YES
-USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,2,tvtv.us,11207,0,NO
-XFCTV.us@SD,XFC TV (720p),Sports,1,distro.tv,51671,0,NO
-XFCTV.us@SD,XFC TV (720p),Sports,2,i.mjh.nz,Plex/au#697140a85d851f5e69414688-621670feab2095ca85353ad4,2,YES
-XFCTV.us@SD,XFC TV (720p),Sports,3,i.mjh.nz,Plex/ca#647f8d22a2fc3fadb4721685-621670feab2095ca85353ad4,7,YES
-WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,1,tvpassport.com,abc-wplg-miami-fl-hd/5722,33,YES
-WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,2,tvpassport.com,abc-wplg-miami-fl/3358,33,YES
-WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,3,tvtv.us,20493,0,NO
-WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,1,tvpassport.com,abc-wmar-baltimore-md-hd/5727,29,YES
-WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,2,tvpassport.com,abc-wmar-baltimore-md/3230,29,YES
-WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,3,tvtv.us,21230,0,NO
-WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,1,tvpassport.com,abc-wtxl-tallahassee-fl-hd/5768,28,YES
-WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,2,tvpassport.com,abc-wtxl-tallahassee-fl/1346,28,YES
-WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,3,tvtv.us,43832,0,NO
-WMURTV91.us@HD,ABC 9 Manchester NH (WMUR-TV) (720p),News;Weather,1,tvpassport.com,abc-wmur-manchester-nh-hd/3655,27,YES
-WMURTV91.us@HD,ABC 9 Manchester NH (WMUR-TV) (720p),News;Weather,2,tvpassport.com,abc-wmur-manchester-nh/642,27,YES
-WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,1,i.mjh.nz,Roku/all#28cca0d6e56f5527bb6bc15c8a30d133,40,YES
-WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,2,xumo.tv,350#9995107,0,NO
-WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,3,tvpassport.com,abc-wftv-orlando-fl-hd/5725,25,YES
-WWAY31.us@HD,ABC WWAY 3,News,1,tvpassport.com,abc-wway-wilmington-nc-hd/4797,28,YES
-WWAY31.us@HD,ABC WWAY 3,News,2,tvpassport.com,abc-wway-wilmington-nc/2943,28,YES
-WWAY31.us@HD,ABC WWAY 3,News,3,tvtv.us,43730,0,NO
-EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6578bb741a12778a8550d158,0,NO
-EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,2,i.mjh.nz,PlutoTV/us#5dc0c78281eddb0009a02d5e,17,YES
-EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,3,i.mjh.nz,Roku/all#392a421311b35de594961680be62564c,38,YES
-WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,1,tvpassport.com,nbc-wxii-winston-salem-nc-hd/4721,29,YES
-WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,2,tvpassport.com,nbc-wxii-winston-salem-nc/1413,29,YES
-WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,3,epgshare01.online,"US_LOCALS2#NBC.(WXII).Winston-Salem,.NC.us",0,NO
-WGAL81.us@HD,NBC 8 Lancaster PA (WGAL) (720p),News,1,tvpassport.com,nbc-wgal-lancaster-pa-hd/6701,28,YES
-WGAL81.us@HD,NBC 8 Lancaster PA (WGAL) (720p),News,2,tvpassport.com,nbc-wgal-lancaster-pa/3235,28,YES
-News12Conneticut.us@SD,News12 Conneticut [Geo-blocked],News,1,tvtv.us,27512,0,NO
-News12LongIsland.us@SD,News12 Long Island (1080p) [Geo-blocked],News,1,tvtv.us,10999,0,NO
-NewsNet.us@SD,NewsNet (720p) [Not 24/7],News,1,tvtv.us,92205,0,NO
-RTenEspanol.ru@SD,RT en Espanol (1080p),News,1,cableplus.com.uy,1502,51,YES
-RTenEspanol.ru@SD,RT en Espanol (1080p),News,2,mi.tv,ar#russia-today-hd,52,YES
-RTenEspanol.ru@SD,RT en Espanol (1080p),News,3,programacion.tcc.com.uy,271,52,YES
-WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,1,tvpassport.com,abc-wbrz-baton-rouge-la-hd/5764,26,YES
-WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,2,tvpassport.com,abc-wbrz-baton-rouge-la/1742,26,YES
-WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,3,tvtv.us,30436,0,NO
-WJBK21.us@HD,WJBK-DT1 (1080p),News,1,ontvtonight.com,us#69022917/wjbk-hdtv,27,YES
-WJBK21.us@HD,WJBK-DT1 (1080p),News,2,tvpassport.com,fox-wjbk-detroit-mi-dv/3951,25,YES
-WJBK21.us@HD,WJBK-DT1 (1080p),News,3,tvpassport.com,fox-wjbk-detroit-mi-hd/2815,25,YES
-CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,1,tvguide.com,9233003673,28,YES
-CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,2,osn.com,212,41,YES
+id,name,group,attempt,site,site_id,xmltv_id,channel_file,guide_file,source_file,programmes,success,timed_out,return_code
+ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,1,gatotv.com,espn_deportes,ESPNDeportes.us@SD,ESPNDeportes_us_SD.attempt1.channels.xml,ESPNDeportes_us_SD.attempt1.guide.xml,_iptv_epg/sites/gatotv.com/gatotv.com.channels.xml,18,YES,NO,0
+ESPNU.us@SD,ESPNU (720p),Sports,1,tvpassport.com,espn-u/3331,ESPNU.us@SD,ESPNU_us_SD.attempt1.channels.xml,ESPNU_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,14,YES,NO,0
+NFLNetwork.us@SD,NFL Network (720p),Sports,1,tvpassport.com,nfl-network/3349,NFLNetwork.us@SD,NFLNetwork_us_SD.attempt1.channels.xml,NFLNetwork_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,9,YES,NO,0
+TVSBoxing.us@SD,TVS Boxing (360p),Sports,1,watchyour.tv,786,TVSBoxing.us@SD,TVSBoxing_us_SD.attempt1.channels.xml,TVSBoxing_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,27,YES,NO,0
+TVSClassicSports.us@SD,TVS Classic Sports (360p),Sports,1,watchyour.tv,735,TVSClassicSports.us@SD,TVSClassicSports_us_SD.attempt1.channels.xml,TVSClassicSports_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,27,YES,NO,0
+TVSTurbo.us@SD,TVS Turbo (360p),Sports,1,watchyour.tv,793,TVSTurbo.us@SD,TVSTurbo_us_SD.attempt1.channels.xml,TVSTurbo_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,27,YES,NO,0
+TVSWomenSports.us@SD,TVS Women Sports (720p),Sports,1,watchyour.tv,798,TVSWomenSports.us@SD,TVSWomenSports_us_SD.attempt1.channels.xml,TVSWomenSports_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,27,YES,NO,0
+TennisChannel.us@SD,Tennis Channel (1080p),Sports,1,tvpassport.com,the-tennis-channel-hd/7051,TennisChannel.us@SD,TennisChannel_us_SD.attempt1.channels.xml,TennisChannel_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,4,YES,NO,0
+USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,1,tvguide.com,9233004106,USANetwork.us@East,USANetwork_us_East.attempt1.channels.xml,USANetwork_us_East.attempt1.guide.xml,_iptv_epg/sites/tvguide.com/tvguide.com.channels.xml,30,YES,NO,0
+beINSportsUSA.us@SD,beIN Sports USA (1080p) [Geo-blocked],Sports,1,tvpassport.com,bein-sport-usa-hd/10854,beINSportsUSA.us@SD,beINSportsUSA_us_SD.attempt1.channels.xml,beINSportsUSA_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,26,YES,NO,0
+AmericasVoice.us@SD,America's Voice (720p),News,1,i.mjh.nz,Roku/all#d748045d77105901b8e25fcc34aa9e2f,AmericasVoice.us@SD,AmericasVoice_us_SD.attempt1.channels.xml,AmericasVoice_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_roku.channels.xml,18,YES,NO,0
+News12Conneticut.us@SD,News12 Conneticut [Geo-blocked],News,1,tvtv.us,27512,News12Conneticut.us@SD,News12Conneticut_us_SD.attempt1.channels.xml,News12Conneticut_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvtv.us/tvtv.us.channels.xml,0,NO,NO,0
+News12LongIsland.us@SD,News12 Long Island (1080p) [Geo-blocked],News,1,tvtv.us,10999,News12LongIsland.us@SD,News12LongIsland_us_SD.attempt1.channels.xml,News12LongIsland_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvtv.us/tvtv.us.channels.xml,0,NO,NO,0
+NewsNet.us@SD,NewsNet (720p) [Not 24/7],News,1,tvtv.us,92205,NewsNet.us@SD,NewsNet_us_SD.attempt1.channels.xml,NewsNet_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvtv.us/tvtv.us.channels.xml,0,NO,NO,0
+GalxyTV.us@SD,Galxy TV (720p),Entertainment,1,i.mjh.nz,Plex/au#697140a85d851f5e69414688-621672e42c2627c068e73ad8,GalxyTV.us@SD,GalxyTV_us_SD.attempt1.channels.xml,GalxyTV_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,3,YES,NO,0
+Heartland.us@Eastern,Heartland (720p),Entertainment,1,xumo.tv,150#99951494,Heartland.us@Eastern,Heartland_us_Eastern.attempt1.channels.xml,Heartland_us_Eastern.attempt1.guide.xml,_iptv_epg/sites/xumo.tv/xumo.tv.channels.xml,33,YES,NO,0
+KFTRDT461.us@HD,KFTR-DT1 [Geo-blocked],Entertainment,1,ontvtonight.com,us#69033125/kftr-unimas-46-hdtv,KFTRDT461.us@HD,KFTRDT461_us_HD.attempt1.channels.xml,KFTRDT461_us_HD.attempt1.guide.xml,_iptv_epg/sites/ontvtonight.com/ontvtonight.com_us.channels.xml,27,YES,NO,0
+KQED92.us@HD,KQED-DT2 (1080p),Entertainment,1,tvtv.us,30507,KQED92.us@HD,KQED92_us_HD.attempt1.channels.xml,KQED92_us_HD.attempt1.guide.xml,_iptv_epg/sites/tvtv.us/tvtv.us.channels.xml,0,NO,NO,0
+MTV.us@East,MTV (720p),Entertainment,1,tvpassport.com,mtv-usa--eastern-feed/656,MTV.us@East,MTV_us_East.attempt1.channels.xml,MTV_us_East.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,47,YES,NO,0
+MTV2.us@East,MTV2 (1080p),Entertainment,1,tvpassport.com,mtv-2--east/1515,MTV2.us@East,MTV2_us_East.attempt1.channels.xml,MTV2_us_East.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,38,YES,NO,0
+NBCLX.us@SD,NBCLX (1080p),Entertainment,1,i.mjh.nz,SamsungTVPlus/us#USBB40000028E,NBCLX.us@SD,NBCLX_us_SD.attempt1.channels.xml,NBCLX_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_samsung.channels.xml,12,YES,NO,0
+Oxygen.us@East,Oxygen (720p),Entertainment,1,tvpassport.com,oxygen--eastern-feed/659,Oxygen.us@East,Oxygen_us_East.attempt1.channels.xml,Oxygen_us_East.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,24,YES,NO,0
+Cinevault80s.us@SD,Cinevault 80s (720p),Movies,1,i.mjh.nz,SamsungTVPlus/us#USAJ30000148W,Cinevault80s.us@SD,Cinevault80s_us_SD.attempt1.channels.xml,Cinevault80s_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_samsung.channels.xml,2,YES,NO,0
+FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,1,i.mjh.nz,Roku/all#62945e18ab825bfd8b4995d9bd14917b,FilmRiseForensicFiles.us@SD,FilmRiseForensicFiles_us_SD.attempt1.channels.xml,FilmRiseForensicFiles_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_roku.channels.xml,59,YES,NO,0
+GirlfriendsFilms.us@SD,Girlfriends,Movies,1,i.mjh.nz,PlutoTV/gb#66ba1e4446762a000855cd87,GirlfriendsFilms.us@SD,GirlfriendsFilms_us_SD.attempt1.channels.xml,GirlfriendsFilms_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml,24,YES,NO,0
+GrjngoWesternMovies.de@SD,Grjngo Western Movies (720p),Movies,1,i.mjh.nz,Plex/au#697140a85d851f5e69414688-63489a771159f6a5ce819b7b,GrjngoWesternMovies.de@SD,GrjngoWesternMovies_de_SD.attempt1.channels.xml,GrjngoWesternMovies_de_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,4,YES,NO,0
+Runtime.us@SD,Runtime (720p),Movies,1,i.mjh.nz,Plex/es#643054b1fc3be59477853717-66840253cd6f1d394094114f,Runtime.us@SD,Runtime_us_SD.attempt1.channels.xml,Runtime_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,15,YES,NO,0
+SonyCanalNovelas.us@SD,Sony Canal Novelas,Movies,1,i.mjh.nz,SamsungTVPlus/us#USAJ3000002OC,SonyCanalNovelas.us@SD,SonyCanalNovelas_us_SD.attempt1.channels.xml,SonyCanalNovelas_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_samsung.channels.xml,6,YES,NO,0
+TVSDriveInMovie.us@SD,TVS Drive In Movie (360p),Movies,1,watchyour.tv,819,TVSDriveInMovie.us@SD,TVSDriveInMovie_us_SD.attempt1.channels.xml,TVSDriveInMovie_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,13,YES,NO,0
+TVSFilmNoirNetwork.us@SD,TVS Film Noir Network (720p),Movies,1,watchyour.tv,842,TVSFilmNoirNetwork.us@SD,TVSFilmNoirNetwork_us_SD.attempt1.channels.xml,TVSFilmNoirNetwork_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,15,YES,NO,0
+UniversalComedy.us@SD,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Comedy;Movies;Series"",Universal Comedy (1080p)",Comedy;Movies;Series,1,gatotv.com,universal_comedy,UniversalComedy.us@SD,UniversalComedy_us_SD.attempt1.channels.xml,UniversalComedy_us_SD.attempt1.guide.xml,_iptv_epg/sites/gatotv.com/gatotv.com.channels.xml,33,YES,NO,0
+LoveHipHop.us@SD,Love & Hip Hop,Series,1,i.mjh.nz,PlutoTV/us#5d51ddf0369acdb278dfb05e,LoveHipHop.us@SD,LoveHipHop_us_SD.attempt1.channels.xml,LoveHipHop_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml,10,YES,NO,0
+Survivor.us@SD,Survivor (1080p),Series,1,i.mjh.nz,PlutoTV/us#5f21e7b24744c60007c1f6fc,Survivor.us@SD,Survivor_us_SD.attempt1.channels.xml,Survivor_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml,9,YES,NO,0
+WildNOut.us@SD,Wild 'N Out,Series,1,i.mjh.nz,PlutoTV/us#5d48678d34ceb37d3c458a55,WildNOut.us@SD,WildNOut_us_SD.attempt1.channels.xml,WildNOut_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml,19,YES,NO,0
+BabyFirst.us@US,BabyFirst (720p),Kids,1,gatotv.com,babyfirst_tv,BabyFirst.us@US,BabyFirst_us_US.attempt1.channels.xml,BabyFirst_us_US.attempt1.guide.xml,_iptv_epg/sites/gatotv.com/gatotv.com.channels.xml,43,YES,NO,0
+KetchupTV.us@SD,Ketchup TV (720p),Kids,1,freeview.co.uk,64257#16200,KetchupTV.us@SD,KetchupTV_us_SD.attempt1.channels.xml,KetchupTV_us_SD.attempt1.guide.xml,_iptv_epg/sites/freeview.co.uk/freeview.co.uk.channels.xml,17,YES,NO,0
+MBC3USA.us@SD,MBC 3 USA (1080p) [Geo-blocked],Kids,1,shahid.mbc.net,816771,MBC3USA.us@SD,MBC3USA_us_SD.attempt1.channels.xml,MBC3USA_us_SD.attempt1.guide.xml,_iptv_epg/sites/shahid.mbc.net/shahid.mbc.net_fr.channels.xml,79,YES,NO,0
+PBSKidsEasternCentral.us@SD,PBS Kids Eastern/Central (720p),Education;Kids,1,tvtv.us,101364,PBSKidsEasternCentral.us@SD,PBSKidsEasternCentral_us_SD.attempt1.channels.xml,PBSKidsEasternCentral_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvtv.us/tvtv.us.channels.xml,0,NO,NO,0
+PlutoTVPokemon.us@US,Pokémon,Animation;Kids,1,i.mjh.nz,PlutoTV/us#6675c7868768aa0008d7f1c7,PlutoTVPokemon.us@US,PlutoTVPokemon_us_US.attempt1.channels.xml,PlutoTVPokemon_us_US.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml,23,YES,NO,0
+SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,1,i.mjh.nz,Roku/all#9aff620ece2457a3a7572886ecae0495,SuperSimpleSongs.us@SD,SuperSimpleSongs_us_SD.attempt1.channels.xml,SuperSimpleSongs_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_roku.channels.xml,42,YES,NO,0
+TVSHiTops.us@SD,TVS Hi Tops (720p),Kids,1,watchyour.tv,816,TVSHiTops.us@SD,TVSHiTops_us_SD.attempt1.channels.xml,TVSHiTops_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,64,YES,NO,0
+TVSPinballNetwork.us@SD,TVS Pinball Network (480p),Kids,1,watchyour.tv,837,TVSPinballNetwork.us@SD,TVSPinballNetwork_us_SD.attempt1.channels.xml,TVSPinballNetwork_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,80,YES,NO,0
+WatchitKID.us@SD,Watch it KID! (720p),Kids,1,i.mjh.nz,Plex/au#697140a85d851f5e69414688-621672612c2627c068e73ad6,WatchitKID.us@SD,WatchitKID_us_SD.attempt1.channels.xml,WatchitKID_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,12,YES,NO,0
+AutenticHistory.de@SD,Autentic History (1080p),Documentary,1,watch.whaletvplus.com,931186243466302968,AutenticHistory.de@SD,AutenticHistory_de_SD.attempt1.channels.xml,AutenticHistory_de_SD.attempt1.guide.xml,_iptv_epg/sites/watch.whaletvplus.com/watch.whaletvplus.com.channels.xml,27,YES,NO,0
+Backstage.us@SD,Backstage (1080p),Documentary,1,i.mjh.nz,Plex/ca#647f8d22a2fc3fadb4721685-608aec5fa09205002da4f28f,Backstage.us@SD,Backstage_us_SD.attempt1.channels.xml,Backstage_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,21,YES,NO,0
+BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,1,i.mjh.nz,Flash/epg#quicktake,BloombergOriginals.us@SD,BloombergOriginals_us_SD.attempt1.channels.xml,BloombergOriginals_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_flash.channels.xml,0,NO,NO,0
+BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,2,i.mjh.nz,Plex/au#697140a85d851f5e69414688-61d73c3ca7b7c7f703418518,BloombergOriginals.us@SD,BloombergOriginals_us_SD.attempt2.channels.xml,BloombergOriginals_us_SD.attempt2.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,2,YES,NO,0
+Crime360.us@SD,Crime 360 (720p),Documentary,1,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-5f74cf7effbe690040689f41,Crime360.us@SD,Crime360_us_SD.attempt1.channels.xml,Crime360_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,0,NO,NO,0
+Crime360.us@SD,Crime 360 (720p),Documentary,2,i.mjh.nz,PlutoTV/us#6000a5a9e767980007b497ca,Crime360.us@SD,Crime360_us_SD.attempt2.channels.xml,Crime360_us_SD.attempt2.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml,9,YES,NO,0
+Dateline247.us@SD,Dateline 24/7 (1080p),Documentary,1,i.mjh.nz,Plex/ca#647f8d22a2fc3fadb4721685-5fc70600598c41002da3dd19,Dateline247.us@SD,Dateline247_us_SD.attempt1.channels.xml,Dateline247_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,21,YES,NO,0
+Docurama.us@SD,Docurama (1080p),Documentary,1,tvtv.us,110479,Docurama.us@SD,Docurama_us_SD.attempt1.channels.xml,Docurama_us_SD.attempt1.guide.xml,_iptv_epg/sites/tvtv.us/tvtv.us.channels.xml,0,NO,NO,0
+INWILD.nl@SD,INWILD (1080p),Documentary,1,watch.whaletvplus.com,910031136947176350,INWILD.nl@SD,INWILD_nl_SD.attempt1.channels.xml,INWILD_nl_SD.attempt1.guide.xml,_iptv_epg/sites/watch.whaletvplus.com/watch.whaletvplus.com.channels.xml,37,YES,NO,0
+LoveThePlanet.es@EN,Love the Planet (1080p),Documentary,1,watch.whaletvplus.com,999420644834214639,LoveThePlanet.es@EN,LoveThePlanet_es_EN.attempt1.channels.xml,LoveThePlanet_es_EN.attempt1.guide.xml,_iptv_epg/sites/watch.whaletvplus.com/watch.whaletvplus.com.channels.xml,26,YES,NO,0
+NationalGeographic.us@East,National Geographic (720p),Documentary,1,tvpassport.com,national-geographic-us--eastern/657,NationalGeographic.us@East,NationalGeographic_us_East.attempt1.channels.xml,NationalGeographic_us_East.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,27,YES,NO,0
+NationalGeographicWild.us@East,National Geographic Wild (720p),Documentary,1,tvpassport.com,national-geographic-wild-hd/9579,NationalGeographicWild.us@East,NationalGeographicWild_us_East.attempt1.channels.xml,NationalGeographicWild_us_East.attempt1.guide.xml,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml,29,YES,NO,0
+TerraMaterWILD.de@English,Terra Mater WILD English (1080p),Documentary,1,watch.whaletvplus.com,931186243466302960,TerraMaterWILD.de@English,TerraMaterWILD_de_English.attempt1.channels.xml,TerraMaterWILD_de_English.attempt1.guide.xml,_iptv_epg/sites/watch.whaletvplus.com/watch.whaletvplus.com.channels.xml,30,YES,NO,0
+TVSComedyNetwork.us@SD,TVS Comedy Network (720p),Comedy,1,watchyour.tv,829,TVSComedyNetwork.us@SD,TVSComedyNetwork_us_SD.attempt1.channels.xml,TVSComedyNetwork_us_SD.attempt1.guide.xml,_iptv_epg/sites/watchyour.tv/watchyour.tv.channels.xml,27,YES,NO,0
+HumorMill.us@SD,"like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"" group-title=""Comedy"",Humor Mill (1080p)",Comedy,1,i.mjh.nz,Plex/au#697140a85d851f5e69414688-5fd115b7b7ef8d002dcf1814,HumorMill.us@SD,HumorMill_us_SD.attempt1.channels.xml,HumorMill_us_SD.attempt1.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,0,NO,NO,0
+HumorMill.us@SD,"like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"" group-title=""Comedy"",Humor Mill (1080p)",Comedy,2,i.mjh.nz,Plex/ca#647f8d22a2fc3fadb4721685-5fd115b7b7ef8d002dcf1814,HumorMill.us@SD,HumorMill_us_SD.attempt2.channels.xml,HumorMill_us_SD.attempt2.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,0,NO,NO,0
+HumorMill.us@SD,"like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"" group-title=""Comedy"",Humor Mill (1080p)",Comedy,3,i.mjh.nz,Plex/es#643054b1fc3be59477853717-5fd115b7b7ef8d002dcf1814,HumorMill.us@SD,HumorMill_us_SD.attempt3.channels.xml,HumorMill_us_SD.attempt3.guide.xml,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_plex.channels.xml,0,NO,NO,0
