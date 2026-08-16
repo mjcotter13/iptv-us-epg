@@ -1,6 +1,9 @@
 playlist_channels=1495
-matched_channels=617
-unmatched_channels=878
+matched_channels=612
+unmatched_channels=883
 primary_matches=461
-fallback_matches=156
-high_value_unmatched=220
+fallback_matches=151
+high_value_unmatched=221
+targeted_iptvorg_matches=0
+pluto_matches=20
+samsung_matches=17
