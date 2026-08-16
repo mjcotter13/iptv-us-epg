@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom IPTV-org US EPG Builder — Version 2.1
+Custom IPTV-org US EPG Builder — Version 3.0
 
 Goal:
   Build one XMLTV guide whose channel IDs exactly match the tvg-id values in
@@ -40,12 +40,20 @@ PRIMARY_EPG_URL = "https://iptv-epg.org/files/epg-us.xml.gz"
 FALLBACK_EPG_URLS = [
     ("EPGShare US2", "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"),
     ("EPGShare US Locals", "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz"),
+
+    # Version 3: additional US/FAST/specialty sources.
+    ("EPGShare US Sports", "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz"),
+    ("EPGShare Plex", "https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"),
+    ("EPGShare Peacock", "https://epgshare01.online/epgshare01/epg_ripper_PEACOCK1.xml.gz"),
+    ("EPGShare DistroTV", "https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz"),
+    ("EPGShare FanDuel", "https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"),
+    ("EPGShare TBN+", "https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz"),
 ]
 
 OUTDIR = Path("public")
 OUTDIR.mkdir(exist_ok=True)
 
-UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/2.1"
+UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/3.0"
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
 
@@ -90,7 +98,10 @@ def normalize(s: str) -> str:
     for a, b in replacements.items():
         s = s.replace(a, b)
 
-    s = re.sub(r"\b(us|usa|united states)\b", " ", s)
+    # Remove common playlist decorations that should not affect guide matching.
+    s = re.sub(r"\((?:[^)]*?(?:360p|480p|540p|576p|720p|1080p|1440p|2160p|4k|uhd|fhd|hd|sd)[^)]*?)\)", " ", s)
+    s = re.sub(r"\b(?:360p|480p|540p|576p|720p|1080p|1440p|2160p|4k|uhd|fhd|hd|sd)\b", " ", s)
+    s = re.sub(r"\b(?:us|usa|united states)\b", " ", s)
     s = re.sub(r"[^a-z0-9]+", "", s)
     return s
 
@@ -273,9 +284,47 @@ def choose_primary_match(row, channels, exact_id, name_index):
     return sid, score, method
 
 
+
+def safe_fuzzy_score(a: str, b: str) -> int:
+    """
+    Conservative fuzzy score for long channel names only.
+    Returns 0 unless the strings are distinctive enough to compare safely.
+    """
+    from difflib import SequenceMatcher
+
+    if not a or not b:
+        return 0
+    if min(len(a), len(b)) < 8:
+        return 0
+
+    ratio = SequenceMatcher(None, a, b).ratio()
+
+    # Very high threshold: fuzzy matching is only a last resort.
+    if ratio >= 0.94:
+        return 90
+    if ratio >= 0.91 and min(len(a), len(b)) >= 12:
+        return 89
+    return 0
+
+
+def feed_stem(s: str) -> str:
+    """
+    Turn IPTV-org feed IDs such as:
+      ESPNDeportes.us@SD -> espndeportes
+      NationalGeographic.us@HDEast -> nationalgeographic
+    into a comparable network/station stem.
+    """
+    if not s:
+        return ""
+    s = re.sub(r"@.*$", "", s)
+    s = re.sub(r"\.[A-Za-z]{2,3}$", "", s)
+    return normalize(s)
+
+
 def choose_fallback_match(row, fallback_sources):
     row_keys = playlist_keys(row)
     row_id_base = id_base(row["id"])
+    row_feed_stem = feed_stem(row["id"])
 
     ranked = []
 
@@ -294,6 +343,7 @@ def choose_fallback_match(row, fallback_sources):
                 continue
 
             source_names = {normalize(x) for x in meta["names"] if normalize(x)}
+            source_feed_stem = feed_stem(sid)
 
             if row_keys & source_names:
                 ranked.append((95, prog_count, src["name"], sid, "fallback-exact-normalized-name"))
@@ -301,6 +351,21 @@ def choose_fallback_match(row, fallback_sources):
 
             if row_id_base and id_base(sid) == row_id_base:
                 ranked.append((94, prog_count, src["name"], sid, "fallback-exact-id-base"))
+                continue
+
+            # Version 3: feed-aware stem matching.  This safely connects
+            # @East/@West/@HD/@SD variants to a guide ID for the base channel.
+            if row_feed_stem and source_feed_stem and row_feed_stem == source_feed_stem:
+                ranked.append((93, prog_count, src["name"], sid, "fallback-feed-stem"))
+                continue
+
+            # Version 3: extremely conservative fuzzy name fallback.
+            best_fuzzy = 0
+            for rk in row_keys:
+                for sn in source_names:
+                    best_fuzzy = max(best_fuzzy, safe_fuzzy_score(rk, sn))
+            if best_fuzzy:
+                ranked.append((best_fuzzy, prog_count, src["name"], sid, "fallback-safe-fuzzy"))
 
     ranked.sort(reverse=True)
 
@@ -310,9 +375,17 @@ def choose_fallback_match(row, fallback_sources):
     top_score = ranked[0][0]
     tied = [r for r in ranked if r[0] == top_score]
 
-    # Refuse ambiguous name-based ties.
+    # Never accept an ambiguous fuzzy/feed/name match.
     if len(tied) > 1 and top_score < 99:
-        return None
+        # If all tied records point to the exact same source ID, it is harmless.
+        tied_ids = {(r[2], r[3]) for r in tied}
+        if len(tied_ids) > 1:
+            return None
+
+    # For fuzzy matches, require a meaningful gap over the runner-up.
+    if top_score <= 90 and len(ranked) > 1:
+        if ranked[1][0] >= top_score - 2:
+            return None
 
     score, prog_count, source_name, sid, method = ranked[0]
     return source_name, sid, score, method, prog_count
@@ -397,7 +470,7 @@ with tempfile.TemporaryDirectory() as tmp:
     tv = ET.Element(
         "tv",
         {
-            "generator-info-name": "Custom IPTV-org US EPG Builder v2.1",
+            "generator-info-name": "Custom IPTV-org US EPG Builder v3.0",
             "generator-info-url": "https://github.com/iptv-org/iptv",
         },
     )
@@ -464,7 +537,7 @@ with tempfile.TemporaryDirectory() as tmp:
         new_tv = ET.Element(
             "tv",
             {
-                "generator-info-name": "Custom IPTV-org US EPG Builder v2.1",
+                "generator-info-name": "Custom IPTV-org US EPG Builder v3.0",
                 "generator-info-url": "https://github.com/iptv-org/iptv",
             },
         )
@@ -547,6 +620,34 @@ with tempfile.TemporaryDirectory() as tmp:
         )
         w.writeheader()
         w.writerows(final_unmatched)
+
+    # Category-level coverage report.
+    category_totals = defaultdict(int)
+    category_matches = defaultdict(int)
+
+    matched_ids = {m["id"] for m in final_matches}
+    for row in playlist:
+        category = row["group"] or "Undefined"
+        category_totals[category] += 1
+        if row["id"] in matched_ids:
+            category_matches[category] += 1
+
+    with open(OUTDIR / "category_status.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=["category", "playlist_channels", "matched_channels", "unmatched_channels", "match_pct"],
+        )
+        w.writeheader()
+        for category in sorted(category_totals):
+            total = category_totals[category]
+            matched = category_matches[category]
+            w.writerow({
+                "category": category,
+                "playlist_channels": total,
+                "matched_channels": matched,
+                "unmatched_channels": total - matched,
+                "match_pct": round((matched / total) * 100, 1) if total else 0,
+            })
 
     with open(OUTDIR / "status.txt", "w", encoding="utf-8") as f:
         f.write(f"playlist_channels={len(playlist)}\n")
