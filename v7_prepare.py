@@ -12,7 +12,7 @@ WORK.mkdir(exist_ok=True)
 
 MAX_EXACT = 5
 MAX_FUZZY = 3
-FUZZY_THRESHOLD = 0.88
+FUZZY_THRESHOLD = 0.91
 
 CATEGORY_PRIORITY = {
     "Sports":0,"News":1,"Entertainment":2,"Movies":3,"Series":4,
@@ -55,6 +55,39 @@ def similarity(a,b):
     seq=SequenceMatcher(None,na,nb).ratio()
     # Conservative: both token overlap and string similarity matter.
     return max(seq, 0.55*seq+0.45*jac)
+
+
+def compact(s):
+    return "".join(re.findall(r"[a-z0-9]+", norm(s)))
+
+def fuzzy_accept(query_name, candidate_name, score):
+    nq, nc = norm(query_name), norm(candidate_name)
+    if not nq or not nc:
+        return False, "empty"
+
+    tq, tc = set(nq.split()), set(nc.split())
+    cq, cc = compact(query_name), compact(candidate_name)
+
+    # Exact normalized/compact identity is excellent.
+    if nq == nc or (cq and cq == cc):
+        return True, "normalized_exact"
+
+    # Short names/acronyms are dangerous: MMA-TV vs MATV, Tin TV vs TNTV, etc.
+    if len(cq) <= 6 or len(cc) <= 6:
+        return (score >= 0.985 and cq == cc), "short_name_strict"
+
+    overlap = len(tq & tc)
+    union = len(tq | tc)
+    jaccard = overlap / union if union else 0.0
+
+    # Require meaningful token agreement for non-short names.
+    if score >= 0.95 and jaccard >= 0.50:
+        return True, "high_token_agreement"
+    if score >= 0.93 and overlap >= 2 and jaccard >= 0.60:
+        return True, "multi_token_agreement"
+
+    return False, "insufficient_agreement"
+
 
 rows=list(csv.DictReader(INPUT.open(encoding="utf-8")))
 def pri(r):
@@ -129,7 +162,11 @@ for row in rows:
             if cid:
                 score=max(score, similarity(xid.split(".")[0], cid.split(".")[0]))
             if score>=FUZZY_THRESHOLD:
-                fuzzy_candidates.append((score,item))
+                ok, reason = fuzzy_accept(row.get("name","") or xid.split(".")[0], item["site_name"], score)
+                if ok:
+                    item = dict(item)
+                    item["fuzzy_reason"] = reason
+                    fuzzy_candidates.append((score,item))
         # De-dupe source mapping, highest score first, then source quality.
         seen=set()
         fuzzy_candidates.sort(key=lambda z:(-z[0],source_rank(z[1]["site"]),z[1]["site"]))
@@ -149,10 +186,40 @@ with (WORK/"channels.csv").open("w",newline="",encoding="utf-8") as f:
     fields=["id","name","group","exact_mappings","attempts_prepared"]
     w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(channels)
 with (WORK/"attempts.csv").open("w",newline="",encoding="utf-8") as f:
-    fields=["id","name","group","attempt","match_kind","match_score","candidate_xmltv_id","candidate_name","site","site_id","channel_file","guide_file","source_file"]
+    fields=["id","name","group","attempt","match_kind","match_score","candidate_xmltv_id","candidate_name","site","site_id","channel_file","guide_file","source_file","confidence_reason"]
     w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(attempts)
 
 print(f"High-value unmatched: {len(channels)}")
 print(f"Attempts prepared: {len(attempts)}")
 print(f"Channels with attempts: {sum(int(x['attempts_prepared'])>0 for x in channels)}")
 print(f"Fuzzy attempts: {sum(x['match_kind']=='fuzzy' for x in attempts)}")
+
+
+# V7.4 source-discovery inventory for planning V8.
+attempts_by_id = defaultdict(list)
+for x in attempts:
+    attempts_by_id[x["id"]].append(x)
+
+with (WORK/"remaining_source_matrix.csv").open("w", newline="", encoding="utf-8") as f:
+    fields=["id","name","group","exact_mapping_count","safe_candidate_count","discovery_class","best_candidate","best_site","best_score"]
+    w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+    for row in rows:
+        xid=row["id"]
+        ex_count=len(exact.get(xid,[]))
+        aa=attempts_by_id.get(xid,[])
+        fuzzy=[x for x in aa if x["match_kind"]=="fuzzy"]
+        if ex_count:
+            cls="EXACT_IPTVORG"
+        elif fuzzy:
+            cls="SAFE_FUZZY_IPTVORG"
+        else:
+            cls="NEW_SOURCE_NEEDED"
+        best=fuzzy[0] if fuzzy else None
+        w.writerow({
+            "id":xid,"name":row.get("name",""),"group":row.get("group",""),
+            "exact_mapping_count":ex_count,"safe_candidate_count":len(fuzzy),
+            "discovery_class":cls,
+            "best_candidate":best["candidate_name"] if best else "",
+            "best_site":best["site"] if best else "",
+            "best_score":best["match_score"] if best else ""
+        })
