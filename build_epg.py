@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom IPTV-org US EPG Builder — Version 4.0
+Custom IPTV-org US EPG Builder — Version 6.0
 
 Goal:
   Build one XMLTV guide whose channel IDs exactly match the tvg-id values in
@@ -40,8 +40,6 @@ PRIMARY_EPG_URL = "https://iptv-epg.org/files/epg-us.xml.gz"
 FALLBACK_EPG_URLS = [
     ("EPGShare US2", "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"),
     ("EPGShare US Locals", "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz"),
-
-    # Version 3: additional US/FAST/specialty sources.
     ("EPGShare US Sports", "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz"),
     ("EPGShare Plex", "https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"),
     ("EPGShare Peacock", "https://epgshare01.online/epgshare01/epg_ripper_PEACOCK1.xml.gz"),
@@ -50,10 +48,17 @@ FALLBACK_EPG_URLS = [
     ("EPGShare TBN+", "https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz"),
 ]
 
+# V6 sources are strictly additive. They are consulted only after all V4 matching
+# is complete, so they can never displace an existing V4 match.
+ADDITIVE_EPG_URLS = [
+    ("Pluto TV US", "https://i.mjh.nz/PlutoTV/us.xml.gz"),
+    ("Samsung TV Plus US", "https://i.mjh.nz/SamsungTVPlus/us.xml.gz"),
+]
+
 OUTDIR = Path("public")
 OUTDIR.mkdir(exist_ok=True)
 
-UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/4.0"
+UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/6.0"
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
 # Curated aliases for high-value channels whose playlist branding differs from EPG branding.
@@ -474,11 +479,14 @@ with tempfile.TemporaryDirectory() as tmp:
         flush=True,
     )
 
-    print("Loading EPGShare fallback guides...", flush=True)
+    print("Loading V4 fallback guides...", flush=True)
     fallback_sources = []
     for source_name, url in FALLBACK_EPG_URLS:
         print(f"  {source_name}", flush=True)
-        fallback_sources.append(load_small_epg(source_name, url))
+        try:
+            fallback_sources.append(load_small_epg(source_name, url))
+        except Exception as exc:
+            print(f"  WARNING: skipped {source_name}: {exc}", flush=True)
 
     fallback_matches = {}
     still_unmatched = []
@@ -498,17 +506,51 @@ with tempfile.TemporaryDirectory() as tmp:
         else:
             still_unmatched.append({**row, "reason": "no-safe-match"})
 
-    print(f"Fallback added {len(fallback_matches)} matches.", flush=True)
+    print(f"V4 fallback added {len(fallback_matches)} matches.", flush=True)
+
+    # Version 6 additive pass: only channels still unmatched after the entire
+    # V4 pipeline are eligible. Existing V4 matches cannot be replaced.
+    print("Loading V6 additive guides...", flush=True)
+    additive_sources = []
+    for source_name, url in ADDITIVE_EPG_URLS:
+        print(f"  {source_name}", flush=True)
+        try:
+            additive_sources.append(load_small_epg(source_name, url))
+        except Exception as exc:
+            print(f"  WARNING: skipped {source_name}: {exc}", flush=True)
+
+    additive_matches = {}
+    final_still_unmatched = []
+
+    for row in still_unmatched:
+        match = choose_fallback_match(row, additive_sources)
+        if match:
+            source_name, sid, score, method, prog_count = match
+            additive_matches[row["id"]] = {
+                **row,
+                "source": source_name,
+                "source_id": sid,
+                "method": "additive-" + method,
+                "score": score,
+                "programmes": prog_count,
+            }
+        else:
+            final_still_unmatched.append(row)
+
+    print(f"V6 additive sources added {len(additive_matches)} new matches.", flush=True)
 
     all_matches = {}
     all_matches.update(primary_matches)
     all_matches.update(fallback_matches)
+    all_matches.update(additive_matches)
+
+    still_unmatched = final_still_unmatched
 
     # Build output XML.
     tv = ET.Element(
         "tv",
         {
-            "generator-info-name": "Custom IPTV-org US EPG Builder v4.0",
+            "generator-info-name": "Custom IPTV-org US EPG Builder v6.0",
             "generator-info-url": "https://github.com/iptv-org/iptv",
         },
     )
@@ -527,7 +569,8 @@ with tempfile.TemporaryDirectory() as tmp:
             src_xml = primary_channels[m["source_id"]]["xml"]
             src_ch = ET.fromstring(src_xml)
         else:
-            src = next(s for s in fallback_sources if s["name"] == m["source"])
+            combined_secondary_sources = fallback_sources + additive_sources
+            src = next(s for s in combined_secondary_sources if s["name"] == m["source"])
             src_ch = src["channels"][m["source_id"]]["element"]
 
         for tag in ("icon", "url"):
@@ -575,7 +618,7 @@ with tempfile.TemporaryDirectory() as tmp:
         new_tv = ET.Element(
             "tv",
             {
-                "generator-info-name": "Custom IPTV-org US EPG Builder v4.0",
+                "generator-info-name": "Custom IPTV-org US EPG Builder v6.0",
                 "generator-info-url": "https://github.com/iptv-org/iptv",
             },
         )
@@ -606,9 +649,10 @@ with tempfile.TemporaryDirectory() as tmp:
             primary_matches[pid]["programmes"] = count
             all_matches[pid]["programmes"] = count
 
-    # Fallback programmes.
-    for playlist_id, m in fallback_matches.items():
-        src = next(s for s in fallback_sources if s["name"] == m["source"])
+    # Secondary-source programmes, including V6 additive matches.
+    combined_secondary_sources = fallback_sources + additive_sources
+    for playlist_id, m in {**fallback_matches, **additive_matches}.items():
+        src = next(s for s in combined_secondary_sources if s["name"] == m["source"])
         for p in src["programmes"].get(m["source_id"], []):
             cp = clone(p)
             cp.set("channel", playlist_id)
@@ -721,6 +765,9 @@ with tempfile.TemporaryDirectory() as tmp:
         f.write(f"unmatched_channels={len(final_unmatched)}\n")
         f.write(f"primary_matches={len(primary_matches)}\n")
         f.write(f"fallback_matches={len(fallback_matches)}\n")
+        f.write(f"additive_matches={len(additive_matches)}\n")
+        f.write(f"pluto_additive_matches={sum(1 for m in additive_matches.values() if m["source"] == "Pluto TV US")}\n")
+        f.write(f"samsung_additive_matches={sum(1 for m in additive_matches.values() if m["source"] == "Samsung TV Plus US")}\n")
         f.write(f"high_value_unmatched={len(high_value_unmatched)}\n")
 
     print(f"FINAL: matched {len(final_matches)} of {len(playlist)}.", flush=True)
