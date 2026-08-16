@@ -20,21 +20,22 @@ ABCNewsLive6.us@SD,ABC News Live 6 (720p),,News,EPGShare US2,ABC.News.Live.us2,f
 ABCNewsLive7.us@SD,ABC News Live 7 (720p),,News,EPGShare US2,ABC.News.Live.us2,fallback-safe-fuzzy,90,139
 ABCNewsLive8.us@SD,ABC News Live 8 (720p),,News,EPGShare US2,ABC.News.Live.us2,fallback-safe-fuzzy,90,139
 ABCNewsLive9.us@SD,ABC News Live 9 (720p),,News,EPGShare US2,ABC.News.Live.us2,fallback-safe-fuzzy,90,139
+ABCNewsLive10.us@SD,ABC News Live 10 (720p),,News,IPTV-EPG.org US,ABCNewsLive.us,primary-exact-normalized-name,95,248
 AcapulcoShore.us@US,Acapulco Shore,,Series,IPTV-EPG.org US,AcapulcoShore.pluto,primary-exact-id-base,94,28
 ACCNetwork.us@SD,ACC Network (720p),,Sports,IPTV-EPG.org US,ACCNetwork.us,primary-exact-normalized-name,95,105
 ACCDigitalNetwork.us@SD,ACCDN (1080p),,Sports,IPTV-EPG.org US,ACCDigitalNetwork.us,primary-exact-id-base,94,77
-AccuWeatherNOW.us@SD,AccuWeather Now (1080p),,Weather,EPGShare Plex,plex.tv.AccuWeather.NOW.plex,fallback-exact-normalized-name,95,19
+AccuWeatherNOW.us@SD,AccuWeather Now (1080p),,Weather,EPGShare Plex,plex.tv.AccuWeather.NOW.plex,fallback-exact-normalized-name,95,20
 AceTV.us@SD,Ace TV (480p),,Entertainment,IPTV-EPG.org US,ACEtv.us,primary-exact-normalized-name,95,164
 ActionMax.us@East,ActionMax (720p),,Movies,EPGShare US2,ActionMAX.HD.us2,fallback-exact-normalized-name,95,54
-AfroLandTV.us@SD,AfroLandTV (1080p),,Entertainment,EPGShare Plex,plex.tv.AfroLandTV.plex,fallback-exact-normalized-name,95,96
+AfroLandTV.us@SD,AfroLandTV (1080p),,Entertainment,EPGShare Plex,plex.tv.AfroLandTV.plex,fallback-exact-normalized-name,95,91
 AKCTV.us@SD,AKC TV (1080p),,Outdoor,IPTV-EPG.org US,ACKTV.us,primary-exact-normalized-name,95,103
 AllRealitybyWEtv.us@SD,All Reality WE tv (720p),,Series,IPTV-EPG.org US,AllRealityWEtv.us,primary-exact-normalized-name,95,185
-AllWeddingsWEtv.us@SD,All Weddings We TV (720p) [Geo-blocked],,Series,EPGShare Plex,plex.tv.All.Weddings.We.TV.plex,fallback-exact-normalized-name,95,111
+AllWeddingsWEtv.us@SD,All Weddings We TV (720p) [Geo-blocked],,Series,EPGShare Plex,plex.tv.All.Weddings.We.TV.plex,fallback-exact-normalized-name,95,112
 ALLBLKGems.us@SD,ALLBLK Gems (720p),,Entertainment,IPTV-EPG.org US,ALLBLKGems.us,primary-exact-normalized-name,95,227
 AMC.us@EastHD,AMC (720p),,Movies,EPGShare US2,AMC.HD.us2,fallback-exact-normalized-name,95,55
 AMC.us@East,AMC East (720p),,Movies,EPGShare US2,AMC.HD.us2,fallback-exact-normalized-name,95,55
 AMCenEspanol.us@SD,AMC en Español (720p) [Geo-blocked],,Entertainment,EPGShare Plex,plex.tv.AMC.en.Español.plex,fallback-exact-normalized-name,95,108
-AFV.us@SD,America’s Funniest Home Videos (1080p),,Comedy,EPGShare Plex,plex.tv.America’s.Funniest.Home.Videos.plex,fallback-exact-normalized-name,95,150
+AFV.us@SD,America’s Funniest Home Videos (1080p),,Comedy,EPGShare Plex,plex.tv.America’s.Funniest.Home.Videos.plex,fallback-exact-normalized-name,95,144
 AMGTV.us@SD,AMG TV (1080p),,Family,IPTV-EPG.org US,AMGTV.us,primary-exact-normalized-name,95,203
 AngerManagementChannel.us@SD,Anger Management Channel (1080p),,Comedy;Series,IPTV-EPG.org US,AngerManagement.us,primary-exact-normalized-name,95,382
 AnimationPlus.us@SD,Animation+ (1080p) [Geo-blocked],,Animation,IPTV-EPG.org US,Animation+.us,primary-exact-normalized-name,95,238
@@ -59,7 +60,7 @@ BBCEarth.uk@US,BBC Earth (1080p),,Documentary,IPTV-EPG.org US,BBCEarth.us,primar
 BBCFood.us@SD,BBC Food (1080p),,Cooking,IPTV-EPG.org US,BBCFood.us,primary-exact-normalized-name,95,205
 BBCHomeGarden.us@SD,BBC Home & Garden (1080p),,Lifestyle,IPTV-EPG.org US,BBCHomAndGarden.us,primary-exact-normalized-name,95,40
 beINSPORTSXTRA.us@SD,beIN SPORTS XTRA (1080p),,Sports,IPTV-EPG.org US,beINSportsXtra.us,primary-exact-normalized-name,95,188
-beINSPORTSXTRAenEspanol.us@SD,beIN SPORTS XTRA en Espanol (1080p),,Sports,EPGShare Plex,plex.tv.beIN.Sports.Xtra.en.Español.plex,fallback-exact-normalized-name,95,89
+beINSPORTSXTRAenEspanol.us@SD,beIN SPORTS XTRA en Espanol (1080p),,Sports,EPGShare Plex,plex.tv.beIN.Sports.Xtra.en.Español.plex,fallback-exact-normalized-name,95,91
 BellatorMMA.us@SD,Bellator MMA,,Sports,IPTV-EPG.org US,BellatorMMA.pluto,primary-exact-id-base,94,21
 BestofDrPhil.us@SD,Best of Dr. Phil,,Entertainment,IPTV-EPG.org US,BestofDr.Phil.pluto,primary-exact-id-base,94,30
 BET.us@East,BET (720p),,Undefined,EPGShare US2,BET.HD.us2,fallback-exact-normalized-name,95,132
@@ -97,7 +98,7 @@ Buzzr.us@SD,Buzzr (1080p),,Entertainment,IPTV-EPG.org US,BUZZR.us,primary-exact-
 BYUTV.us@SD,BYUtv (1080p),,Undefined,IPTV-EPG.org US,BYUtv.us,primary-exact-id-base,94,196
 CSPAN.us@SD,C-SPAN (720p),,Legislative,IPTV-EPG.org US,CSPAN.us,primary-exact-normalized-name,95,91
 CSPAN2.us@SD,C-SPAN 2 (720p),,Legislative,IPTV-EPG.org US,CSPAN2.us,primary-exact-normalized-name,95,112
-CampSpoopy.us@SD,Camp Spoopy (576p),,Kids,EPGShare Plex,plex.tv.Camp.Spoopy.plex,fallback-exact-normalized-name,95,47
+CampSpoopy.us@SD,Camp Spoopy (576p),,Kids,EPGShare Plex,plex.tv.Camp.Spoopy.plex,fallback-exact-normalized-name,95,61
 CarChase.us@SD,Car Chase (720p),,Entertainment,IPTV-EPG.org US,CarChase.us,primary-exact-normalized-name,95,161
 CatholicTV.us@SD,Catholic TV (1080p),,Religious,IPTV-EPG.org US,CatholicTV.us,primary-exact-normalized-name,95,317
 CBNNews.us@SD,CBN News Channel (1080p),,Religious,IPTV-EPG.org US,CBNNews.us,primary-exact-normalized-name,95,267
@@ -118,7 +119,7 @@ CBSNewsPittsburgh.us@SD,CBS News Pittsburgh (720p),,News,IPTV-EPG.org US,CBSNews
 CBSNewsSacramento.us@SD,CBS News Sacramento (720p),,News,IPTV-EPG.org US,CBSNewsSacramento.pluto,primary-exact-id-base,94,33
 CBSSportsGolazoNetwork.us@SD,CBS Sports Golazo Network (720p),,Sports,IPTV-EPG.org US,CBSSportsGolazoNetwork.us,primary-exact-normalized-name,95,114
 CBSSportsHQ.us@SD,CBS Sports HQ (1080p) [Geo-blocked],,Sports,IPTV-EPG.org US,CBSSportsHQ.us,primary-exact-normalized-name,95,50
-CelebrityNameGame.us@SD,Celebrity Name Game (1080p) [Geo-blocked],,Series,EPGShare Plex,plex.tv.Celebrity.Name.Game.plex,fallback-exact-normalized-name,95,237
+CelebrityNameGame.us@SD,Celebrity Name Game (1080p) [Geo-blocked],,Series,EPGShare Plex,plex.tv.Celebrity.Name.Game.plex,fallback-exact-normalized-name,95,238
 CatholicFaithNetwork.us@SD,CFN Catholic Faith Network (720p),,Religious,EPGShare US2,CFN.CATHOLIC.FAITH.NETWORK.us2,fallback-exact-normalized-name,95,170
 Charge.us@SD,Charge! (1080p),,Movies,IPTV-EPG.org US,Charge!.us,primary-exact-normalized-name,95,195
 CheersPlusFrasier.us@SD,Cheers + Frasier,,Comedy,IPTV-EPG.org US,Cheers+Frasier.pluto,primary-exact-id-base,94,58
@@ -129,7 +130,7 @@ Cineaventura.us@SD,Cine aventura,,Entertainment,IPTV-EPG.org US,Cineaventura.plu
 Cineenespanol.us@SD,Cine en español,,Entertainment,IPTV-EPG.org US,Cineenespañol.pluto,primary-exact-id-base,94,14
 CineMexicano.us@SD,Cine Mexicano (1080p),,Movies,EPGShare US2,Cine.Mexicano.US.Feed.us2,fallback-exact-normalized-name,95,68
 CinePremiere.us@SD,Cine Premiere,,Movies,IPTV-EPG.org US,CinePremiere.pluto,primary-exact-id-base,94,15
-CineRomantico.us@SD,Cine Romantico (720p),,Movies,EPGShare Plex,plex.tv.Cine.Romántico.plex,fallback-exact-normalized-name,95,58
+CineRomantico.us@SD,Cine Romantico (720p),,Movies,EPGShare Plex,plex.tv.Cine.Romántico.plex,fallback-exact-normalized-name,95,61
 CineSony.us@SD,Cine Sony (1080p),,Movies,IPTV-EPG.org US,CineSONY.us,primary-exact-normalized-name,95,100
 CineTerror.us@US,Cine terror,,Movies,IPTV-EPG.org US,Cineterror.pluto,primary-exact-id-base,94,16
 CinemaxLatino.us@SD,"like Gecko) Chrome/130.0.0.0 Safari/537.36"" group-title=""Undefined"",Cinemax Latino (480p)",,Undefined,IPTV-EPG.org US,CinemaxSpanish.us,primary-exact-normalized-name,95,88
@@ -168,31 +169,33 @@ CuriosityNOW.de@EN,Curiosity Now (1080p),,Documentary,IPTV-EPG.org US,CuriosityN
 CW.us@East,CW (1080p) [Geo-blocked],,General,EPGShare US2,CW.us2,fallback-exact-normalized-name,95,123
 Dabl.us@SD,Dabl (720p),,Lifestyle,IPTV-EPG.org US,Dabl.us,primary-exact-normalized-name,95,323
 DangerTV.us@SD,DangerTV (720p),,Documentary,IPTV-EPG.org US,DangerTV.us,primary-exact-normalized-name,95,308
-DarkMatterTV.us@SD,Dark Matter TV (720p),,Series,EPGShare Plex,plex.tv.Dark.Matter.TV.plex,fallback-exact-normalized-name,95,50
+DarkMatterTV.us@SD,Dark Matter TV (720p),,Series,EPGShare Plex,plex.tv.Dark.Matter.TV.plex,fallback-exact-normalized-name,95,48
 DatingDisasters.us@SD,Dating Disasters,,Entertainment,IPTV-EPG.org US,DatingDisasters.pluto,primary-exact-id-base,94,36
-DaystarTV.us@SD,Daystar TV (1080p),,Religious,EPGShare DistroTV,Daystar.TV.distro,fallback-exact-normalized-name,95,128
+DaystarTV.us@SD,Daystar TV (1080p),,Religious,EPGShare DistroTV,Daystar.TV.distro,fallback-exact-normalized-name,95,129
 DCCMakingtheTeam.us@SD,DCC: Making the Team,,Entertainment,IPTV-EPG.org US,DCC:MakingtheTeam.pluto,primary-exact-id-base,94,40
 DePeliculaUS.us@SD,De Pelicula US (720p),,Movies,IPTV-EPG.org US,DePelicula.us,primary-exact-normalized-name,95,120
 DealorNoDeal.us@SD,Deal or No Deal (1080p),,Series,IPTV-EPG.org US,DealorNoDeal.us,primary-exact-normalized-name,95,279
 Degrassi.us@US,Degrassi (720p),,Series,IPTV-EPG.org US,Degrassi.pluto,primary-exact-id-base,94,58
-DesignatedSurvivor.us@SD,Designated Survivor (1080p) [Geo-blocked],,Series,EPGShare Plex,plex.tv.Designated.Survivor.plex,fallback-exact-normalized-name,95,113
+DesignatedSurvivor.us@SD,Designated Survivor (1080p) [Geo-blocked],,Series,EPGShare Plex,plex.tv.Designated.Survivor.plex,fallback-exact-normalized-name,95,114
 DisneyChannel.us@East,Disney Channel (720p) [Geo-blocked],,Kids,IPTV-EPG.org US,DisneyChannel.us,primary-exact-id-base,94,288
 DisneyJunior.us@East,Disney Junior (720p),,Kids,IPTV-EPG.org US,DisneyJunior.us,primary-exact-id-base,94,323
 DisneyXD.us@East,Disney XD (720p),,Kids,EPGShare US2,Disney.XD.HD.us2,fallback-exact-normalized-name,95,192
 DocumentaryPlus.us@US,Documentary+ (1080p),,Documentary,IPTV-EPG.org US,Documentary+.us,primary-exact-normalized-name,95,138
 DogtheBountyHunter.us@US,Dog the Bounty Hunter (1080p),,Series,IPTV-EPG.org US,DogtheBountyHunter.pluto,primary-exact-id-base,94,55
 DogTV.us@SD,Dog TV (720p),,Education;Lifestyle,IPTV-EPG.org US,DogTV.us,primary-exact-normalized-name,95,161
-DontTellTheBride.uk@SD,Don't Tell The Bride (1080p),,Series,EPGShare Plex,plex.tv.Don`t.Tell.The.Bride.plex,fallback-exact-normalized-name,95,92
+DontTellTheBride.uk@SD,Don't Tell The Bride (1080p),,Series,EPGShare Plex,plex.tv.Don`t.Tell.The.Bride.plex,fallback-exact-normalized-name,95,93
 DoveChannel.us@SD,Dove Channel (1080p),,Family,IPTV-EPG.org US,DoveChannel.us,primary-exact-normalized-name,95,100
 DraftKingsNetwork.us@SD,DraftKings Network (1080p),,Sports,IPTV-EPG.org US,DraftKingsNetwork.us,primary-exact-normalized-name,95,126
 Dynasty.us@SD,Dynasty,,Series,IPTV-EPG.org US,Dynasty.pluto,primary-exact-id-base,94,30
+E.us@East,E! (1080p),,Entertainment,EPGShare US2,E!.Entertainment.Television.HD.us2,fallback-safe-fuzzy,89,104
 EKeepingUp.us@SD,E! Keeping Up (1080p),,Entertainment,IPTV-EPG.org US,EKeepingUp.us,primary-exact-normalized-name,95,202
+E.us@West,E! West (720p),,Entertainment,EPGShare US2,E!.Entertainment.Television.HD.us2,fallback-safe-fuzzy,89,104
 EbonyTVbyLionsgate.us@SD,Ebony TV by Lionsgate (1080p),,Movies;Series,IPTV-EPG.org US,EbonyTVbyLionsgate.us,primary-exact-normalized-name,95,222
 ElRey.us@SD,El Rey,,Entertainment,IPTV-EPG.org US,ElReyNetwork.us,primary-exact-normalized-name,95,104
 ElectricNow.us@SD,ElectricNOW (1080p) [Geo-blocked],,Entertainment,IPTV-EPG.org US,ElectricNow.us,primary-exact-normalized-name,95,156
 ESPNDeportes.us@HD,ESPN Deportes HD (720p),,Sports,IPTV-EPG.org US,ESPNDeportes.us,primary-exact-normalized-name,95,142
 ESPNU.us@HD,ESPNU HD (720p),,Sports,IPTV-EPG.org US,ESPNU.us,primary-exact-normalized-name,95,93
-EstrellaGames.us@SD,Estrella Games (1080p),,Entertainment;Family,EPGShare Plex,plex.tv.Estrella.Games.plex,fallback-exact-normalized-name,95,63
+EstrellaGames.us@SD,Estrella Games (1080p),,Entertainment;Family,EPGShare Plex,plex.tv.Estrella.Games.plex,fallback-exact-normalized-name,95,47
 EstrellaNews.us@SD,Estrella News (1080p),,News,IPTV-EPG.org US,EstrellaNews.pluto,primary-exact-id-base,94,54
 EstrellaTV.us@SD,Estrella TV (1080p),,Entertainment,IPTV-EPG.org US,EstrellaTV.us,primary-exact-normalized-name,95,209
 EWTN.us@Spanish,EWTN Spanish (720p) [Geo-blocked],,Religious,IPTV-EPG.org US,EWTN.us,primary-exact-normalized-name,95,263
@@ -220,7 +223,7 @@ FoxWeather.us@SD,FOX Weather (1080p) [Geo-blocked],,Weather,IPTV-EPG.org US,FOXW
 Fox.us@West,Fox West (720p),,General,IPTV-EPG.org US,FOX4K.us,primary-exact-normalized-name,95,61
 FreeSpeechTV.us@SD,Free Speech TV (720p),,News,IPTV-EPG.org US,FreeSpeechTV.us,primary-exact-normalized-name,95,134
 Freeform.us@East,Freeform (1080p),,Family,EPGShare US2,Freeform.HD.us2,fallback-exact-normalized-name,95,94
-FrightFlix.us@SD,FrightFlix (720p),,Movies,EPGShare Plex,plex.tv.FrightFlix.plex,fallback-exact-normalized-name,95,55
+FrightFlix.us@SD,FrightFlix (720p),,Movies,EPGShare Plex,plex.tv.FrightFlix.plex,fallback-exact-normalized-name,95,56
 FTFSports.us@SD,FTF Sports (720p),,Sports,IPTV-EPG.org US,FTFSports.us,primary-exact-normalized-name,95,72
 FuboSportsNetwork.us@SD,fubo Sports Network (1080p),,Sports,IPTV-EPG.org US,fuboSportsNetwork.us,primary-exact-normalized-name,95,125
 FunRoads.us@SD,Fun Roads (720p),,Auto;Travel,EPGShare US2,Fun.Roads.us2,fallback-exact-normalized-name,95,189
@@ -297,8 +300,8 @@ LIVExLIVE.us@SD,LiveXLive (1080p),,Music,IPTV-EPG.org US,LiveXLive.us,primary-ex
 Logo.us@East,Logo (720p),,Entertainment,EPGShare US2,Logo.us2,fallback-exact-normalized-name,95,108
 LogoPlutoTV.us@SD,Logo Pluto TV,,Entertainment,IPTV-EPG.org US,LogoPlutoTV.pluto,primary-exact-id-base,94,28
 KevinHartsLOLNetwork.us@SD,LOL! Network (720p),,Comedy,IPTV-EPG.org US,LOLNetwork.us,primary-exact-normalized-name,95,148
-LoneStar.us@SD,Lone Star (1080p),,Entertainment,EPGShare Plex,plex.tv.Lone.Star.plex,fallback-exact-normalized-name,95,93
-LovePets.ca@US,Love Pets (1080p),,Documentary,EPGShare Plex,plex.tv.Love.Pets.plex,fallback-exact-normalized-name,95,135
+LoneStar.us@SD,Lone Star (1080p),,Entertainment,EPGShare Plex,plex.tv.Lone.Star.plex,fallback-exact-normalized-name,95,100
+LovePets.ca@US,Love Pets (1080p),,Documentary,EPGShare Plex,plex.tv.Love.Pets.plex,fallback-exact-normalized-name,95,143
 MadeInHollywood.us@SD,Made in Hollywood,,Movies,IPTV-EPG.org US,MadeInHollywood.us,primary-exact-normalized-name,95,284
 MagellanTVNow.us@SD,MagellanTV Now (1080p),,Documentary,EPGShare US2,MagellanTV.Now.us2,fallback-exact-normalized-name,95,109
 Masadrenalina.us@SD,Más adrenalina,,Entertainment,IPTV-EPG.org US,Másadrenalina.pluto,primary-exact-id-base,94,15
@@ -342,9 +345,11 @@ NBCLXHome.us@HD,NBC LX Home (1080p),,Entertainment;Lifestyle,IPTV-EPG.org US,NBC
 NBCNewsNOW.us@SD,NBC News NOW (1080p),,News,IPTV-EPG.org US,NBCNewsNow.us,primary-exact-normalized-name,95,166
 NBCSportsBayArea.us@SD,NBC Sports Bay Area (1080p) [Geo-blocked],,Sports,IPTV-EPG.org US,NBCSportsBayArea.us,primary-exact-normalized-name,95,181
 NBCSportsPhiladelphia.us@SD,NBC Sports Philadelphia (1080p) [Geo-blocked],,Sports,IPTV-EPG.org US,NBCSportsPhiladelphia.us,primary-exact-normalized-name,95,134
+NBCUniverso.us@East,NBC Universo (720p),,Entertainment,EPGShare US2,UNIVERSO.HD.us2,fallback-exact-normalized-name,95,87
+NBCUniverso.us@West,NBC Universo West (720p),,Entertainment,EPGShare US2,UNIVERSO.HD.us2,fallback-exact-normalized-name,95,87
 NBC.us@West,NBC West (720p),,General,IPTV-EPG.org US,NBC4K.us,primary-exact-normalized-name,95,20
 NEWKMOVIES.us@SD,NEW KMOVIES (1080p),,Movies,EPGShare Plex,plex.tv.NEW.K.MOVIES.plex,fallback-exact-normalized-name,95,44
-NEWKPOP.us@SD,NEW KPOP (1080p),,Music,EPGShare Plex,plex.tv.NEW.K-POP.plex,fallback-exact-normalized-name,95,67
+NEWKPOP.us@SD,NEW KPOP (1080p),,Music,EPGShare Plex,plex.tv.NEW.K-POP.plex,fallback-exact-normalized-name,95,69
 News12Bronx.us@SD,News12 Bronx [Geo-blocked],,News,IPTV-EPG.org US,News12Bronx.us,primary-exact-id-base,94,323
 News12Brooklyn.us@SD,News12 Brooklyn [Geo-blocked],,News,IPTV-EPG.org US,News12Brooklyn.us,primary-exact-id-base,94,323
 News12HudsonValley.us@SD,News12 Hudson Valley [Geo-blocked],,News,IPTV-EPG.org US,News12HudsonValley.us,primary-exact-id-base,94,323
@@ -363,7 +368,7 @@ Nickelodeon.us@East,Nickelodeon (1080p),,Kids,IPTV-EPG.org US,Nickelodeon.us,pri
 Nickelodeonenespanol.us@SD,Nickelodeon en español,,Kids,IPTV-EPG.org US,Nickelodeonenespañol.pluto,primary-exact-id-base,94,61
 NickelodeonPlutoTV.us@SD,Nickelodeon Pluto TV (720p),,Animation;Kids,IPTV-EPG.org US,NickelodeonPlutoTV.pluto,primary-exact-id-base,94,69
 Nicktoons.us@East,Nicktoons (1080p),,Kids,EPGShare US2,Nicktoons.us2,fallback-exact-normalized-name,95,225
-NinjaKidzTV.us@SD,Ninja Kidz (720p),,Kids,EPGShare Plex,plex.tv.Ninja.Kidz.TV.plex,fallback-exact-normalized-name,95,145
+NinjaKidzTV.us@SD,Ninja Kidz (720p),,Kids,EPGShare Plex,plex.tv.Ninja.Kidz.TV.plex,fallback-exact-normalized-name,95,143
 Nosey.us@US,Nosey (1080p),,Series,IPTV-EPG.org US,Nosey.us,primary-exact-normalized-name,95,215
 NOST.us@SD,NOST (720p),,Movies,IPTV-EPG.org US,NOST.us,primary-exact-normalized-name,95,87
 Novelisima.us@SD,Novelisima,,Series,EPGShare Plex,plex.tv.Novelisima.plex,fallback-exact-normalized-name,95,95
@@ -375,7 +380,7 @@ OutdoorAmerica.us@SD,Outdoor America (1080p),,Outdoor,IPTV-EPG.org US,OutdoorAme
 OutdoorChannel.us@HD,Outdoor Channel HD (1080p),,Outdoor,IPTV-EPG.org US,OutdoorChannel.us,primary-exact-normalized-name,95,304
 OutsideTV.us@SD,Outside TV (1080p),,Outdoor,IPTV-EPG.org US,OutsideTelevision.us,primary-exact-normalized-name,95,273
 Ovation.us@SD,Ovation (1080p),,Culture,IPTV-EPG.org US,OvationTV.us,primary-exact-normalized-name,95,166
-Overtime.us@SD,Overtime (1080p),,Sports,EPGShare Plex,plex.tv.Overtime.plex,fallback-exact-normalized-name,95,43
+Overtime.us@SD,Overtime (1080p),,Sports,EPGShare Plex,plex.tv.Overtime.plex,fallback-exact-normalized-name,95,39
 Pac12Insider.us@SD,Pac 12 Insider (1080p),,Sports,IPTV-EPG.org US,Pac12Insider.us,primary-exact-normalized-name,95,205
 ParamountMovieChannel.us@SD,Paramount Movie Channel,,Movies,IPTV-EPG.org US,ParamountMovieChannel.pluto,primary-exact-id-base,94,13
 ParamountNetwork.us@East,Paramount Network (720p),,Movies;Series,EPGShare US2,Paramount.Network.HD.us2,fallback-exact-normalized-name,95,80
@@ -384,7 +389,7 @@ PBRRidePass.us@SD,PBR RidePass (720p),,Sports,IPTV-EPG.org US,PBRRidePass.us,pri
 AntiquesRoadTrip.us@SD,PBS Antiques Road Trip (1080p),,Lifestyle,IPTV-EPG.org US,AntiquesRoadTrip.pluto,primary-exact-id-base,94,30
 PBSKids.us@SD,PBS Kids (720p),,Education;Kids,IPTV-EPG.org US,PBSKids.pr,primary-exact-id-base,94,322
 PBSNature.us@SD,PBS Nature (1080p),,Series,IPTV-EPG.org US,PBSNature.pluto,primary-exact-id-base,94,29
-PBSTravel.us@SD,PBS Travel (1080p),,Lifestyle,EPGShare Plex,plex.tv.PBS.Travel.plex,fallback-exact-normalized-name,95,140
+PBSTravel.us@SD,PBS Travel (1080p),,Lifestyle,EPGShare Plex,plex.tv.PBS.Travel.plex,fallback-exact-normalized-name,95,129
 PeopleAreAwesome.us@SD,People Are Awesome (720p),,Entertainment,IPTV-EPG.org US,PeopleAreAwesome.us,primary-exact-normalized-name,95,306
 PeppaPig.us@SD,Peppa Pig,,Kids,IPTV-EPG.org US,PeppaPig.pluto,primary-exact-id-base,94,60
 PerryMason.us@SD,Perry Mason,,Series,IPTV-EPG.org US,PerryMason.pluto,primary-exact-id-base,94,30
@@ -429,27 +434,27 @@ Portlandia.us@SD,Portlandia (720p),,Undefined,IPTV-EPG.org US,Portlandia.us,prim
 PositivTV.us@SD,Positiv TV (1080p),,Family,EPGShare US2,Positiv.TV.us2,fallback-exact-normalized-name,95,79
 PowerNationTV.us@SD,PowerNation (1080p),,Auto,IPTV-EPG.org US,POWERNATION.us,primary-exact-normalized-name,95,378
 PursuitChannel.us@SD,Pursuit Channel (1080p),,Undefined,IPTV-EPG.org US,PursuitChannel.us,primary-exact-normalized-name,95,311
-PursuitUP.us@SD,Pursuit UP (1080p),,Outdoor,EPGShare Plex,plex.tv.PursuitUP.plex,fallback-exact-normalized-name,95,185
+PursuitUP.us@SD,Pursuit UP (1080p),,Outdoor,EPGShare Plex,plex.tv.PursuitUP.plex,fallback-exact-normalized-name,95,189
 QVC.us@SD,QVC (720p),,Shop,IPTV-EPG.org US,QVC.us,primary-exact-normalized-name,95,122
 QVC2.us@SD,QVC 2 (720p),,Shop,IPTV-EPG.org US,QVC2.us,primary-exact-normalized-name,95,121
 QVC3.us@SD,QVC 3 (1080p),,Shop,IPTV-EPG.org US,QVC3.us,primary-exact-normalized-name,95,143
 Rawhide.us@SD,Rawhide,,Movies;Series,IPTV-EPG.org US,Rawhide.pluto,primary-exact-id-base,94,30
 RealAmericasVoice.us@SD,Real America's Voice (1080p),,Undefined,EPGShare US2,Real.Americas.Voice.us2,fallback-exact-normalized-name,95,80
-RealWild.uk@SD,Real Wild (1080p),,Undefined,EPGShare Plex,plex.tv.Real.Wild.plex,fallback-exact-normalized-name,95,98
+RealWild.uk@SD,Real Wild (1080p),,Undefined,EPGShare Plex,plex.tv.Real.Wild.plex,fallback-exact-normalized-name,95,97
 RedBullTV.at@US,Red Bull TV US (1080p),,Outdoor;Sports,IPTV-EPG.org US,RedbullTV.us,primary-exact-normalized-name,95,115
 Reelz.us@SD,Reelz (720p),,Documentary,IPTV-EPG.org US,ReelzChannel.us,primary-exact-normalized-name,95,192
 RetroTV.us@East,Retro TV (720p),,Classic,IPTV-EPG.org US,RetroTV.us,primary-exact-normalized-name,95,207
-RetroCrush.us@SD,RetroCrush (1080p),,Animation;Classic,EPGShare Plex,plex.tv.RetroCrush.plex,fallback-exact-normalized-name,95,154
+RetroCrush.us@SD,RetroCrush (1080p),,Animation;Classic,EPGShare Plex,plex.tv.RetroCrush.plex,fallback-exact-normalized-name,95,161
 ReutersTV.us@SD,Reuters (1080p),,News,IPTV-EPG.org US,ReutersTV.us,primary-exact-normalized-name,95,69
 Revolt.us@SD,Revolt (720p),,Undefined,IPTV-EPG.org US,Revolt.us,primary-exact-normalized-name,95,202
 Revry.us@SD,Revry (1080p),,Lifestyle,IPTV-EPG.org US,Revry.us,primary-exact-normalized-name,95,208
-RevryLatinX.us@SD,Revry LatinX (720p),,Entertainment,EPGShare Plex,plex.tv.Revry.Latinx.plex,fallback-exact-normalized-name,95,93
+RevryLatinX.us@SD,Revry LatinX (720p),,Entertainment,EPGShare Plex,plex.tv.Revry.Latinx.plex,fallback-exact-normalized-name,95,95
 RevryNews.us@SD,Revry News (720p) [Not 24/7],,Lifestyle,IPTV-EPG.org US,RevryNews.us,primary-exact-normalized-name,95,41
 RFDTV.us@SD,RFD-TV (1080p),,Undefined,IPTV-EPG.org US,RFDTV.us,primary-exact-normalized-name,95,214
 Ridiculousness.us@SD,Ridiculousness,,Comedy,IPTV-EPG.org US,Ridiculousness.pluto,primary-exact-id-base,94,57
 RiffTrax.us@US,RiffTrax (720p),,Comedy,IPTV-EPG.org US,RiffTrax.pluto,primary-exact-id-base,94,20
 RightNowTV.us@SD,RightNow TV (720p),,Entertainment;Sports,EPGShare US2,Right.Now.TV.us2,fallback-exact-normalized-name,95,151
-RuntimeEspanol.us@SD,Runtime Espanol (720p),,Movies,EPGShare Plex,plex.tv.Runtime.Español.plex,fallback-exact-normalized-name,95,71
+RuntimeEspanol.us@SD,Runtime Espanol (720p),,Movies,EPGShare Plex,plex.tv.Runtime.Español.plex,fallback-exact-normalized-name,95,73
 RVTV.us@HD,RVTV (1080p),,Undefined,IPTV-EPG.org US,RVTV.us,primary-exact-normalized-name,95,245
 RyanandFriends.us@SD,Ryan and Friends (1080p),,Kids,IPTV-EPG.org US,RyanAndFriends.us,primary-exact-normalized-name,95,189
 SalemNewsChannel.us@SD,Salem News Channel (1080p),,News,IPTV-EPG.org US,SalemNewsChannel.pluto,primary-exact-id-base,94,23
@@ -468,7 +473,7 @@ Showtime.us@West,Showtime West (720p),,Undefined,EPGShare US2,Showtime.2.HD.us2,
 ShowtimeWomen.us@East,Showtime Women (720p),,Undefined,EPGShare US2,Showtime.Women.HD.us2,fallback-exact-normalized-name,95,53
 SitcomLegends.us@SD,Sitcom Legends,,Comedy,IPTV-EPG.org US,SitcomLegends.pluto,primary-exact-id-base,94,58
 SketchyAF.us@SD,Sketchy AF,,Comedy,IPTV-EPG.org US,SketchyAF.pluto,primary-exact-id-base,94,49
-SkwadPlay.us@SD,SKWAD (1080p),,Kids,EPGShare Plex,plex.tv.SKWAD.plex,fallback-exact-normalized-name,95,178
+SkwadPlay.us@SD,SKWAD (1080p),,Kids,EPGShare Plex,plex.tv.SKWAD.plex,fallback-exact-normalized-name,95,177
 SmithsonianChannel.us@East,Smithsonian Channel (1080p),,Science,EPGShare US2,Smithsonian.HD.Network.us2,fallback-exact-normalized-name,95,96
 SmithsonianChannelSelects.us@SD,Smithsonian Channel Selects,,Science,IPTV-EPG.org US,SmithsonianChannelSelects.pluto,primary-exact-id-base,94,30
 SNLVault.us@SD,SNL Vault (1080p),,Comedy,IPTV-EPG.org US,SNLVault.peacocktv,primary-exact-id-base,94,72
@@ -490,7 +495,7 @@ StarzEdge.us@East,Starz Edge (1080p),,Undefined,EPGShare US2,Starz.Edge.HD.us2,f
 StarzEncore.us@East,Starz Encore (1080p),,Undefined,EPGShare US2,Starz.Encore.HD.us2,fallback-exact-normalized-name,95,50
 StarzKidsFamily.us@East,Starz Kids & Family (1080p),,Kids,IPTV-EPG.org US,StarzKids.us,primary-exact-normalized-name,95,108
 Starz.us@West,Starz West (720p),,Undefined,EPGShare US2,Starz.HD.us2,fallback-exact-normalized-name,95,58
-PlutoTVStorageWars.us@SD,Storage Wars by A&E (720p),,Series,EPGShare Plex,plex.tv.Storage.Wars.by.A&E.plex,fallback-exact-normalized-name,95,205
+PlutoTVStorageWars.us@SD,Storage Wars by A&E (720p),,Series,EPGShare Plex,plex.tv.Storage.Wars.by.A&E.plex,fallback-exact-normalized-name,95,200
 StoriesbyAMC.us@SD,Stories by AMC,,Entertainment,IPTV-EPG.org US,StoriesbyAMC.us,primary-exact-normalized-name,95,197
 WCIUTV265.us@SD,Story Television,,Undefined,IPTV-EPG.org US,StoryTelevision.us,primary-exact-normalized-name,95,186
 SUMtvLatino.us@SD,SUMtv Latino (1080p),,Religious,EPGShare US2,SUMtv.Latino.us2,fallback-exact-normalized-name,95,125
@@ -508,21 +513,22 @@ TeenMom.us@SD,Teen Mom,,Documentary,IPTV-EPG.org US,TeenMom.pluto,primary-exact-
 TeenNick.us@East,TeenNick (720p),,Kids,EPGShare US2,Teen.Nick.us2,fallback-exact-normalized-name,95,221
 TelemundoAlDia.us@HD,Telemundo Al Dia,,General,IPTV-EPG.org US,TelemundoAlDia.peacocktv,primary-exact-id-base,94,72
 TelemundoTelenovelasClasicas.us@SD,Telemundo telenovelas clásicas,,Series,IPTV-EPG.org US,Telemundotelenovelasclásicas.pluto,primary-exact-id-base,94,30
-TennisChannel.us@Plus2,TennisChannel 2 (720p),,Sports,IPTV-EPG.org US,TennisChannel.us,primary-exact-id-base,94,28
+TennisChannel.us@Plus2,TennisChannel 2 (720p),,Sports,IPTV-EPG.org US,TennisChannel.us,primary-exact-normalized-name,95,28
 TheAddamsFamily.us@SD,The Addams Family,,Series,IPTV-EPG.org US,TheAddamsFamily.pluto,primary-exact-id-base,94,58
 TheAmazingRace.us@SD,The Amazing Race,,Series,IPTV-EPG.org US,TheAmazingRace.pluto,primary-exact-id-base,94,29
 TheAndyGriffithShow.us@SD,The Andy Griffith Show,,Classic,IPTV-EPG.org US,TheAndyGriffithShow.pluto,primary-exact-id-base,94,58
 TheArchive.us@SD,The Archive (1080p),,Classic,IPTV-EPG.org US,TheArchive.us,primary-exact-normalized-name,95,87
-TheAsylum.us@US,The Asylum (1080p),,Series,EPGShare Plex,plex.tv.The.Asylum.plex,fallback-exact-normalized-name,95,64
+TheAsylum.us@US,The Asylum (1080p),,Series,EPGShare Plex,plex.tv.The.Asylum.plex,fallback-exact-normalized-name,95,62
 TheBobRossChannel.us@SD,The Bob Ross Channel (720p),,Series,IPTV-EPG.org US,TheBobRossChannel.us,primary-exact-normalized-name,95,276
-TheCarolBurnettShow.us@SD,The Carol Burnett Show (1080p),,Classic,EPGShare Plex,plex.tv.The.Carol.Burnett.Show.plex,fallback-exact-normalized-name,95,127
+TheCarolBurnettShow.us@SD,The Carol Burnett Show (1080p),,Classic,EPGShare Plex,plex.tv.The.Carol.Burnett.Show.plex,fallback-exact-normalized-name,95,129
 TheChallenge.us@SD,The Challenge,,Series,IPTV-EPG.org US,TheChallenge.us,primary-exact-normalized-name,95,206
 TheConners.us@SD,The Conners (1080p) [Geo-blocked],,Comedy;Series,IPTV-EPG.org US,TheConners.peacocktv,primary-exact-id-base,94,72
 TheCountryNetwork.us@SD,The Country Network (1080p),,Music,IPTV-EPG.org US,TheCountryNetwork.us,primary-exact-normalized-name,95,90
 TheCowboyChannel.us@SD,The Cowboy Channel (720p),,Undefined,IPTV-EPG.org US,TheCowboyChannel.us,primary-exact-id-base,94,118
 TheDesignNetwork.us@SD,The Design Network (1080p),,Lifestyle,IPTV-EPG.org US,TheDesignNetwork.us,primary-exact-normalized-name,95,314
 TheFilmDetective.us@SD,The Film Detective (720p),,Movies,IPTV-EPG.org US,TheFilmDetective.us,primary-exact-normalized-name,95,237
-TheGrahamNortonShow.uk@SD,The Graham Norton Show (1080p),,Entertainment,EPGShare Plex,plex.tv.The.Graham.Norton.Show.plex,fallback-exact-normalized-name,95,131
+TheFirstTV.us@SD,The First TV (1080p),,News,IPTV-EPG.org US,TheFirst.us,primary-exact-normalized-name,95,161
+TheGrahamNortonShow.uk@SD,The Graham Norton Show (1080p),,Entertainment,EPGShare Plex,plex.tv.The.Graham.Norton.Show.plex,fallback-exact-normalized-name,95,132
 TheJamieOliverChannel.us@SD,The Jamie Oliver Channel (1080p),,Lifestyle,IPTV-EPG.org US,TheJamieOliverChannel.pluto,primary-exact-id-base,94,50
 JohnnyCarsonTV.us@SD,The Johnny Carson Show (720p),,Series,IPTV-EPG.org US,JohnnyCarsonTV.us,primary-exact-normalized-name,95,153
 TheJudgeJudyChannel.us@SD,The Judge Judy Channel (720p),,Series,IPTV-EPG.org US,TheJudgeJudyChannel.pluto,primary-exact-id-base,94,58
@@ -540,7 +546,7 @@ TheWordNetwork.us@SD,The Word Network (1080p),,Religious,IPTV-EPG.org US,TheWord
 ThisOldHouse.us@SD,This Old House (1080p),,Series,IPTV-EPG.org US,ThisOldHouse.us,primary-exact-normalized-name,95,323
 TinyHouseNation.us@SD,Tiny House Nation (720p),,Series,IPTV-EPG.org US,TinyHouseNation.us,primary-exact-normalized-name,95,237
 TMZ.us@SD,TMZ (1080p) [Geo-blocked],,Entertainment,IPTV-EPG.org US,TMZ.us,primary-exact-normalized-name,95,215
-TODAYAllDay.us@SD,TODAY All Day (1080p),,News,EPGShare Plex,plex.tv.TODAY.All.Day.plex,fallback-exact-normalized-name,95,188
+TODAYAllDay.us@SD,TODAY All Day (1080p),,News,EPGShare Plex,plex.tv.TODAY.All.Day.plex,fallback-exact-normalized-name,95,182
 TGJunior.us@SD,Toon Goggles Junior (720p),,Kids,IPTV-EPG.org US,TGJunior.us,primary-exact-normalized-name,95,40
 ToonamiAftermath.us@East,Toonami Aftermath East (480p),,Animation,IPTV-EPG.org US,ToonamiAftermath.us,primary-exact-normalized-name,95,350
 ToonGoggles.us@SD,ToonGoggles (720p),,Kids,IPTV-EPG.org US,ToonGoggles.us,primary-exact-normalized-name,95,40
@@ -559,7 +565,7 @@ TVLandSitcoms.us@SD,TV Land Sitcoms,,Comedy,IPTV-EPG.org US,TVLandSitcoms.us,pri
 TVOne.us@SD,TV One (1080p),,Undefined,IPTV-EPG.org US,TVOne.us,primary-exact-normalized-name,95,279
 TVQuisqueya.us@SD,TV QUISQUEYA (720p),,General,IPTV-EPG.org US,TVQuisqueya.us,primary-exact-normalized-name,95,162
 TyCSportsUSA.ar@SD,TyC Sports USA,,Sports,IPTV-EPG.org US,TYCSports.us,primary-exact-normalized-name,95,125
-Unbeaten.us@SD,Unbeaten (1080p),,Sports,EPGShare Plex,plex.tv.Unbeaten.plex,fallback-exact-normalized-name,95,36
+Unbeaten.us@SD,Unbeaten (1080p),,Sports,EPGShare Plex,plex.tv.Unbeaten.plex,fallback-exact-normalized-name,95,37
 Unidentified.us@SD,Unidentified (1080p),,Documentary,IPTV-EPG.org US,Unidentified.us,primary-exact-normalized-name,95,128
 UniMas.us@Mountain,UniMas Mountain (1080p),,Undefined,IPTV-EPG.org US,UniMas.us,primary-exact-normalized-name,95,189
 UniversalCrime.us@East,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Series"",Universal Crime (1080p)",,Series,IPTV-EPG.org US,UniversalCrime.pluto,primary-exact-id-base,94,21
@@ -568,7 +574,7 @@ UnivisionTlnovelas.us@SD,Univision Tlnovelas (1080p),,Series,IPTV-EPG.org US,Uni
 UnsolvedMysteries.us@US,Unsolved Mysteries (720p),,Series,IPTV-EPG.org US,UnsolvedMysteries.us,primary-exact-normalized-name,95,188
 UpTV.us@SD,Up TV (1080p),,Undefined,IPTV-EPG.org US,UP.us,primary-exact-normalized-name,95,204
 USANetwork.us@West,USA Network West (1080p),,Comedy;Movies;Series;Sports,IPTV-EPG.org US,USANetwork.us,primary-exact-id-base,94,161
-USATODAY.us@SD,USA Today (1080p),,News,EPGShare Plex,plex.tv.USA.TODAY.plex,fallback-exact-normalized-name,95,163
+USATODAY.us@SD,USA Today (1080p),,News,EPGShare Plex,plex.tv.USA.TODAY.plex,fallback-exact-normalized-name,95,162
 Vevo2K.us@SD,Vevo 2K (1080p),,Music,IPTV-EPG.org US,Vevo2K.pluto,primary-exact-id-base,94,24
 Vevo70s.us@SD,Vevo 70s (1080p),,Music,EPGShare US2,Vevo.70s.us2,fallback-exact-normalized-name,95,65
 Vevo80s.us@SD,Vevo 80s (1080p),,Music,EPGShare US2,Vevo.80s.us2,fallback-exact-normalized-name,95,79
@@ -588,12 +594,12 @@ WaypointTV.us@SD,Waypoint TV (1080p),,Outdoor,IPTV-EPG.org US,WaypointTV.us,prim
 WeTV.us@East,We TV (720p),,Series,EPGShare US2,WE.tv.HD.us2,fallback-exact-normalized-name,95,111
 WeatherNation.us@SD,WeatherNation (1080p),,Weather,IPTV-EPG.org US,WeatherNationTV.us,primary-exact-normalized-name,95,80
 WeatherSpy.us@SD,WeatherSpy (720p),,Weather,IPTV-EPG.org US,WeatherSpy.us,primary-exact-normalized-name,95,300
-WeedsNurseJackie.us@SD,Weeds / Nurse Jackie (720p),,Series,EPGShare Plex,plex.tv.Weeds.&.Nurse.Jackie.plex,fallback-safe-fuzzy,89,199
+WeedsNurseJackie.us@SD,Weeds / Nurse Jackie (720p),,Series,EPGShare Plex,plex.tv.Weeds.&.Nurse.Jackie.plex,fallback-safe-fuzzy,89,196
 WesternTV.us@SD,Western TV,,Classic,IPTV-EPG.org US,WesternTV.pluto,primary-exact-id-base,94,58
 Willow.us@SD,Willow (720p),,Sports,IPTV-EPG.org US,Willow.us,primary-exact-normalized-name,95,147
 WillowSports.us@SD,Willow Sports (1080p),,Sports,IPTV-EPG.org US,WillowSports.us,primary-exact-normalized-name,95,176
 WipeoutXtra.us@SD,Wipeout Xtra (1080p),,Entertainment,IPTV-EPG.org US,WipeoutXtra.us,primary-exact-normalized-name,95,148
-WomensSportsNetwork.us@SD,Women's Sports Network (1080p),,Undefined,EPGShare Plex,plex.tv.Women`s.Sports.Network.plex,fallback-exact-normalized-name,95,69
+WomensSportsNetwork.us@SD,Women's Sports Network (1080p),,Undefined,EPGShare Plex,plex.tv.Women`s.Sports.Network.plex,fallback-exact-normalized-name,95,81
 WorldChannel.us@SD,World Channel (1080p),,Education,EPGShare US2,WORLD.Channel.us2,fallback-exact-normalized-name,95,127
 WorldHarvestTV.us@SD,World Harvest TV (360p),,Undefined,EPGShare US2,World.Harvest.Television.us2,fallback-exact-normalized-name,95,178
 WorldPokerTour.us@US,World Poker Tour (1080p),,Sports,IPTV-EPG.org US,WorldPokerTour.us,primary-exact-normalized-name,95,143

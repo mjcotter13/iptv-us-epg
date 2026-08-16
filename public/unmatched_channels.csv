@@ -47,7 +47,6 @@ KEROTV231.us@HD,ABC 23 Bakersfield CA (KERO) (720p),,General,no-safe-match
 KXXV251.us@HD,ABC 25 News Central Texas (720p),,General,no-safe-match
 WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),,News,no-safe-match
 WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),,News,no-safe-match
-ABCNewsLive10.us@SD,ABC News Live 10 (720p),,News,no-safe-match
 ABC.us@West,ABC West (720p),,General,no-safe-match
 WWAY31.us@HD,ABC WWAY 3,,News,no-safe-match
 ABNAfghanistan.us@SD,ABN Afghanistan (540p),,Religious,no-safe-match
@@ -263,8 +262,6 @@ DrGeneScott.us@SD,Dr. Gene Scott (1080p),,Religious,no-safe-match
 DryBarComedyPlus.us@SD,Dry Bar Comedy (720p),,Comedy,no-safe-match
 DuckHuntingTV.us@SD,Duck Hunting TV (1080p),,Outdoor,no-safe-match
 DungeonTV.us@SD,Dungeon TV (720p),,Undefined,no-safe-match
-E.us@East,E! (1080p),,Entertainment,no-safe-match
-E.us@West,E! West (720p),,Entertainment,no-safe-match
 EBSCinema.us@SD,EBS Cinema (720p),,Movies,no-safe-match
 EBSMusika.us@SD,EBS Musika (720p),,Music,no-safe-match
 PlutoTVElReinoInfantil.us@SD,El Reino Infantil,,Undefined,no-safe-match
@@ -539,8 +536,6 @@ WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),,News,no-safe-match
 WNYT131.us@HD,NBC 13 Albany NY (WNYT) (1080p),,Undefined,no-safe-match
 WGBATV261.us@HD,NBC 26 Green Bay WI (WGBA) (720p),,Undefined,no-safe-match
 NBCSportsNOW.us@SD,NBC Sports NOW (1080p),,Sports,no-safe-match
-NBCUniverso.us@East,NBC Universo (720p),,Entertainment,no-safe-match
-NBCUniverso.us@West,NBC Universo West (720p),,Entertainment,no-safe-match
 KNSD481.us@HD,NBC West (San Diego) (1080p) [Not 24/7],,General,no-safe-match
 NBCLX.us@SD,NBCLX (1080p),,Entertainment,no-safe-match
 NCMEducationalKidsChannel.us@SD,NCM Educational & Kids Channel,,Education;Kids,no-safe-match
@@ -715,7 +710,6 @@ TennisChannel.us@SD,Tennis Channel (1080p),,Sports,matched-but-zero-programmes
 TerraMaterWILD.de@English,Terra Mater WILD English (1080p),,Documentary,no-safe-match
 TeveVidaNetwork.us@SD,Teve Vida Network (480p) [Not 24/7],,Religious,no-safe-match
 TheChatShowChannel.uk@SD,The Chat Show Channel (1080p),,Comedy;Series,no-safe-match
-TheFirstTV.us@SD,The First TV (1080p),,News,no-safe-match
 TheHillTV.us@SD,The Hill TV (1080p) [Geo-blocked],,Undefined,no-safe-match
 LegoChannel.us@SD,The LEGO Channel (1080p),,Kids,no-safe-match
 TheNowNetwork.us@SD,The Now Network (480p) [Not 24/7],,Religious,no-safe-match

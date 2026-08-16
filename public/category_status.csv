@@ -36,7 +36,7 @@ Education,37,2,35,5.4
 Education;General,1,0,1,0.0
 Education;Kids,7,1,6,14.3
 Education;Lifestyle,1,1,0,100.0
-Entertainment,120,72,48,60.0
+Entertainment,120,76,44,63.3
 Entertainment;Family,1,1,0,100.0
 Entertainment;General,1,0,1,0.0
 Entertainment;Lifestyle,1,1,0,100.0
@@ -62,7 +62,7 @@ Movies;Series,17,15,2,88.2
 Movies;Shop,1,0,1,0.0
 Music,53,31,22,58.5
 Music;Religious,2,0,2,0.0
-News,97,47,50,48.5
+News,97,49,48,50.5
 News;Weather,2,0,2,0.0
 Outdoor,14,8,6,57.1
 Outdoor;Sports,1,1,0,100.0
