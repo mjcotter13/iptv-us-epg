@@ -1,0 +1,79 @@
+name: Five Channel EPG POC
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  poc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Clone official IPTV-org EPG repository
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git _iptv_epg
+
+      - name: Install IPTV-org EPG dependencies
+        working-directory: _iptv_epg
+        run: npm ci
+
+      - name: Build exact five-channel mapping file
+        run: python poc_prepare.py
+
+      - name: Show mappings selected
+        run: |
+          cat poc.channels.xml
+          echo
+          cat poc_mappings.csv
+
+      - name: Run official IPTV-org grabber
+        continue-on-error: true
+        working-directory: _iptv_epg
+        run: |
+          npm run grab --- \
+            --channels=../poc.channels.xml \
+            --output=../poc_guide.xml \
+            --days=2 \
+            --maxConnections=1 \
+            --delay=1000 \
+            --timeout=30000
+
+      - name: Analyze proof-of-concept results
+        run: python poc_analyze.py
+
+      - name: Copy POC results into repository
+        run: |
+          mkdir -p poc_results
+          cp poc.channels.xml poc_results/
+          cp poc_mappings.csv poc_results/
+          cp poc_status.txt poc_results/
+          cp poc_program_counts.csv poc_results/
+          if [ -f poc_guide.xml ]; then cp poc_guide.xml poc_results/; fi
+
+      - name: Commit POC results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add poc_results/
+          if git diff --cached --quiet; then
+            echo "No POC result changes."
+          else
+            git commit -m "Update five-channel EPG POC results"
+            git pull --rebase origin main
+            git push
+          fi
