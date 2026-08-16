@@ -11,6 +11,7 @@ on:
       - "v7_prepare.py"
       - "v7_run.py"
       - "v7_merge.py"
+      - "v8_discover.py"
       - ".github/workflows/build-epg.yml"
 
 permissions:
@@ -44,11 +45,15 @@ jobs:
         run: python v7_merge.py
       - name: Build merged production EPG
         run: python build_epg.py
-      - name: Preserve V7.4 diagnostics
+      - name: Discover new V8 source candidates
+        run: python v8_discover.py
+
+      - name: Preserve V8 diagnostics
         run: |
-          mkdir -p public/v7
+          mkdir -p public/v7 public/v8
           cp v7_work/channels.csv public/v7/channels.csv
           cp v7_work/remaining_source_matrix.csv public/v7/remaining_source_matrix.csv
+          cp v8_work/source_discovery.csv public/v8/source_discovery.csv
           cp v7_work/attempts.csv public/v7/attempts.csv
           cp v7_targeted_status.csv public/v7/targeted_status.csv
           cp v7_attempt_status.csv public/v7/attempt_status.csv
