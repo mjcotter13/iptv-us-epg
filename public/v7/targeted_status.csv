@@ -1,0 +1,26 @@
+id,name,group,site,site_id,programmes,success
+ESPNDeportes.us@SD,ESPN Deportes,Sports,tvtv.us,25595,0,NO
+ESPNU.us@SD,ESPNU,Sports,ontvtonight.com,us#69026524/espnu,15,YES
+F1Channel.ie@US,F1 Channel,Sports,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6896595a58a6658b3d6a501a,0,NO
+NBCSportsNOW.us@SD,NBC Sports NOW,Sports,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-5fc70600598c41002da3dd43,0,NO
+NFLChannel.us@SD,NFL Channel,Sports,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-61e805952502a7a6fa84d70f,0,NO
+NFLNetwork.us@SD,The NFL Network,Sports,ontvtonight.com,us#69023748/the-nfl-network,9,YES
+SlopesTV.us@SD,Slopes TV,Sports,distro.tv,42167,0,NO
+TVSBoxing.us@SD,TVS Boxing Network,Sports,watchyour.tv,786,27,YES
+TVSClassicSports.us@SD,TVS Classic Sports,Sports,watchyour.tv,735,27,YES
+TVSTurbo.us@SD,TVS Turbo Network,Sports,watchyour.tv,793,27,YES
+TVSWomenSports.us@SD,TVS Women's Sports Network,Sports,watchyour.tv,798,27,YES
+TennisChannel.us@SD,The Tennis,Sports,tvguide.com,9200017917,10,YES
+USANetwork.us@East,USA,Comedy;Movies;Series;Sports,tvguide.com,9233004106,30,YES
+XFCTV.us@SD,XFC TV,Sports,distro.tv,51671,0,NO
+beINSportsUSA.us@SD,beIN Sports (English),Sports,ontvtonight.com,us#317907389/bein-sports-english,26,YES
+WPLG101.us@HD,"ABC (WPLG-DT1) Miami, FL",News,tvtv.us,20493,0,NO
+WMARTV21.us@HD,ABC (WMAR-DT1) Washington D.C.,News,tvtv.us,21230,0,NO
+WTXLTV271.us@HD,"ABC (WTXL1) Tallahassee, FL",News,tvtv.us,43832,0,NO
+WMURTV91.us@HD,"ABC (WMUR) Manchester, NH HD",News;Weather,tvpassport.com,abc-wmur-manchester-nh-hd/3655,0,NO
+WFTV91.us@HD,"ABC 9 (WFTV-DT1) Orlando, FL",News,tvtv.us,20491,0,NO
+WWAY31.us@HD,"ABC (WWAY) Wilmington, NC",News,tvtv.us,43730,0,NO
+AmericasVoice.us@SD,America's Voice,News,i.mjh.nz,Roku/all#d748045d77105901b8e25fcc34aa9e2f,19,YES
+EntertainmentTonight.us@SD,Entertainment Tonight,Entertainment;News,i.mjh.nz,Plex/us#5e20b730f2f8d5003d739db7-6578bb741a12778a8550d158,0,NO
+WXIITV201.us@HD,"NBC (WXII) Winston-Salem, NC HD",News,tvpassport.com,nbc-wxii-winston-salem-nc-hd/4721,0,NO
+WGAL81.us@HD,"NBC (WGAL) Lancaster, PA HD",News,tvpassport.com,nbc-wgal-lancaster-pa-hd/6701,0,NO

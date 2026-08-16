@@ -19,7 +19,6 @@ AdrenalinaPuraTV.us@SD,Adrenalina Pura TV (720p),,Movies,no-safe-match
 AFVEspanol.us@SD,AFV en Español (720p) [Not 24/7],,Comedy,no-safe-match
 AlhurraIraq.us@SD,Alhurra Iraq (720p),,News,no-safe-match
 AbsoluteRealitybyWETV.us@SD,AMC Absolute Reality,,Entertainment,no-safe-match
-AmericasVoice.us@SD,America's Voice (720p),,News,no-safe-match
 AmericanHorrors.us@SD,American Horrors (480p),,Movies,no-safe-match
 AmuTV.us@SD,Amu TV,,News,no-safe-match
 ARTFLIXMovieClassics.us@SD,Artflix Movie Classics (720p),,Classic;Movies,no-safe-match
@@ -29,7 +28,6 @@ BabyFirst.us@US,BabyFirst (720p),,Kids,matched-but-zero-programmes
 Backstage.us@SD,Backstage (1080p),,Documentary,no-safe-match
 BarkTV.us@SD,Bark TV (1080p),,Entertainment,no-safe-match
 BBCKids.us@SD,BBC Kids (720p),,Kids,no-safe-match
-beINSportsUSA.us@SD,beIN Sports USA (1080p) [Geo-blocked],,Sports,no-safe-match
 BEKNews.us@SD,BEK TV News (720p),,News,no-safe-match
 BEKSports.us@West,BEK TV Sports West (720p),,Sports,no-safe-match
 BlackNewsChannel.us@SD,Black News Channel (1080p),,News,no-safe-match
@@ -115,7 +113,6 @@ News12LongIsland.us@SD,News12 Long Island (1080p) [Geo-blocked],,News,no-safe-ma
 NewsmaxSpanish.us@SD,Newsmax Spanish (1080p),,News,no-safe-match
 NewsNet.us@SD,NewsNet (720p) [Not 24/7],,News,no-safe-match
 NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],,Sports,no-safe-match
-NFLNetwork.us@SD,NFL Network (720p),,Sports,no-safe-match
 NewsoftheWorld.us@Arabic,NOW News Arabic (720p),,News,no-safe-match
 NewsoftheWorld.us@Spanish,NOW News Spanish (1080p),,News,no-safe-match
 NewsoftheWorld.us@USA,NOW News USA (1080p),,News,no-safe-match
@@ -158,8 +155,6 @@ TomAndJerry.do@HD,Tom And Jerry (720p),,Kids,no-safe-match
 TopStoriesbyNewsy.us@SD,Top Stories by Newsy (720p),,News,no-safe-match
 TurismoHD.do@HD,Turismo HD (720p),,Entertainment,no-safe-match
 TVSBowlingNetwork.us@SD,TVS Bowling Network (720p),,Sports,no-safe-match
-TVSBoxing.us@SD,TVS Boxing (360p),,Sports,no-safe-match
-TVSClassicSports.us@SD,TVS Classic Sports (360p),,Sports,no-safe-match
 TVSComedyNetwork.us@SD,TVS Comedy Network (720p),,Comedy,no-safe-match
 TVSDriveInMovie.us@SD,TVS Drive In Movie (360p),,Movies,no-safe-match
 TVSFilmNoirNetwork.us@SD,TVS Film Noir Network (720p),,Movies,no-safe-match
@@ -168,9 +163,7 @@ TVSHiTops.us@SD,TVS Hi Tops (720p),,Kids,no-safe-match
 TVSPinballNetwork.us@SD,TVS Pinball Network (480p),,Kids,no-safe-match
 TVSSports.us@SD,TVS Sports (720p) [Not 24/7],,Sports,no-safe-match
 TVSSportsBureau.us@SD,TVS Sports Bureau (720p),,Sports,no-safe-match
-TVSTurbo.us@SD,TVS Turbo (360p),,Sports,no-safe-match
 TVSVintageNetwork.us@SD,TVS Vintage Network (360p),,Entertainment,no-safe-match
-TVSWomenSports.us@SD,TVS Women Sports (720p),,Sports,no-safe-match
 UniversalComedy.us@SD,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Comedy;Movies;Series"",Universal Comedy (1080p)",,Comedy;Movies;Series,no-safe-match
 USANetwork.us@East,USA Network (1080p),,Comedy;Movies;Series;Sports,matched-but-zero-programmes
 VoATVPersian.us@SD,VOA Persian (1080p),,News,no-safe-match

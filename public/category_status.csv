@@ -62,7 +62,7 @@ Movies;Series,17,17,0,100.0
 Movies;Shop,1,0,1,0.0
 Music,53,32,21,60.4
 Music;Religious,2,0,2,0.0
-News,97,52,45,53.6
+News,97,53,44,54.6
 News;Weather,2,0,2,0.0
 Outdoor,14,8,6,57.1
 Outdoor;Sports,1,1,0,100.0
@@ -71,7 +71,7 @@ Religious,112,16,96,14.3
 Science,2,2,0,100.0
 Series,93,84,9,90.3
 Shop,13,9,4,69.2
-Sports,68,47,21,69.1
+Sports,68,53,15,77.9
 Travel,11,3,8,27.3
 Undefined,178,51,127,28.7
 Weather,6,4,2,66.7
