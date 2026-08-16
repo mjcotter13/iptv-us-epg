@@ -1,0 +1,11 @@
+xmltv_id,name,site,site_id,lang,source_file
+ESPNU.us@SD,ESPNU,ontvtonight.com,us#69026524/espnu,en,_iptv_epg/sites/ontvtonight.com/ontvtonight.com_us.channels.xml
+ESPNU.us@SD,ESPNU,tvguide.com,9233011350,en,_iptv_epg/sites/tvguide.com/tvguide.com.channels.xml
+NFLNetwork.us@SD,NFL Network [US],epg.iptvx.one,nfl-network-us,ru,_iptv_epg/sites/epg.iptvx.one/epg.iptvx.one.channels.xml
+NFLNetwork.us@SD,Canal NFL Network,gatotv.com,nfl_network,es,_iptv_epg/sites/gatotv.com/gatotv.com.channels.xml
+TennisChannel.us@SD,Tennis Channel,i.mjh.nz,PlutoTV/de#6870c9333ffa5e0c914e9205,de,_iptv_epg/sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml
+TennisChannel.us@SD,Tennis Channel,orangetv.orange.es,11120,es,_iptv_epg/sites/orangetv.orange.es/orangetv.orange.es.channels.xml
+MTV.us@East,MTV,tvguide.com,9200014754,en,_iptv_epg/sites/tvguide.com/tvguide.com.channels.xml
+MTV.us@East,MTV USA - Eastern Feed,tvpassport.com,mtv-usa--eastern-feed/656,en,_iptv_epg/sites/tvpassport.com/tvpassport.com.channels.xml
+USANetwork.us@East,USA,tvguide.com,9233004106,en,_iptv_epg/sites/tvguide.com/tvguide.com.channels.xml
+USANetwork.us@East,USA Network East,tvtv.us,11207,en,_iptv_epg/sites/tvtv.us/tvtv.us.channels.xml

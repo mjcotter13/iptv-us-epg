@@ -1,0 +1,9 @@
+targets=5
+channels_with_programmes=0
+channels_without_programmes=5
+parse_error=poc_guide.xml missing or empty
+ESPNU.us@SD=0 programmes
+NFLNetwork.us@SD=0 programmes
+TennisChannel.us@SD=0 programmes
+MTV.us@East=0 programmes
+USANetwork.us@East=0 programmes
