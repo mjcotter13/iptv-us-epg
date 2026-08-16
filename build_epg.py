@@ -1,26 +1,32 @@
 #!/usr/bin/env python3
 """
-Build a custom XMLTV guide whose channel IDs exactly match the IPTV-org US playlist.
+Custom IPTV-org US EPG Builder — Version 2
 
-Sources:
-  Playlist: https://iptv-org.github.io/iptv/countries/us.m3u
-  EPG:
-    https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz
-    https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz
+Goal:
+  Build one XMLTV guide whose channel IDs exactly match the tvg-id values in
+  IPTV-org's US playlist.
+
+Primary source:
+  IPTV-EPG.org US XMLTV feed (large multi-source US guide)
+
+Fallback sources:
+  EPGShare US2
+  EPGShare US Locals
 
 Outputs:
   public/guide.xml.gz
   public/match_report.csv
   public/unmatched_channels.csv
+  public/status.txt
 """
 
 from __future__ import annotations
+
 import csv
 import gzip
 import io
 import re
-import shutil
-import sys
+import tempfile
 import unicodedata
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -28,7 +34,10 @@ from collections import defaultdict
 from pathlib import Path
 
 PLAYLIST_URL = "https://iptv-org.github.io/iptv/countries/us.m3u"
-EPG_URLS = [
+
+PRIMARY_EPG_URL = "https://iptv-epg.org/files/epg-us.xml.gz"
+
+FALLBACK_EPG_URLS = [
     ("EPGShare US2", "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"),
     ("EPGShare US Locals", "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz"),
 ]
@@ -36,266 +45,509 @@ EPG_URLS = [
 OUTDIR = Path("public")
 OUTDIR.mkdir(exist_ok=True)
 
-UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/1.0"
-
+UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/2.0"
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
+
 
 def fetch(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=120) as r:
+    with urllib.request.urlopen(req, timeout=180) as r:
         return r.read()
+
+
+def download(url: str, dest: Path) -> None:
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=300) as r, open(dest, "wb") as f:
+        while True:
+            chunk = r.read(1024 * 1024)
+            if not chunk:
+                break
+            f.write(chunk)
+
 
 def normalize(s: str) -> str:
     if not s:
         return ""
     s = unicodedata.normalize("NFKD", s)
     s = "".join(ch for ch in s if not unicodedata.combining(ch)).lower()
+
     replacements = {
         "&": " and ",
         "+": " plus ",
-        " hd": " ",
-        " fhd": " ",
-        " uhd": " ",
-        " 4k": " ",
-        " east": " ",
-        " west": " ",
-        " feed": " ",
-        " network": " ",
-        " channel": " ",
-        " television": " tv ",
+        " television ": " tv ",
+        " network ": " ",
+        " channel ": " ",
+        " hd ": " ",
+        " fhd ": " ",
+        " uhd ": " ",
+        " 4k ": " ",
+        " east ": " ",
+        " west ": " ",
+        " feed ": " ",
     }
+
+    s = f" {s} "
     for a, b in replacements.items():
         s = s.replace(a, b)
+
     s = re.sub(r"\b(us|usa|united states)\b", " ", s)
     s = re.sub(r"[^a-z0-9]+", "", s)
     return s
 
+
 def id_base(s: str) -> str:
-    # IPTV-org IDs commonly look like "ABCNewsLive.us"
-    s = (s or "").rsplit(".", 1)[0]
-    return normalize(s)
+    if not s:
+        return ""
+    return normalize(s.rsplit(".", 1)[0])
+
 
 def parse_m3u(data: bytes):
     text = data.decode("utf-8", errors="replace")
     lines = [x.strip() for x in text.splitlines()]
     rows = []
-    for i, line in enumerate(lines):
+
+    for line in lines:
         if not line.startswith("#EXTINF:"):
             continue
+
         attrs = dict(ATTR_RE.findall(line))
         display = line.split(",", 1)[1].strip() if "," in line else ""
         tvg_id = attrs.get("tvg-id", "").strip()
         if not tvg_id:
             continue
-        rows.append({
-            "id": tvg_id,
-            "name": display,
-            "tvg_name": attrs.get("tvg-name", "").strip(),
-            "group": attrs.get("group-title", "").strip(),
-        })
-    # de-dupe by tvg-id, preserving first playlist appearance
+
+        rows.append(
+            {
+                "id": tvg_id,
+                "name": display,
+                "tvg_name": attrs.get("tvg-name", "").strip(),
+                "group": attrs.get("group-title", "").strip(),
+            }
+        )
+
     seen = set()
     out = []
     for row in rows:
         if row["id"] not in seen:
             seen.add(row["id"])
             out.append(row)
+
     return out
 
-def read_xml_gz(data: bytes):
-    with gzip.GzipFile(fileobj=io.BytesIO(data)) as gz:
-        return ET.parse(gz).getroot()
 
-def channel_names(ch):
-    names = []
-    for el in ch.findall("display-name"):
-        if el.text and el.text.strip():
-            names.append(el.text.strip())
-    return names
-
-def clone_element(el):
+def clone(el):
     return ET.fromstring(ET.tostring(el, encoding="utf-8"))
 
-def candidate_keys(row):
-    vals = [row["name"], row["tvg_name"], row["id"]]
-    keys = {normalize(v) for v in vals if v}
-    keys.add(id_base(row["id"]))
-    return {k for k in keys if k}
+
+def channel_display_names(ch):
+    out = []
+    for el in ch.findall("display-name"):
+        if el.text and el.text.strip():
+            out.append(el.text.strip())
+    return out
+
+
+def playlist_keys(row):
+    vals = [
+        row["name"],
+        row["tvg_name"],
+        row["id"],
+        row["id"].rsplit(".", 1)[0],
+    ]
+    return {normalize(v) for v in vals if normalize(v)}
+
+
+def load_small_epg(source_name: str, url: str):
+    raw = fetch(url)
+    with gzip.GzipFile(fileobj=io.BytesIO(raw)) as gz:
+        root = ET.parse(gz).getroot()
+
+    channels = {}
+    programmes = defaultdict(list)
+
+    for ch in root.findall("channel"):
+        sid = (ch.get("id") or "").strip()
+        if sid:
+            channels[sid] = {
+                "element": ch,
+                "names": channel_display_names(ch),
+            }
+
+    for p in root.findall("programme"):
+        sid = (p.get("channel") or "").strip()
+        if sid:
+            programmes[sid].append(p)
+
+    return {
+        "name": source_name,
+        "channels": channels,
+        "programmes": programmes,
+    }
+
+
+def build_primary_indexes(gz_path: Path):
+    """
+    First pass through the large primary guide:
+      - capture all channel metadata
+      - build exact-id and normalized-name indexes
+
+    We do NOT keep all programmes in memory.
+    """
+    channels = {}
+    exact_id = {}
+    name_index = defaultdict(list)
+
+    with gzip.open(gz_path, "rb") as f:
+        for event, elem in ET.iterparse(f, events=("end",)):
+            if elem.tag != "channel":
+                continue
+
+            sid = (elem.get("id") or "").strip()
+            if sid:
+                names = channel_display_names(elem)
+                channels[sid] = {
+                    "xml": ET.tostring(elem, encoding="utf-8"),
+                    "names": names,
+                }
+                exact_id[sid] = sid
+                exact_id[sid.lower()] = sid
+
+                for n in names:
+                    k = normalize(n)
+                    if k:
+                        name_index[k].append(sid)
+
+                ib = id_base(sid)
+                if ib:
+                    name_index[ib].append(sid)
+
+            elem.clear()
+
+    return channels, exact_id, name_index
+
+
+def choose_primary_match(row, channels, exact_id, name_index):
+    # 1) Exact XMLTV ID == IPTV-org tvg-id.
+    sid = exact_id.get(row["id"])
+    if sid:
+        return sid, 100, "primary-exact-id"
+
+    sid = exact_id.get(row["id"].lower())
+    if sid:
+        return sid, 99, "primary-case-insensitive-id"
+
+    # 2) Exact normalized display-name / ID-base match.
+    candidates = set()
+    for key in playlist_keys(row):
+        candidates.update(name_index.get(key, []))
+
+    ranked = []
+    row_keys = playlist_keys(row)
+    row_id_base = id_base(row["id"])
+
+    for sid in candidates:
+        meta = channels.get(sid)
+        if not meta:
+            continue
+
+        source_names = {normalize(x) for x in meta["names"] if normalize(x)}
+        source_id_base = id_base(sid)
+
+        if row_keys & source_names:
+            ranked.append((95, sid, "primary-exact-normalized-name"))
+        elif row_id_base and source_id_base == row_id_base:
+            ranked.append((94, sid, "primary-exact-id-base"))
+
+    ranked.sort(reverse=True)
+
+    if not ranked:
+        return None
+
+    # Refuse ambiguous equal-score name matches.
+    top_score = ranked[0][0]
+    top = [r for r in ranked if r[0] == top_score]
+    if len(top) != 1:
+        return None
+
+    score, sid, method = top[0]
+    return sid, score, method
+
+
+def choose_fallback_match(row, fallback_sources):
+    row_keys = playlist_keys(row)
+    row_id_base = id_base(row["id"])
+
+    ranked = []
+
+    for src in fallback_sources:
+        for sid, meta in src["channels"].items():
+            prog_count = len(src["programmes"].get(sid, []))
+            if prog_count == 0:
+                continue
+
+            if sid == row["id"]:
+                ranked.append((100, prog_count, src["name"], sid, "fallback-exact-id"))
+                continue
+
+            if sid.lower() == row["id"].lower():
+                ranked.append((99, prog_count, src["name"], sid, "fallback-case-insensitive-id"))
+                continue
+
+            source_names = {normalize(x) for x in meta["names"] if normalize(x)}
+
+            if row_keys & source_names:
+                ranked.append((95, prog_count, src["name"], sid, "fallback-exact-normalized-name"))
+                continue
+
+            if row_id_base and id_base(sid) == row_id_base:
+                ranked.append((94, prog_count, src["name"], sid, "fallback-exact-id-base"))
+
+    ranked.sort(reverse=True)
+
+    if not ranked:
+        return None
+
+    top_score = ranked[0][0]
+    tied = [r for r in ranked if r[0] == top_score]
+
+    # Refuse ambiguous name-based ties.
+    if len(tied) > 1 and top_score < 99:
+        return None
+
+    score, prog_count, source_name, sid, method = ranked[0]
+    return source_name, sid, score, method, prog_count
+
 
 print("Downloading IPTV-org US playlist...", flush=True)
 playlist = parse_m3u(fetch(PLAYLIST_URL))
 print(f"Playlist has {len(playlist)} unique tvg-id values.", flush=True)
 
-# Load EPG sources into a compact index.
-sources = {}
-name_index = defaultdict(list)
-id_index = defaultdict(list)
+with tempfile.TemporaryDirectory() as tmp:
+    tmp = Path(tmp)
+    primary_path = tmp / "primary.xml.gz"
 
-for source_name, url in EPG_URLS:
-    print(f"Downloading {source_name}...", flush=True)
-    root = read_xml_gz(fetch(url))
+    print("Downloading primary US guide from IPTV-EPG.org...", flush=True)
+    download(PRIMARY_EPG_URL, primary_path)
 
-    channel_meta = {}
-    programs = defaultdict(list)
+    print("Indexing primary guide channels...", flush=True)
+    primary_channels, primary_exact_id, primary_name_index = build_primary_indexes(primary_path)
+    print(f"Primary guide contains {len(primary_channels)} channel IDs.", flush=True)
 
-    for ch in root.findall("channel"):
-        sid = ch.get("id", "").strip()
-        if not sid:
-            continue
-        names = channel_names(ch)
-        channel_meta[sid] = {"element": ch, "names": names}
-        id_index[sid].append((source_name, sid))
-        id_index[sid.lower()].append((source_name, sid))
-        for n in names:
-            k = normalize(n)
-            if k:
-                name_index[k].append((source_name, sid))
+    primary_matches = {}
+    unresolved = []
 
-    for p in root.findall("programme"):
-        sid = p.get("channel", "").strip()
-        if sid:
-            programs[sid].append(p)
+    for row in playlist:
+        match = choose_primary_match(
+            row,
+            primary_channels,
+            primary_exact_id,
+            primary_name_index,
+        )
 
-    sources[source_name] = {
-        "channels": channel_meta,
-        "programs": programs,
-    }
-    print(f"  {len(channel_meta)} channels, {sum(len(v) for v in programs.values())} programmes.", flush=True)
-
-def score_candidate(row, source_name, sid):
-    meta = sources[source_name]["channels"].get(sid)
-    if not meta:
-        return -1, ""
-    keys = candidate_keys(row)
-    sid_norm = normalize(sid)
-    sid_base = id_base(sid)
-    name_norms = {normalize(x) for x in meta["names"] if x}
-
-    # Exact XMLTV ID match — strongest and safest.
-    if sid == row["id"]:
-        return 100, "exact-id"
-    if sid.lower() == row["id"].lower():
-        return 99, "case-insensitive-id"
-
-    # Exact normalized source display-name against playlist display/tvg-name/id base.
-    if keys & name_norms:
-        return 95, "exact-normalized-name"
-
-    # Source XMLTV id base vs IPTV-org id base.
-    if sid_base and sid_base == id_base(row["id"]):
-        return 94, "exact-id-base"
-
-    # Conservative containment for sufficiently long, distinctive names.
-    best = 0
-    why = ""
-    for pk in keys:
-        if len(pk) < 7:
-            continue
-        if sid_norm and (pk in sid_norm or sid_norm in pk):
-            ratio = min(len(pk), len(sid_norm)) / max(len(pk), len(sid_norm))
-            val = 75 + int(ratio * 10)
-            if val > best:
-                best, why = val, "normalized-containment"
-        for sn in name_norms:
-            if len(sn) >= 7 and (pk in sn or sn in pk):
-                ratio = min(len(pk), len(sn)) / max(len(pk), len(sn))
-                val = 78 + int(ratio * 10)
-                if val > best:
-                    best, why = val, "name-containment"
-    return best, why
-
-matches = []
-unmatched = []
-
-for row in playlist:
-    candidates = set()
-
-    # Direct id candidates.
-    for key in (row["id"], row["id"].lower()):
-        candidates.update(id_index.get(key, []))
-
-    # Exact normalized-name candidates.
-    for key in candidate_keys(row):
-        candidates.update(name_index.get(key, []))
-
-    # If no direct candidate, scan IDs/display names only by exact id-base key.
-    if not candidates:
-        ib = id_base(row["id"])
-        if ib:
-            for source_name, src in sources.items():
-                for sid in src["channels"]:
-                    if id_base(sid) == ib:
-                        candidates.add((source_name, sid))
-
-    ranked = []
-    for source_name, sid in candidates:
-        sc, why = score_candidate(row, source_name, sid)
-        if sc > 0:
-            prog_count = len(sources[source_name]["programs"].get(sid, []))
-            ranked.append((sc, prog_count, source_name, sid, why))
-
-    ranked.sort(reverse=True)
-
-    if ranked and ranked[0][0] >= 88 and ranked[0][1] > 0:
-        sc, prog_count, source_name, sid, why = ranked[0]
-        # Avoid ambiguous fuzzy ties.
-        if len(ranked) > 1 and ranked[1][0] == sc and ranked[1][2:] != ranked[0][2:] and sc < 95:
-            unmatched.append({**row, "reason": "ambiguous"})
+        if match:
+            sid, score, method = match
+            primary_matches[row["id"]] = {
+                **row,
+                "source": "IPTV-EPG.org US",
+                "source_id": sid,
+                "method": method,
+                "score": score,
+                "programmes": 0,
+            }
         else:
-            matches.append({
+            unresolved.append(row)
+
+    print(
+        f"Primary metadata matched {len(primary_matches)} of "
+        f"{len(playlist)} channel IDs.",
+        flush=True,
+    )
+
+    print("Loading EPGShare fallback guides...", flush=True)
+    fallback_sources = []
+    for source_name, url in FALLBACK_EPG_URLS:
+        print(f"  {source_name}", flush=True)
+        fallback_sources.append(load_small_epg(source_name, url))
+
+    fallback_matches = {}
+    still_unmatched = []
+
+    for row in unresolved:
+        match = choose_fallback_match(row, fallback_sources)
+        if match:
+            source_name, sid, score, method, prog_count = match
+            fallback_matches[row["id"]] = {
                 **row,
                 "source": source_name,
                 "source_id": sid,
-                "method": why,
-                "score": sc,
+                "method": method,
+                "score": score,
                 "programmes": prog_count,
-            })
-    else:
-        unmatched.append({**row, "reason": "no-safe-match"})
+            }
+        else:
+            still_unmatched.append({**row, "reason": "no-safe-match"})
 
-print(f"Matched {len(matches)} of {len(playlist)} playlist channel IDs.", flush=True)
+    print(f"Fallback added {len(fallback_matches)} matches.", flush=True)
 
-# Build final XMLTV with IPTV-org IDs.
-tv = ET.Element("tv", {
-    "generator-info-name": "Custom IPTV-org US EPG Builder",
-    "generator-info-url": "https://github.com/iptv-org/iptv",
-})
+    all_matches = {}
+    all_matches.update(primary_matches)
+    all_matches.update(fallback_matches)
 
-for m in matches:
-    ch = ET.SubElement(tv, "channel", {"id": m["id"]})
-    dn = ET.SubElement(ch, "display-name")
-    dn.text = m["name"] or m["id"]
-    # Preserve icons/URLs from source channel where useful.
-    src_ch = sources[m["source"]]["channels"][m["source_id"]]["element"]
-    for tag in ("icon", "url"):
-        for child in src_ch.findall(tag):
-            ch.append(clone_element(child))
+    # Build output XML.
+    tv = ET.Element(
+        "tv",
+        {
+            "generator-info-name": "Custom IPTV-org US EPG Builder v2",
+            "generator-info-url": "https://github.com/iptv-org/iptv",
+        },
+    )
 
-for m in matches:
-    for p in sources[m["source"]]["programs"].get(m["source_id"], []):
-        cp = clone_element(p)
-        cp.set("channel", m["id"])
-        tv.append(cp)
+    # Channels first, in playlist order.
+    for row in playlist:
+        m = all_matches.get(row["id"])
+        if not m:
+            continue
 
-xml_bytes = ET.tostring(tv, encoding="utf-8", xml_declaration=True)
-with gzip.open(OUTDIR / "guide.xml.gz", "wb", compresslevel=9) as gz:
-    gz.write(xml_bytes)
+        out_ch = ET.SubElement(tv, "channel", {"id": row["id"]})
+        dn = ET.SubElement(out_ch, "display-name")
+        dn.text = row["name"] or row["id"]
 
-with open(OUTDIR / "match_report.csv", "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=[
-        "id","name","tvg_name","group","source","source_id","method","score","programmes"
-    ])
-    w.writeheader()
-    w.writerows(matches)
+        if m["source"] == "IPTV-EPG.org US":
+            src_xml = primary_channels[m["source_id"]]["xml"]
+            src_ch = ET.fromstring(src_xml)
+        else:
+            src = next(s for s in fallback_sources if s["name"] == m["source"])
+            src_ch = src["channels"][m["source_id"]]["element"]
 
-with open(OUTDIR / "unmatched_channels.csv", "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=["id","name","tvg_name","group","reason"])
-    w.writeheader()
-    w.writerows(unmatched)
+        for tag in ("icon", "url"):
+            for child in src_ch.findall(tag):
+                out_ch.append(clone(child))
 
-with open(OUTDIR / "status.txt", "w", encoding="utf-8") as f:
-    f.write(f"playlist_channels={len(playlist)}\n")
-    f.write(f"matched_channels={len(matches)}\n")
-    f.write(f"unmatched_channels={len(unmatched)}\n")
+    # Primary programmes: streaming second pass to avoid holding huge guide in RAM.
+    wanted_primary = {
+        m["source_id"]: playlist_id
+        for playlist_id, m in primary_matches.items()
+    }
 
-print(f"Wrote {OUTDIR/'guide.xml.gz'} ({len(xml_bytes):,} XML bytes before gzip).", flush=True)
+    primary_program_count = defaultdict(int)
+
+    print("Extracting programmes from primary guide...", flush=True)
+    with gzip.open(primary_path, "rb") as f:
+        for event, elem in ET.iterparse(f, events=("end",)):
+            if elem.tag != "programme":
+                continue
+
+            source_id = (elem.get("channel") or "").strip()
+            playlist_id = wanted_primary.get(source_id)
+
+            if playlist_id:
+                cp = clone(elem)
+                cp.set("channel", playlist_id)
+                tv.append(cp)
+                primary_program_count[playlist_id] += 1
+
+            elem.clear()
+
+    # Drop primary matches that had no actual programme data.
+    dead_primary_ids = {
+        pid for pid in primary_matches if primary_program_count.get(pid, 0) == 0
+    }
+
+    if dead_primary_ids:
+        print(
+            f"{len(dead_primary_ids)} primary channel matches had zero programmes; "
+            "they will be removed from the final guide.",
+            flush=True,
+        )
+
+        # Rebuild TV root without dead channels/programmes.
+        new_tv = ET.Element(
+            "tv",
+            {
+                "generator-info-name": "Custom IPTV-org US EPG Builder v2",
+                "generator-info-url": "https://github.com/iptv-org/iptv",
+            },
+        )
+
+        for child in list(tv):
+            if child.tag == "channel":
+                if child.get("id") not in dead_primary_ids:
+                    new_tv.append(child)
+            elif child.tag == "programme":
+                if child.get("channel") not in dead_primary_ids:
+                    new_tv.append(child)
+
+        tv = new_tv
+
+        for pid in dead_primary_ids:
+            row = primary_matches.pop(pid)
+            all_matches.pop(pid, None)
+            still_unmatched.append({**row, "reason": "matched-but-zero-programmes"})
+
+    for pid, count in primary_program_count.items():
+        if pid in primary_matches:
+            primary_matches[pid]["programmes"] = count
+            all_matches[pid]["programmes"] = count
+
+    # Fallback programmes.
+    for playlist_id, m in fallback_matches.items():
+        src = next(s for s in fallback_sources if s["name"] == m["source"])
+        for p in src["programmes"].get(m["source_id"], []):
+            cp = clone(p)
+            cp.set("channel", playlist_id)
+            tv.append(cp)
+
+    # Final reports.
+    final_matches = [
+        all_matches[row["id"]]
+        for row in playlist
+        if row["id"] in all_matches
+    ]
+
+    unmatched_by_id = {row["id"]: row for row in still_unmatched}
+    final_unmatched = [
+        unmatched_by_id[row["id"]]
+        for row in playlist
+        if row["id"] in unmatched_by_id
+    ]
+
+    xml_bytes = ET.tostring(tv, encoding="utf-8", xml_declaration=True)
+
+    with gzip.open(OUTDIR / "guide.xml.gz", "wb", compresslevel=9) as gz:
+        gz.write(xml_bytes)
+
+    with open(OUTDIR / "match_report.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=[
+                "id",
+                "name",
+                "tvg_name",
+                "group",
+                "source",
+                "source_id",
+                "method",
+                "score",
+                "programmes",
+            ],
+        )
+        w.writeheader()
+        w.writerows(final_matches)
+
+    with open(OUTDIR / "unmatched_channels.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=["id", "name", "tvg_name", "group", "reason"],
+        )
+        w.writeheader()
+        w.writerows(final_unmatched)
+
+    with open(OUTDIR / "status.txt", "w", encoding="utf-8") as f:
+        f.write(f"playlist_channels={len(playlist)}\n")
+        f.write(f"matched_channels={len(final_matches)}\n")
+        f.write(f"unmatched_channels={len(final_unmatched)}\n")
+        f.write(f"primary_matches={len(primary_matches)}\n")
+        f.write(f"fallback_matches={len(fallback_matches)}\n")
+
+    print(f"FINAL: matched {len(final_matches)} of {len(playlist)}.", flush=True)
+    print(f"Wrote {OUTDIR / 'guide.xml.gz'}", flush=True)
