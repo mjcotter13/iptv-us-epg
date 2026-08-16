@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom IPTV-org US EPG Builder — Version 3.0
+Custom IPTV-org US EPG Builder — Version 4.0
 
 Goal:
   Build one XMLTV guide whose channel IDs exactly match the tvg-id values in
@@ -53,8 +53,39 @@ FALLBACK_EPG_URLS = [
 OUTDIR = Path("public")
 OUTDIR.mkdir(exist_ok=True)
 
-UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/3.0"
+UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/4.0"
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
+
+# Curated aliases for high-value channels whose playlist branding differs from EPG branding.
+# Values are alternate normalized/display names to test; matches remain ambiguity-checked.
+CHANNEL_ALIASES = {
+    "ESPNU.us": ["ESPNU"],
+    "ESPNDeportes.us": ["ESPN Deportes"],
+    "NFLNetwork.us": ["NFL Network"],
+    "TennisChannel.us": ["Tennis Channel"],
+    "NBCSportsNOW.us": ["NBC Sports NOW", "NBC Sports Now"],
+    "USANetwork.us": ["USA Network", "USA"],
+    "E.us": ["E!", "E Entertainment"],
+    "MTV.us": ["MTV"],
+    "MTV2.us": ["MTV2"],
+    "Oxygen.us": ["Oxygen"],
+    "NBCUniverso.us": ["NBC Universo", "Universo"],
+    "CheddarNews.us": ["Cheddar News"],
+    "EntertainmentTonight.us": ["Entertainment Tonight"],
+    "ABCNewsLive10.us": ["ABC News Live"],
+    "CBSNewsPhilly.us": ["CBS News Philadelphia"],
+    "TheFirstTV.us": ["The First", "The First TV"],
+    "TheYoungTurks.us": ["The Young Turks"],
+    "ColdCaseFiles.us": ["Cold Case Files"],
+    "CSI.us": ["CSI"],
+    "StarTrek.us": ["Star Trek"],
+    "Survivor.us": ["Survivor"],
+    "ThreesCompany.us": ["Three's Company", "Threes Company"],
+    "WildNOut.us": ["Wild 'N Out", "Wild N Out"],
+    "BattlestarGalactica.us": ["Battlestar Galactica"],
+    "Cinevault80s.us": ["Cinevault 80s", "CineVault 80s"],
+    "Runtime.us": ["Runtime"],
+}
 
 
 def fetch(url: str) -> bytes:
@@ -159,12 +190,19 @@ def channel_display_names(ch):
 
 
 def playlist_keys(row):
+    base_id = re.sub(r"@.*$", "", row["id"])
     vals = [
         row["name"],
         row["tvg_name"],
         row["id"],
         row["id"].rsplit(".", 1)[0],
+        base_id,
+        base_id.rsplit(".", 1)[0],
     ]
+
+    # Version 4 curated alternate branding.
+    vals.extend(CHANNEL_ALIASES.get(base_id, []))
+
     return {normalize(v) for v in vals if normalize(v)}
 
 
@@ -470,7 +508,7 @@ with tempfile.TemporaryDirectory() as tmp:
     tv = ET.Element(
         "tv",
         {
-            "generator-info-name": "Custom IPTV-org US EPG Builder v3.0",
+            "generator-info-name": "Custom IPTV-org US EPG Builder v4.0",
             "generator-info-url": "https://github.com/iptv-org/iptv",
         },
     )
@@ -537,7 +575,7 @@ with tempfile.TemporaryDirectory() as tmp:
         new_tv = ET.Element(
             "tv",
             {
-                "generator-info-name": "Custom IPTV-org US EPG Builder v3.0",
+                "generator-info-name": "Custom IPTV-org US EPG Builder v4.0",
                 "generator-info-url": "https://github.com/iptv-org/iptv",
             },
         )
@@ -621,6 +659,34 @@ with tempfile.TemporaryDirectory() as tmp:
         w.writeheader()
         w.writerows(final_unmatched)
 
+    # Version 4: focused report of remaining channels where EPG coverage is most useful.
+    high_value_categories = {
+        "News", "Sports", "Entertainment", "Movies", "Series",
+        "Kids", "Documentary", "Comedy", "Animation"
+    }
+    high_value_unmatched = [
+        row for row in final_unmatched
+        if any(part.strip() in high_value_categories for part in (row["group"] or "").split(";"))
+    ]
+
+    with open(OUTDIR / "high_value_unmatched.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=["id", "name", "tvg_name", "group", "reason"],
+        )
+        w.writeheader()
+        w.writerows(high_value_unmatched)
+
+    method_counts = defaultdict(int)
+    for m in final_matches:
+        method_counts[m["method"]] += 1
+
+    with open(OUTDIR / "match_methods.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["method", "matched_channels"])
+        w.writeheader()
+        for method, count in sorted(method_counts.items(), key=lambda x: (-x[1], x[0])):
+            w.writerow({"method": method, "matched_channels": count})
+
     # Category-level coverage report.
     category_totals = defaultdict(int)
     category_matches = defaultdict(int)
@@ -655,6 +721,7 @@ with tempfile.TemporaryDirectory() as tmp:
         f.write(f"unmatched_channels={len(final_unmatched)}\n")
         f.write(f"primary_matches={len(primary_matches)}\n")
         f.write(f"fallback_matches={len(fallback_matches)}\n")
+        f.write(f"high_value_unmatched={len(high_value_unmatched)}\n")
 
     print(f"FINAL: matched {len(final_matches)} of {len(playlist)}.", flush=True)
     print(f"Wrote {OUTDIR / 'guide.xml.gz'}", flush=True)
