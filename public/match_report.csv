@@ -1,0 +1,177 @@
+id,name,tvg_name,group,source,source_id,method,score,programmes
+DareToDreamNetwork.us@SD,3ABN Dare To Dream Network,,Religious,EPGShare US2,3ABN.Dare.to.Dream.Network.us2,exact-normalized-name,95,181
+3ABNLatino.us@SD,3ABN Latino,,Religious,EPGShare US2,3ABN.Latino.Network.us2,exact-normalized-name,95,116
+3ABNProclaimNetwork.us@SD,3ABN Proclaim! Network,,Religious,EPGShare US2,3ABN.Proclaim.Network.us2,exact-normalized-name,95,22
+ACCNetwork.us@SD,ACC Network (720p),,Sports,EPGShare US2,ACC.Network.us2,exact-id-base,94,59
+ACCDigitalNetwork.us@SD,ACCDN (1080p),,Sports,EPGShare US2,ACC.Digital.Network.us2,exact-id-base,94,53
+AceTV.us@SD,Ace TV (480p),,Entertainment,EPGShare US2,ACE.TV.us2,exact-normalized-name,95,94
+ActionMax.us@East,ActionMax (720p),,Movies,EPGShare US2,ActionMAX.HD.us2,exact-normalized-name,95,54
+AMC.us@EastHD,AMC (720p),,Movies,EPGShare US2,AMC.HD.us2,exact-normalized-name,95,55
+AMC.us@East,AMC East (720p),,Movies,EPGShare US2,AMC.HD.us2,exact-normalized-name,95,55
+AMGTV.us@SD,AMG TV (1080p),,Family,EPGShare US2,AMG.TV.us2,exact-normalized-name,95,126
+Aspire.us@SD,Aspire (720p),,Entertainment,EPGShare US2,ASPiRE.HD.us2,exact-normalized-name,95,138
+AWEPlus.us@SD,AWE Plus (720p),,General,EPGShare US2,AWE.Plus.us2,exact-normalized-name,95,143
+AXSTV.us@SD,AXS TV (720p),,Music,EPGShare US2,AXS.TV.us2,exact-normalized-name,95,161
+BabyTV.uk@LatinAmerica,BabyTV Latin America (720p),,Kids,EPGShare US2,Baby.TV.US.us2,exact-normalized-name,95,192
+BBCAmerica.us@East,BBC America (720p),,Entertainment,EPGShare US2,BBC.America.HD.us2,exact-normalized-name,95,68
+BET.us@East,BET (720p),,Undefined,EPGShare US2,BET.HD.us2,exact-normalized-name,95,132
+BETHer.us@East,BET Her (720p),,Entertainment,EPGShare US2,BET.Her.us2,exact-normalized-name,95,103
+BETJams.us@SD,BET Jams (720p),,Undefined,EPGShare US2,BET.Jams.us2,exact-normalized-name,95,96
+BETSoul.us@SD,BET Soul (720p),,Undefined,EPGShare US2,BET.Soul.us2,exact-normalized-name,95,66
+BET.us@West,BET West (720p),,Undefined,EPGShare US2,BET.HD.us2,exact-normalized-name,95,132
+BilliardTV.us@SD,Billiard TV (1080p) [Geo-blocked],,Sports,EPGShare US2,Billiard.TV.us2,exact-normalized-name,95,60
+BizTV.us@SD,Biz TV (1080p),,Lifestyle,EPGShare US2,Biz.TV.us2,exact-normalized-name,95,145
+Bravo.us@East,Bravo (720p),,Undefined,EPGShare US2,Bravo.HD.us2,exact-normalized-name,95,87
+BYUTV.us@SD,BYUtv (1080p),,Undefined,EPGShare US2,BYU-TV.us2,exact-normalized-name,95,114
+CSPAN.us@SD,C-SPAN (720p),,Legislative,EPGShare US2,CSPAN.us2,exact-normalized-name,95,64
+CSPAN2.us@SD,C-SPAN 2 (720p),,Legislative,EPGShare US2,CSPAN2.us2,exact-normalized-name,95,81
+CBS.us@East,CBS (1080p),,General,EPGShare US2,CBS.West.us2,exact-normalized-name,95,104
+CBSSportsGolazoNetwork.us@SD,CBS Sports Golazo Network (720p),,Sports,EPGShare US2,CBS.Sports.Golazo.Network.us2,exact-id-base,94,74
+CBSSportsHQ.us@SD,CBS Sports HQ (1080p) [Geo-blocked],,Sports,EPGShare US2,CBS.Sports.HQ.us2,exact-normalized-name,95,32
+Charge.us@SD,Charge! (1080p),,Movies,EPGShare US2,CHARGE!.us2,exact-normalized-name,95,116
+CineMexicano.us@SD,Cine Mexicano (1080p),,Movies,EPGShare US2,Cine.Mexicano.US.Feed.us2,exact-normalized-name,95,68
+CleoTV.us@SD,Cleo TV (720p),,Lifestyle,EPGShare US2,Cleo.TV.HD.us2,exact-normalized-name,95,192
+CMT.us@East,CMT (720p),,Music,EPGShare US2,CMT.HD.us2,exact-normalized-name,95,126
+CNBC.us@SD,CNBC (720p),,Business,EPGShare US2,CNBC.HD.us2,exact-normalized-name,95,100
+ComedyCentral.us@East,Comedy Central (1080p),,Comedy,EPGShare US2,Comedy.Central.HD.us2,exact-normalized-name,95,170
+Comet.us@SD,Comet (1080p),,Entertainment,EPGShare US2,Comet.us2,exact-normalized-name,95,117
+CourtTV.us@SD,Court TV (1080p),,Documentary,EPGShare US2,Court.TV.us2,exact-normalized-name,95,117
+CoziTV.us@SD,Cozi TV (720p),,Entertainment,EPGShare US2,COZI.TV.us2,exact-normalized-name,95,164
+Create.us@SD,Create (1080p),,Education,EPGShare US2,Create.us2,exact-normalized-name,95,181
+CuriosityNOW.de@EN,Curiosity Now (1080p),,Documentary,EPGShare US2,Curiosity.NOW.us2,exact-normalized-name,95,131
+CW.us@East,CW (1080p) [Geo-blocked],,General,EPGShare US2,CW.us2,exact-normalized-name,95,123
+Dabl.us@SD,Dabl (720p),,Lifestyle,EPGShare US2,Dabl.us2,exact-normalized-name,95,192
+DangerTV.us@SD,DangerTV (720p),,Documentary,EPGShare US2,DangerTV.us2,exact-normalized-name,95,168
+DisneyJunior.us@East,Disney Junior (720p),,Kids,EPGShare US2,Disney.Junior.HD.us2,exact-normalized-name,95,185
+DisneyXD.us@East,Disney XD (720p),,Kids,EPGShare US2,Disney.XD.HD.us2,exact-normalized-name,95,192
+DogTV.us@SD,Dog TV (720p),,Education;Lifestyle,EPGShare US2,DOG.TV.us2,exact-normalized-name,95,96
+DraftKingsNetwork.us@SD,DraftKings Network (1080p),,Sports,EPGShare US2,DraftKings.Network.us2,exact-id-base,94,81
+ElRey.us@SD,El Rey,,Entertainment,EPGShare US2,El.Rey.Network.us2,exact-normalized-name,95,63
+ESPNDeportes.us@SD,ESPN Deportes (720p),,Sports,EPGShare US2,ESPN.Deportes.HD.us2,exact-normalized-name,95,84
+ESPNDeportes.us@HD,ESPN Deportes HD (720p),,Sports,EPGShare US2,ESPN.Deportes.HD.us2,exact-normalized-name,95,84
+ESPNU.us@SD,ESPNU (720p),,Sports,EPGShare US2,ESPNU.HD.us2,exact-normalized-name,95,57
+ESPNU.us@HD,ESPNU HD (720p),,Sports,EPGShare US2,ESPNU.HD.us2,exact-normalized-name,95,57
+EstrellaNews.us@SD,Estrella News (1080p),,News,EPGShare US2,ESTRELLA.NEWS.us2,exact-normalized-name,95,183
+EstrellaTV.us@SD,Estrella TV (1080p),,Entertainment,EPGShare US2,Estrella.TV.us2,exact-normalized-name,95,129
+FoxDeportes.us@SD,Fox Deportes (720p),,Sports,EPGShare US2,Fox.Deportes.HD.us2,exact-normalized-name,95,89
+FoxSoul.us@SD,Fox Soul (1080p),,Culture,EPGShare US2,FOX.SOUL.us2,exact-normalized-name,95,125
+FreeSpeechTV.us@SD,Free Speech TV (720p),,News,EPGShare US2,Free.Speech.TV.us2,exact-normalized-name,95,86
+Freeform.us@East,Freeform (1080p),,Family,EPGShare US2,Freeform.HD.us2,exact-normalized-name,95,94
+FunRoads.us@SD,Fun Roads (720p),,Auto;Travel,EPGShare US2,Fun.Roads.us2,exact-normalized-name,95,189
+Fuse.us@East,Fuse (1080p),,Entertainment,EPGShare US2,Fuse.HD.us2,exact-normalized-name,95,113
+FX.us@East,FX (1080p),,Entertainment,EPGShare US2,FX.HD.us2,exact-normalized-name,95,59
+FXX.us@East,FXX (1080p),,Entertainment,EPGShare US2,FXX.HD.us2,exact-normalized-name,95,167
+GreatAmericanFamily.us@SD,Great American Family (1080p),,Family;Movies,EPGShare US2,Great.American.Family.HD.us2,exact-normalized-name,95,55
+GreatEntertainmentTelevision.us@SD,Great Entertainment Television (720p),,Entertainment,EPGShare US2,Great.Entertainment.Television.us2,exact-id-base,94,118
+GrjngoWesternMovies.de@SD,Grjngo Western Movies (720p),,Movies,EPGShare US2,Grjngo.-.Western.Movies.us2,exact-id-base,94,57
+HallmarkFamily.us@SD,Hallmark Family (1080p),,Movies,EPGShare US2,Hallmark.Family.us2,exact-normalized-name,95,82
+HallmarkMystery.us@East,Hallmark Mystery (1080p),,Movies;Series,EPGShare US2,Hallmark.Mystery.HD.us2,exact-normalized-name,95,80
+HauntTV.ca@SD,Haunt TV (1080p),,Series,EPGShare US2,Haunt.TV.us2,exact-normalized-name,95,111
+History.us@East,History (720p),,Documentary,EPGShare US2,History.HD.us2,exact-normalized-name,95,102
+HSN2.us@SD,HSN2 (720p),,Shop,EPGShare US2,HSN2.us2,exact-normalized-name,95,96
+IFC.us@East,IFC (1080p),,Movies,EPGShare US2,IFC.HD.us2,exact-normalized-name,95,134
+ImpactNetwork.us@SD,Impact Network (720p),,Entertainment,EPGShare US2,Impact.Network.us2,exact-id-base,94,155
+INFAST.nl@SD,INFAST (1080p),,Lifestyle,EPGShare US2,INFAST.US.us2,exact-normalized-name,95,149
+INSP.us@SD,INSP (720p),,Entertainment,EPGShare US2,INSP.HD.us2,exact-normalized-name,95,104
+IONTV.us@East,ION (1080p) [Geo-blocked],,Entertainment,EPGShare US2,ION.Television.HD.us2,exact-normalized-name,95,104
+JBS.us@SD,JBS (720p),,Religious,EPGShare US2,JBS.us2,exact-normalized-name,95,121
+JewelryTV.us@SD,Jewelry Television (720p),,Shop,EPGShare US2,Jewelry.Television.us2,exact-normalized-name,95,54
+Laff.us@SD,Laff (1080p),,Comedy,EPGShare US2,Laff.us2,exact-normalized-name,95,192
+Lifetime.us@East,Lifetime (720p),,Entertainment,EPGShare US2,Lifetime.HD.us2,exact-normalized-name,95,101
+LifetimeRealWomen.us@SD,Lifetime Real Women (576p),,Entertainment,EPGShare US2,Lifetime.Real.Women.us2,exact-normalized-name,95,108
+Logo.us@East,Logo (720p),,Entertainment,EPGShare US2,Logo.us2,exact-normalized-name,95,108
+MagellanTVNow.us@SD,MagellanTV Now (1080p),,Documentary,EPGShare US2,MagellanTV.Now.us2,exact-normalized-name,95,109
+MBCAmerica.us@SD,MBC America (1080p),,Culture;Entertainment;Music,EPGShare US2,MBC.America.us2,exact-normalized-name,95,85
+MediasetItalia.it@USA,"like Gecko) Chrome/149.0.0.0 Safari/537.36"" group-title=""General"",Mediaset Italia USA (1080p)",,General,EPGShare US2,Mediaset.Italia.us2,exact-normalized-name,95,113
+MeTV.us@SD,MeTV (720p),,Entertainment,EPGShare US2,Me.TV.Network.us2,exact-normalized-name,95,141
+MLB.us@SD,MLB Channel (1080p) [Geo-blocked],,Sports,EPGShare US2,MLB.Network.HD.us2,exact-normalized-name,95,80
+MLBStrikeZone.us@SD,MLB Strike Zone (720p),,Sports,EPGShare US2,MLB.Network.Strike.Zone.HD.us2,exact-normalized-name,95,27
+MoreMax.us@East,MoreMax (1080p),,Movies,EPGShare US2,MoreMax.HD.us2,exact-normalized-name,95,54
+Movies.us@SD,Movies! (480p),,Movies,EPGShare US2,Movies!.us2,exact-normalized-name,95,46
+MSNOW.us@SD,MS NOW (720p),,News,EPGShare US2,MS.NOW.HD.us2,exact-normalized-name,95,72
+MTVClassic.us@East,MTV Classic (576p),,Music,EPGShare US2,MTV.Classic.us2,exact-normalized-name,95,96
+MTVLive.us@SD,MTV Live (1080p),,Music,EPGShare US2,MTVLIVE.us2,exact-normalized-name,95,100
+NationalGeographic.us@East,National Geographic (720p),,Documentary,EPGShare US2,National.Geographic.HD.us2,exact-normalized-name,95,114
+NationalGeographic.us@HDEast,National Geographic HD East (720p),,Documentary,EPGShare US2,National.Geographic.HD.us2,exact-normalized-name,95,114
+NationalGeographicWild.us@East,National Geographic Wild (720p),,Documentary,EPGShare US2,National.Geographic.Wild.HD.us2,exact-normalized-name,95,115
+NationalGeographicWild.us@HDEast,National Geographic Wild HD East (720p),,Documentary,EPGShare US2,National.Geographic.Wild.HD.us2,exact-normalized-name,95,115
+NBATV.us@SD,NBA TV (1080p),,Sports,EPGShare US2,NBA.TV.HD.us2,exact-normalized-name,95,65
+NBCComedyVault.us@SD,NBC Comedy Vault (1080p),,Comedy,EPGShare US2,NBC.Comedy.Vault.us2,exact-normalized-name,95,185
+NBCSportsBayArea.us@SD,NBC Sports Bay Area (1080p) [Geo-blocked],,Sports,EPGShare US2,NBC.Sports.Bay.Area.HD.us2,exact-normalized-name,95,109
+NBCSportsNOW.us@SD,NBC Sports NOW (1080p),,Sports,EPGShare US2,NBC.Sports.Now.us2,exact-normalized-name,95,80
+NBCSportsPhiladelphia.us@SD,NBC Sports Philadelphia (1080p) [Geo-blocked],,Sports,EPGShare US2,NBC.Sports.Philadelphia.HD.us2,exact-normalized-name,95,80
+News12NewJersey.us@SD,News12 New Jersey [Geo-blocked],,News,EPGShare US2,News.12.New.Jersey.us2,exact-normalized-name,95,192
+NewsmaxTV.us@SD,Newsmax TV (720p),,News,EPGShare US2,Newsmax.TV.HD.us2,exact-normalized-name,95,88
+NewsNation.us@SD,NewsNation (720p),,News,EPGShare US2,NewsNation.us2,exact-normalized-name,95,96
+Newsy.us@SD,Newsy (1080p),,News,EPGShare US2,Newsy.us2,exact-normalized-name,95,127
+NickJr.us@East,Nick Jr. (1080p),,Kids,EPGShare US2,Nick.Jr.HD.us2,exact-normalized-name,95,187
+Nickelodeon.us@East,Nickelodeon (1080p),,Kids,EPGShare US2,Nickelodeon.HD.us2,exact-normalized-name,95,145
+Nicktoons.us@East,Nicktoons (1080p),,Kids,EPGShare US2,Nicktoons.us2,exact-normalized-name,95,225
+Nosey.us@US,Nosey (1080p),,Series,EPGShare US2,Nosey.us2,exact-normalized-name,95,129
+NRBTV.us@SD,NRBTV (720p),,Religious,EPGShare US2,NRB.TV.us2,exact-normalized-name,95,160
+OutsideTV.us@SD,Outside TV (1080p),,Outdoor,EPGShare US2,Outside.Television.HD.us2,exact-normalized-name,95,164
+Ovation.us@SD,Ovation (1080p),,Culture,EPGShare US2,Ovation.HD.us2,exact-normalized-name,95,100
+PBSKids.us@SD,PBS Kids (720p),,Education;Kids,EPGShare US2,PBS.KIDS.HD.us2,exact-normalized-name,95,191
+PositivTV.us@SD,Positiv TV (1080p),,Family,EPGShare US2,Positiv.TV.us2,exact-normalized-name,95,79
+PursuitChannel.us@SD,Pursuit Channel (1080p),,Undefined,EPGShare US2,Pursuit.Channel.us2,exact-id-base,94,185
+QVC.us@SD,QVC (720p),,Shop,EPGShare US2,QVC.HD.us2,exact-normalized-name,95,71
+QVC2.us@SD,QVC 2 (720p),,Shop,EPGShare US2,QVC2.us2,exact-normalized-name,95,74
+QVC3.us@SD,QVC 3 (1080p),,Shop,EPGShare US2,QVC3.us2,exact-normalized-name,95,60
+RealAmericasVoice.us@SD,Real America's Voice (1080p),,Undefined,EPGShare US2,Real.Americas.Voice.us2,exact-normalized-name,95,80
+Revolt.us@SD,Revolt (720p),,Undefined,EPGShare US2,Revolt.HD.us2,exact-normalized-name,95,121
+RFDTV.us@SD,RFD-TV (1080p),,Undefined,EPGShare US2,RFD.TV.HD.us2,exact-normalized-name,95,132
+RightNowTV.us@SD,RightNow TV (720p),,Entertainment;Sports,EPGShare US2,Right.Now.TV.us2,exact-normalized-name,95,151
+SalemNewsChannel.us@SD,Salem News Channel (1080p),,News,EPGShare US2,Salem.News.Channel.us2,exact-id-base,94,49
+ScrippsNews.us@SD,Scripps News (1080p),,News,EPGShare US2,Scripps.News.us2,exact-normalized-name,95,127
+ShopLC.us@SD,Shop LC (1080p),,Shop,EPGShare US2,Shop.LC.us2,exact-normalized-name,95,96
+Showtime2.us@East,Showtime 2 (1080p),,Undefined,EPGShare US2,Showtime.2.HD.us2,exact-normalized-name,95,52
+ShowtimeExtreme.us@East,Showtime Extreme (1080p),,Undefined,EPGShare US2,Showtime.Extreme.HD.us2,exact-normalized-name,95,51
+ShowtimeFamilyZone.us@East,Showtime Family Zone (720p),,Family,EPGShare US2,Showtime.Familyzone.HD.us2,exact-normalized-name,95,56
+ShowtimeNext.us@East,Showtime Next (720p),,Undefined,EPGShare US2,Showtime.Next.HD.us2,exact-normalized-name,95,54
+ShowtimeWomen.us@East,Showtime Women (720p),,Undefined,EPGShare US2,Showtime.Women.HD.us2,exact-normalized-name,95,53
+SportsGrid.us@SD,SportsGrid (1080p),,Sports,EPGShare US2,SportsGrid.us2,exact-normalized-name,95,97
+SportsmanChannel.us@SD,Sportsman Channel (720p),,Sports,EPGShare US2,Sportsman.Channel.us2,exact-id-base,94,192
+StartTV.us@SD,Start TV (720p),,Series,EPGShare US2,Start.TV.Network.us2,exact-normalized-name,95,101
+Starz.us@East,Starz (1080p),,Undefined,EPGShare US2,Starz.HD.us2,exact-normalized-name,95,58
+StarzCinema.us@East,Starz Cinema (720p),,Movies,EPGShare US2,Starz.Cinema.HD.us2,exact-normalized-name,95,59
+StarzComedy.us@East,Starz Comedy (1080p),,Comedy,EPGShare US2,Starz.Comedy.HD.us2,exact-normalized-name,95,57
+StarzEdge.us@East,Starz Edge (1080p),,Undefined,EPGShare US2,Starz.Edge.HD.us2,exact-normalized-name,95,56
+StarzEncore.us@East,Starz Encore (1080p),,Undefined,EPGShare US2,Starz.Encore.HD.us2,exact-normalized-name,95,50
+Starz.us@West,Starz West (720p),,Undefined,EPGShare US2,Starz.HD.us2,exact-normalized-name,95,58
+StoriesbyAMC.us@SD,Stories by AMC,,Entertainment,EPGShare US2,Stories.by.AMC.us2,exact-normalized-name,95,116
+SUMtvLatino.us@SD,SUMtv Latino (1080p),,Religious,EPGShare US2,SUMtv.Latino.us2,exact-normalized-name,95,125
+SundanceTV.us@East,Sundance TV (720p),,Movies,EPGShare US2,SundanceTV.HD.us2,exact-normalized-name,95,86
+SYFY.us@East,SYFY (1080p),,Movies;Series,EPGShare US2,Syfy.HD.us2,exact-normalized-name,95,52
+Tastemade.us@US,Tastemade (1080p),,Cooking,EPGShare US2,Tastemade.us2,exact-normalized-name,95,155
+TastemadeTravel.us@SD,Tastemade Travel (1080p),,Cooking,EPGShare US2,Tastemade.Travel.us2,exact-normalized-name,95,32
+TBNInspire.us@SD,TBN Inspire (1080p),,Religious,EPGShare US2,TBN.Inspire.us2,exact-normalized-name,95,167
+TCT.us@SD,TCT (1080p),,Undefined,EPGShare US2,TCT.us2,exact-normalized-name,95,162
+TeenNick.us@East,TeenNick (720p),,Kids,EPGShare US2,Teen.Nick.us2,exact-normalized-name,95,221
+TheCowboyChannel.us@SD,The Cowboy Channel (720p),,Undefined,EPGShare US2,The.Cowboy.Channel.us2,exact-id-base,94,70
+TheFilmDetective.us@SD,The Film Detective (720p),,Movies,EPGShare US2,The.Film.Detective.us2,exact-normalized-name,95,138
+TheNest.us@SD,The Nest (1080p),,Documentary;Entertainment,EPGShare US2,The.Nest.us2,exact-normalized-name,95,135
+TheWordNetwork.us@SD,The Word Network (1080p),,Religious,EPGShare US2,The.Word.Network.us2,exact-id-base,94,183
+TUDN.us@SD,TUDN (1080p) [Geo-blocked],,Undefined,EPGShare US2,TUDN.us2,exact-normalized-name,95,86
+TVLand.us@East,TV Land (720p),,Classic,EPGShare US2,TV.Land.HD.us2,exact-normalized-name,95,172
+TVOne.us@SD,TV One (1080p),,Undefined,EPGShare US2,TV.ONE.HD.us2,exact-normalized-name,95,165
+UniMas.us@Central,UniMas Central (720p),,Undefined,EPGShare US2,UniMas.us2,exact-normalized-name,95,109
+UniMas.us@Mountain,UniMas Mountain (1080p),,Undefined,EPGShare US2,UniMas.us2,exact-normalized-name,95,109
+UniversalCrime.us@East,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Series"",Universal Crime (1080p)",,Series,EPGShare US2,Universal.Crime.us2,exact-normalized-name,95,47
+Univision.us@East,Univision (1080p),,Undefined,EPGShare US2,Univision.Network.HD.us2,exact-normalized-name,95,114
+UnivisionTlnovelas.us@SD,Univision Tlnovelas (1080p),,Series,EPGShare US2,Univision.TL.Novelas.us2,exact-normalized-name,95,112
+UpTV.us@SD,Up TV (1080p),,Undefined,EPGShare US2,UPtv.us2,exact-normalized-name,95,121
+Vevo2K.us@SD,Vevo 2K (1080p),,Music,EPGShare US2,Vevo.2K.us2,exact-normalized-name,95,77
+Vevo70s.us@SD,Vevo 70s (1080p),,Music,EPGShare US2,Vevo.70s.us2,exact-normalized-name,95,65
+Vevo80s.us@SD,Vevo 80s (1080p),,Music,EPGShare US2,Vevo.80s.us2,exact-normalized-name,95,79
+Vevo90s.us@SD,Vevo 90s (1080p),,Music,EPGShare US2,Vevo.90s.us2,exact-normalized-name,95,84
+VevoCountry.us@SD,Vevo Country (1080p),,Music,EPGShare US2,Vevo.Country.us2,exact-normalized-name,95,72
+VevoHipHop.us@SD,Vevo Hip Hop (1080p),,Music,EPGShare US2,Vevo.Hip-Hop.us2,exact-normalized-name,95,90
+VevoLatino.us@SD,Vevo Latino (1080p),,Music,EPGShare US2,Vevo.Latino.us2,exact-normalized-name,95,65
+VevoPop.us@SD,Vevo Pop (1080p),,Music,EPGShare US2,Vevo.Pop.us2,exact-normalized-name,95,76
+VevoTrueSchoolHipHop.us@SD,Vevo True School Hip-Hop,,Music,EPGShare US2,Vevo.True.School.Hip-Hop.us2,exact-normalized-name,95,86
+VH1.us@East,VH1 (720p),,Music,EPGShare US2,VH1.HD.us2,exact-normalized-name,95,138
+VH1.us@West,VH1 West (720p),,Music,EPGShare US2,VH1.HD.us2,exact-normalized-name,95,138
+WeTV.us@East,We TV (720p),,Series,EPGShare US2,WE.tv.HD.us2,exact-normalized-name,95,111
+WorldChannel.us@SD,World Channel (1080p),,Education,EPGShare US2,WORLD.Channel.us2,exact-id-base,94,127
+WorldHarvestTV.us@SD,World Harvest TV (360p),,Undefined,EPGShare US2,World.Harvest.Television.us2,exact-normalized-name,95,178
+YesNetwork.us@SD,Yes Network (720p),,Undefined,EPGShare US2,Yes.Network.us2,exact-id-base,94,83
