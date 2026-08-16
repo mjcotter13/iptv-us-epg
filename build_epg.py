@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom IPTV-org US EPG Builder — Version 2
+Custom IPTV-org US EPG Builder — Version 2.1
 
 Goal:
   Build one XMLTV guide whose channel IDs exactly match the tvg-id values in
@@ -45,7 +45,7 @@ FALLBACK_EPG_URLS = [
 OUTDIR = Path("public")
 OUTDIR.mkdir(exist_ok=True)
 
-UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/2.0"
+UA = "Mozilla/5.0 Custom-IPTV-EPG-Builder/2.1"
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
 
@@ -397,7 +397,7 @@ with tempfile.TemporaryDirectory() as tmp:
     tv = ET.Element(
         "tv",
         {
-            "generator-info-name": "Custom IPTV-org US EPG Builder v2",
+            "generator-info-name": "Custom IPTV-org US EPG Builder v2.1",
             "generator-info-url": "https://github.com/iptv-org/iptv",
         },
     )
@@ -464,7 +464,7 @@ with tempfile.TemporaryDirectory() as tmp:
         new_tv = ET.Element(
             "tv",
             {
-                "generator-info-name": "Custom IPTV-org US EPG Builder v2",
+                "generator-info-name": "Custom IPTV-org US EPG Builder v2.1",
                 "generator-info-url": "https://github.com/iptv-org/iptv",
             },
         )
@@ -482,7 +482,13 @@ with tempfile.TemporaryDirectory() as tmp:
         for pid in dead_primary_ids:
             row = primary_matches.pop(pid)
             all_matches.pop(pid, None)
-            still_unmatched.append({**row, "reason": "matched-but-zero-programmes"})
+            still_unmatched.append({
+                "id": row["id"],
+                "name": row["name"],
+                "tvg_name": row["tvg_name"],
+                "group": row["group"],
+                "reason": "matched-but-zero-programmes",
+            })
 
     for pid, count in primary_program_count.items():
         if pid in primary_matches:
