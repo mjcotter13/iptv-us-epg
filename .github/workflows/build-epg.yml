@@ -8,6 +8,7 @@ on:
     branches: [ "main" ]
     paths:
       - "build_epg.py"
+      - "prepare_targeted.py"
       - ".github/workflows/build-epg.yml"
 
 permissions:
@@ -16,7 +17,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Check out repository
@@ -27,7 +28,38 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build EPG
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Clone official IPTV-org EPG tools
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git _iptv_epg
+
+      - name: Install IPTV-org EPG dependencies
+        working-directory: _iptv_epg
+        run: npm ci
+
+      - name: Prepare targeted IPTV-org channel mappings
+        run: python prepare_targeted.py
+
+      - name: Grab targeted high-value EPG
+        continue-on-error: true
+        working-directory: _iptv_epg
+        env:
+          NODE_OPTIONS: --max-old-space-size=5000
+        run: |
+          if [ -s ../targeted.channels.xml ]; then
+            npm run grab --- \
+              --channels=../targeted.channels.xml \
+              --output=../iptvorg_targeted.xml \
+              --days=3 \
+              --maxConnections=3
+          else
+            echo "No targeted channels to grab."
+          fi
+
+      - name: Build merged EPG
         run: python build_epg.py
 
       - name: Commit refreshed guide
