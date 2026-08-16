@@ -1,5 +1,4 @@
 id,name,tvg_name,group,reason
-00sReplay.us@SD,00s Replay,,Movies,no-safe-match
 3ABNEnglish.us@SD,3ABN English,,Religious,no-safe-match
 3ABNFrench.us@SD,3ABN French,,Religious,no-safe-match
 3ABNKids.us@SD,3ABN Kids Network,,Animation;Kids;Religious,no-safe-match
@@ -19,13 +18,7 @@ id,name,tvg_name,group,reason
 30ATheBeachShow.us@SD,30A The Beach Show (720p),,Shop,no-safe-match
 30ATVClassicMovies.us@SD,30A TV Classic Movies (720p),,Movies,no-safe-match
 30AWeLoveCars.us@SD,30A We Love Cars (720p),,Auto,no-safe-match
-48Hours.us@US,48 Hours (1080p),,Series,no-safe-match
-50CentAction.us@SD,50 Cent Action (720p),,Movies;Series,no-safe-match
-70sCinema.us@SD,70s Cinema,,Movies,no-safe-match
-80sRewind.us@SD,80s Rewind,,Movies,no-safe-match
 90sKids.us@SD,90's Kids,,Kids,no-safe-match
-90sKidsTV2.us@SD,90s Kids TV 2,,Kids,no-safe-match
-90sThrowback.us@SD,90s Throwback,,Movies,no-safe-match
 AE.us@East,A&E (720p),,Entertainment,no-safe-match
 KIIOLD104.us@SD,AABC TV (480p),,Culture,no-safe-match
 ABC.us@East,ABC (1080p),,General,no-safe-match
@@ -74,7 +67,6 @@ ABNBibleMoviesChannel.us@SD,ABN Bible Movies (720p),,Movies;Religious,no-safe-ma
 ABNChina.us@SD,ABN China (720p),,Religious,no-safe-match
 ABNTVIndia.us@SD,ABN TV India (540p),,Religious,no-safe-match
 ABNUrdu.us@SD,ABN Urdu (540p),,Religious,no-safe-match
-AcapulcoShore.us@US,Acapulco Shore,,Series,no-safe-match
 Access4PAC.us@SD,Access 4 PAC,,General,no-safe-match
 Access19.us@SD,Access 19,,General,no-safe-match
 AccessHumboldt.us@SD,Access Humboldt (1080p),,General,no-safe-match
@@ -97,7 +89,6 @@ AFVEspanol.us@SD,AFV en Español (720p) [Not 24/7],,Comedy,no-safe-match
 Akaku53.us@SD,Akaku 53 (Hawaii) (1080p),,General,no-safe-match
 Akaku54.us@SD,Akaku 54 (Hawaii) (1080p),,General,no-safe-match
 Akaku55.us@SD,Akaku 55 (Hawaii) (1080p),,General,no-safe-match
-AKCTV.us@SD,AKC TV (1080p),,Outdoor,no-safe-match
 AKCTVMeettheBreeds.us@SD,AKC TV Meet The Breeds,,Outdoor,no-safe-match
 AKCTVPuppies.us@SD,AKC TV Puppies 24/7,,Outdoor,no-safe-match
 AlHorreyaTV.us@SD,Al Horreya TV (1080p),,Religious,no-safe-match
@@ -115,7 +106,6 @@ AlkarmaTVTalmazaDiscipleship.us@SD,Alkarma TV Talmaza (Discipleship) (1080p) [No
 AlkarmaTVYouthEnglish.us@SD,Alkarma TV Youth & English (1080p) [Not 24/7],,Religious,no-safe-match
 AllRealitybyWEtv.us@SD,All Reality WE tv (720p),,Series,no-safe-match
 AllWeddingsWEtv.us@SD,All Weddings We TV (720p) [Geo-blocked],,Series,no-safe-match
-ALLBLKGems.us@SD,ALLBLK Gems (720p),,Entertainment,no-safe-match
 AlmagdTVMiddleEast.us@SD,Almagd TV Middle East (1080p) [Not 24/7],,Religious,no-safe-match
 AlmagdTVNorthAmerica.us@SD,Almagd TV North America (1080p),,Religious,no-safe-match
 AlwaysFunnyVideos.us@SD,Always Funny Videos (720p),,Series,no-safe-match
@@ -132,19 +122,12 @@ Ameritrade.us@SD,Ameritrade (1080p) [Not 24/7],,Business,no-safe-match
 AMGATV.us@SD,Amga TV (720p) [Not 24/7],,General,no-safe-match
 AmuTV.us@SD,Amu TV,,News,no-safe-match
 AngerManagementChannel.us@SD,Anger Management Channel (1080p),,Comedy;Series,no-safe-match
-AnimationPlus.us@SD,Animation+ (1080p) [Geo-blocked],,Animation,no-safe-match
-AnimexHIDIVE.us@SD,ANIME x HIDIVE (720p) [Geo-blocked],,Animation,no-safe-match
-PBSAntiquesRoadshow.us@SD,Antiques Roadshow PBS (1080p),,Series,no-safe-match
-AntiquesRoadshowUK.us@SD,Antiques Roadshow UK (1080p),,Series,no-safe-match
-AreWeThereYet.us@SD,Are We There Yet? (1080p),,Series,no-safe-match
 KETS21.us@HD,Arkansas PBS [Geo-blocked],,Education,no-safe-match
 Armenia1.am@America,Armenia 1 America (1080p),,General,no-safe-match
 ARTFLIXMovieClassics.us@SD,Artflix Movie Classics (720p),,Classic;Movies,no-safe-match
 ARTNTV.us@SD,ARTN TV (1080p) [Not 24/7],,General,no-safe-match
 AsianCultureTV.us@HD,Asian Culture TV (1080p),,General,no-safe-match
-AsianCrush.us@SD,AsianCrush (1080p),,Entertainment,no-safe-match
 KBSV231.us@SD,AssyriaSat (720p) [Not 24/7],,General;Religious,no-safe-match
-AtHomewithFamilyHandyman.us@SD,At Home with Family Handyman (720p),,Series,no-safe-match
 ATL26.us@SD,ATL 26,,Legislative,no-safe-match
 AtlantaChannel.us@SD,Atlanta Channel (720p),,General,no-safe-match
 Atlas.us@SD,Atlas (480p),,Documentary,no-safe-match
@@ -155,19 +138,12 @@ AuroraTV.us@SD,AuroraTV (Aurora CO) (720p),,General,no-safe-match
 AutenticHistory.de@SD,Autentic History (1080p),,Documentary,no-safe-match
 AutenticTravel.de@SD,Autentic Travel (1080p),,Lifestyle,no-safe-match
 AvangTV.us@SD,Avang TV (1080p),,Music,no-safe-match
-AWE.us@SD,AWE (720p),,General,no-safe-match
 AWEInternational.us@SD,AWE International (720p),,General,no-safe-match
-BabySharkTV.us@SD,Baby Shark TV (1080p),,Kids,no-safe-match
-BabyFirst.us@US,BabyFirst (720p),,Kids,no-safe-match
-BabyFirst.us@Spanish,BabyFirst Spanish (720p),,Kids,no-safe-match
+BabyFirst.us@US,BabyFirst (720p),,Kids,matched-but-zero-programmes
 Backstage.us@SD,Backstage (1080p),,Documentary,no-safe-match
-BarRescue.us@SD,Bar Rescue,,Series,no-safe-match
 BarkTV.us@SD,Bark TV (1080p),,Entertainment,no-safe-match
 BattlestarGalactica.us@SD,Battlestar Galactica,,Movies;Series,no-safe-match
 Baywatch.us@US,Baywatch (1080p),,Series,no-safe-match
-DoctorWhoClassic.us@US,BBC Doctor Who Classic (1080p),,Series,no-safe-match
-BBCEarth.uk@US,BBC Earth (1080p),,Documentary,no-safe-match
-BBCFood.us@SD,BBC Food (1080p),,Cooking,no-safe-match
 BBCHomeGarden.us@SD,BBC Home & Garden (1080p),,Lifestyle,no-safe-match
 BBCKids.us@SD,BBC Kids (720p),,Kids,no-safe-match
 BeachTVFloridaAlabama.us@SD,Beach TV Florida & Alabama (720p),,Travel,no-safe-match
@@ -175,62 +151,39 @@ BeachTVKeyWestFloridaKeys.us@SD,Beach TV Key West & Florida Keys (720p),,Travel,
 BeachTVMyrtleBeachTheGrandStrand.us@SD,Beach TV Myrtle Beach & The Grand Strand (720p),,Travel,no-safe-match
 BeachTVPanamaCity.us@SD,Beach TV Panama City (720p),,Travel,no-safe-match
 beINSportsUSA.us@SD,beIN Sports USA (1080p) [Geo-blocked],,Sports,no-safe-match
-beINSPORTSXTRA.us@SD,beIN SPORTS XTRA (1080p),,Sports,no-safe-match
 beINSPORTSXTRAenEspanol.us@SD,beIN SPORTS XTRA en Espanol (1080p),,Sports,no-safe-match
 BEKNews.us@SD,BEK TV News (720p),,News,no-safe-match
 BEKSports.us@West,BEK TV Sports West (720p),,Sports,no-safe-match
-BellatorMMA.us@SD,Bellator MMA,,Sports,no-safe-match
 BerksCommunityTV.us@SD,Berks Community TV (1080p),,General,no-safe-match
-BestofDrPhil.us@SD,Best of Dr. Phil,,Entertainment,no-safe-match
-BETCinema.us@SD,BET Cinema,,Movies,no-safe-match
 BETClassicsPlutoTV.us@SD,BET Classics,,Entertainment,no-safe-match
-BETComedyMovies.us@SD,BET Comedy Movies,,Movies,no-safe-match
-BETPlutoTV.us@US,BET Pluto TV,,Entertainment,no-safe-match
-BETThrowbacks.us@SD,BET Throwbacks,,Comedy,no-safe-match
-BETVisionaries.us@SD,BET Visionaries,,Movies,no-safe-match
 BetterHealthTV.us@SD,Better Health TV (480p),,Lifestyle,no-safe-match
 BetterLifeNatureChannel.us@SD,Better Life Nature Channel (480p),,Relax,no-safe-match
 BetterLifeTV.us@SD,Better Life TV (720p),,Religious,no-safe-match
-BeverlyHillbillies.us@US,Beverly Hillbillies,,Classic,no-safe-match
-BeverlyHills90210.us@SD,Beverly Hills 90210,,Series,no-safe-match
 BHTV10.us@SD,Beverly Hills Television 10 (720p),,Undefined,no-safe-match
 BHTV35.us@SD,Beverly Hills Television 35 (720p),,Undefined,no-safe-match
-BeyondtheGates.us@SD,Beyond the Gates,,Entertainment,no-safe-match
-BigBrother.us@SD,Big Brother,,Entertainment,no-safe-match
 BIGCivicChannel.us@SD,BIG Civic Channel,,General,no-safe-match
 BIGCommunityChannel.us@SD,BIG Community Channel,,General,no-safe-match
 BigTenNetwork.us@SD,Big Ten Network (720p),,Undefined,no-safe-match
 Binge.us@SD,Binge,,General,no-safe-match
-BlackFamilySitcoms.us@SD,Black Family Sitcoms,,Comedy,no-safe-match
-BlackInkCrew.us@SD,Black Ink Crew,,Series,no-safe-match
 BlackNewsChannel.us@SD,Black News Channel (1080p),,News,no-safe-match
-BlazeLive.us@SD,Blaze Live (720p),,News,no-safe-match
-BloombergOriginals.us@SD,Bloomberg Originals (1080p),,Business;Documentary,no-safe-match
-BloombergOriginals.us@US,Bloomberg Originals (1080p),,Business;Documentary,no-safe-match
+BloombergOriginals.us@SD,Bloomberg Originals (1080p),,Business;Documentary,matched-but-zero-programmes
 BloombergTV.us@US,Bloomberg TV (1080p),,Business,no-safe-match
 BloombergTV.us@LiveEvent,Bloomberg TV US Live Event (720p),,Business,no-safe-match
 BloombergTV.us@PoliticsLiveEvent,Bloomberg TV US Politics Live Event (720p),,Business,no-safe-match
 BATVGovernmentTV.us@SD,Bloomfield Access Government TV (480p),,Legislative,no-safe-match
 BATV.us@SD,Bloomfield Access TV Channel 5 (480p),,General,no-safe-match
-BlueBloods.us@SD,Blue Bloods,,Series,no-safe-match
 KMBYLD275.us@SD,Blues TV,,Animation,no-safe-match
 BMCHDTV.us@SD,BMC-HD TV (720p),,General,no-safe-match
 CVCEducation.us@SD,Bolton Community Voice Channel (CVC) Education (Bolton CT) (480p),,Education,no-safe-match
 CVCGovernment.us@SD,Bolton Community Voice Channel (CVC) Government (Bolton CT) (480p),,Legislative,no-safe-match
 CVCPublic.us@SD,Bolton Community Voice Channel (CVC) Public (Bolton CT) (480p),,General,no-safe-match
-bonappetit.us@SD,bon appétit (1080p),,Cooking,no-safe-match
-Bonanza.us@SD,Bonanza,,Movies;Series,no-safe-match
 Bounce.us@SD,Bounce (1080p),,Undefined,no-safe-match
-BounceXL.us@SD,Bounce XL (1080p),,Entertainment,no-safe-match
 BPXTVRadio.us@SD,BPX TV Radio,,Music,no-safe-match
-BratTV.us@SD,Brat TV (1080p),,Kids,no-safe-match
 BrevardGovernmentAccessTV.us@SD,Brevard County Government Access TV (Brevard FL) (720p),,Legislative,no-safe-match
-BritBoxMysteries.us@SD,BritBox Mysteries (1080p),,Documentary,no-safe-match
 BPTV.us@SD,Buena Park Television (360p),,Legislative,no-safe-match
 TheBurbankChannel.us@SD,Burbank Channel (720p),,General,no-safe-match
 BusinessRockstars.us@SD,Business Rockstars (720p),,Business,no-safe-match
 BUTV10.us@SD,BUTV10 (Boston University) (1080p) [Not 24/7],,Education,no-safe-match
-Buzzr.us@SD,Buzzr (1080p),,Entertainment,no-safe-match
 BXArts.us@SD,BX Arts (720p),,Culture,no-safe-match
 BXCulture.us@SD,BX Culture (720p),,Culture,no-safe-match
 BXInform.us@SD,BX Inform (1080p),,General;News,no-safe-match
@@ -247,12 +200,9 @@ CANTV27.us@SD,CAN TV27 (1080p),,General,no-safe-match
 CANTV36.us@SD,CAN TV36 (1080p),,General,no-safe-match
 CanaldelaFe.us@SD,Canal de la Fe (720p),,Religious,no-safe-match
 CanelaTV.us@SD,Canela.TV (1080p),,Entertainment,no-safe-match
-CarChase.us@SD,Car Chase (720p),,Entertainment,no-safe-match
 CityTVCarlsbad.us@SD,Carlsbad City TV Channel (Carlsbad CA) (720p),,General,no-safe-match
-CatholicTV.us@SD,Catholic TV (1080p),,Religious,no-safe-match
 CBNEspanol.us@SD,CBN Espanol (1080p),,Religious,no-safe-match
 CBNFamily.us@SD,CBN Family (1080p),,Religious,no-safe-match
-CBNNews.us@SD,CBN News Channel (1080p),,Religious,no-safe-match
 KUTV21.us@HD,CBS 2 Salt Lake City UT (KUTV) (1080p),,General,no-safe-match
 WWMT31.us@HD,CBS 3 Kalamazoo MI (WWMT) (1080p),,Undefined,no-safe-match
 KMTVTV31.us@HD,CBS 3 Omaha NE (KMTV) (720p),,General,no-safe-match
@@ -265,21 +215,7 @@ WPEC121.us@HD,CBS 12 West Palm Beach FL (WPEC) (1080p),,Undefined,no-safe-match
 WHPDT1.us@SD,CBS 21 Harrisburg PA (WHP) (1080p),,Undefined,no-safe-match
 WSBTTV281.us@SD,CBS 22 South Bend IN (WSBT) (1080p),,Undefined,no-safe-match
 KEYETV421.us@HD,CBS 42 Austin TX (KEYE) (1080p),,General,no-safe-match
-CBSenespanol.us@SD,CBS en español,,Entertainment,no-safe-match
-CBSNews247.us@SD,CBS News 24/7 (720p),,News,no-safe-match
-CBSNewsBaltimore.us@SD,CBS News Baltimore (720p),,News,no-safe-match
-CBSNewsBayArea.us@SD,CBS News Bay Area (720p),,News,no-safe-match
-CBSNewsBoston.us@SD,CBS News Boston (720p),,News,no-safe-match
-CBSNewsChicago.us@SD,CBS News Chicago (720p),,News,no-safe-match
-CBSNewsColorado.us@SD,CBS News Colorado (720p),,News,no-safe-match
-CBSNewsDetroit.us@SD,CBS News Detroit (720p),,News,no-safe-match
-CBSNewsLosAngeles.us@SD,CBS News Los Angeles (720p),,News,no-safe-match
-CBSNewsMiami.us@SD,CBS News Miami (720p),,News,no-safe-match
-CBSNewsMinnesota.us@SD,CBS News Minnesota (720p),,News,no-safe-match
-CBSNewsNewYork.us@SD,CBS News New York (720p),,News,no-safe-match
 CBSNewsPhilly.us@SD,CBS News Philadelphia (720p),,News,no-safe-match
-CBSNewsPittsburgh.us@SD,CBS News Pittsburgh (720p),,News,no-safe-match
-CBSNewsSacramento.us@SD,CBS News Sacramento (720p),,News,no-safe-match
 CCX1.us@SD,CCX1 (1080p),,General,no-safe-match
 CelebrityNameGame.us@SD,Celebrity Name Game (1080p) [Geo-blocked],,Series,no-safe-match
 CelebritySceneTV.us@SD,Celebrity Scene TV (720p),,Undefined,no-safe-match
@@ -293,55 +229,30 @@ Channel18GAC.us@SD,Channel 18 GAC,,Legislative,no-safe-match
 ChannelOne.us@SD,Channel One,,Culture;News,no-safe-match
 CCTV.us@SD,Charlotte County CC-TV (Charlotte County FA) (720p),,Undefined,no-safe-match
 CheddarNews.us@SD,Cheddar News (1080p),,News,no-safe-match
-CheersPlusFrasier.us@SD,Cheers + Frasier,,Comedy,no-safe-match
 ChefChampion.us@SD,Chef Champion (720p) [Not 24/7],,Cooking,no-safe-match
 ChefRocShow.us@SD,Chef Roc Show (720p) [Not 24/7],,Cooking,no-safe-match
 CityTVChannel341.us@SD,Chino Hills City TV Channel 3/41 (360p),,Legislative,no-safe-match
-Choppertown.us@SD,Choppertown (720p),,Auto;Series,no-safe-match
 ChristianYouthChannelCYC.us@SD,Christian Youth Channel (CYC) (1080p),,Kids;Religious,no-safe-match
-CineAdrenalina.us@SD,Cine adrenalina,,Movies,no-safe-match
-CineAmor.us@SD,Cine Amor,,Movies,no-safe-match
-Cineaventura.us@SD,Cine aventura,,Entertainment,no-safe-match
 PlutoTVCineComedia.us@US,Cine comedia,,Movies,no-safe-match
-Cineenespanol.us@SD,Cine en español,,Entertainment,no-safe-match
-CinePremiere.us@SD,Cine Premiere,,Movies,no-safe-match
 CineRomantico.us@SD,Cine Romantico (720p),,Movies,no-safe-match
-CineSony.us@SD,Cine Sony (1080p),,Movies,no-safe-match
-CineTerror.us@US,Cine terror,,Movies,no-safe-match
-CinemaxLatino.us@SD,"like Gecko) Chrome/130.0.0.0 Safari/537.36"" group-title=""Undefined"",Cinemax Latino (480p)",,Undefined,no-safe-match
 CinePride.us@SD,CinePride (720p),,Lifestyle,no-safe-match
 Cinevault80s.us@SD,Cinevault 80s (720p),,Movies,no-safe-match
-CinevaultWesterns.us@SD,Cinevault Westerns (540p) [Geo-blocked],,Classic,no-safe-match
 Circle.us@SD,Circle (1080p),,Entertainment,no-safe-match
 CityofMonroeGovernmentChannel.us@SD,City of Monroe Government Channel,,Legislative,no-safe-match
 CapitalCityConnectionMontgomery.us@SD,City TV Capital City Connection [Not 24/7],,Legislative,no-safe-match
 CityTVSanDiego.us@SD,CityTV San Diego (360p),,Legislative,no-safe-match
 Clarity4K.us@SD,Clarity 4K (2160p) [Geo-blocked],,General,no-safe-match
-ClassicCinema.us@SD,Classic Cinema (240p) [Not 24/7],,Movies,no-safe-match
-ClassicMovieWesterns.us@SD,Classic Movie Westerns,,Movies;Series,no-safe-match
-ClassicMoviesChannel.us@SD,Classic Movies Channel,,Movies,no-safe-match
-ClassicTVComedy.us@SD,Classic TV Comedy,,Comedy,no-safe-match
-ClassicTVCrimeDrama.us@SD,Classic TV Crime Drama,,Classic,no-safe-match
-ClassicTVDrama.us@SD,Classic TV Drama,,Classic,no-safe-match
-ClassicTVFamilies.us@US,Classic TV: Families,,Classic,no-safe-match
-Classica.us@SD,Classica (720p),,Music,no-safe-match
 CloudflareTV.us@SD,Cloudflare TV (720p),,Education,no-safe-match
 CMCUSACountryMusicChannel.us@SD,CMC-USA Country Music Channel (720p),,Music,no-safe-match
-CMTEqualPlay.us@SD,CMT Equal Play (720p),,Music,no-safe-match
 WRDELD311.us@HD,CoastTV NBC (WRDE-LD) (720p) [Not 24/7],,Undefined,no-safe-match
 ColdCaseFiles.us@SD,Cold Case Files (1080p),,Series,no-safe-match
 CollierTV.us@SD,Collier Television CTV (Naples FL) (720p),,Legislative,no-safe-match
 ComedyCentralAnimation.us@SD,Comedy Central Animation,,Comedy,no-safe-match
-ComedyCentralenEspanol.us@SD,Comedy Central en español,,Comedy,no-safe-match
-ComedyCentralPlutoTV.us@US,Comedy Central Pluto TV,,Comedy,no-safe-match
-ComedyDynamics.us@SD,Comedy Dynamics (1080p),,Comedy,no-safe-match
 ComercioTV.us@SD,Comercio TV (1080p),,General,no-safe-match
 ConcertChannel.us@SD,Concert Channel (720p),,Music,no-safe-match
 ConcordTV.us@SD,Concord TV (Concord CA) (720p),,General,no-safe-match
 ContraCostaTV.us@SD,Contra Costa College TV [Geo-blocked],,Legislative,no-safe-match
 CookingPanda.us@SD,Cooking Panda (576p),,Cooking,no-safe-match
-Cops.us@SD,Cops (720p),,Series,no-safe-match
-CornerstoneTV.us@SD,Cornerstone TV (720p),,Religious,no-safe-match
 CMTV.us@SD,Costa Mesa's Municipal Access Channel CMTV 3 (720p),,General,no-safe-match
 COStv.us@SD,COStv,,Legislative,no-safe-match
 CreaTVChannel27.us@SD,CreaTV Bay Voice TV Channel 27 (San Jose CA) (720p),,General,no-safe-match
@@ -350,36 +261,24 @@ CreaTVChannel15.us@SD,CreaTV Community Channel 15 (San Jose CA) (720p),,General,
 CreaTVChannel30.us@SD,CreaTV The Outlet Channel 30 (San Jose CA) (720p),,General,no-safe-match
 Crime360.us@SD,Crime 360 (720p),,Documentary,no-safe-match
 CrimePlusInvestigation.us@SD,Crime + Investigation (720p),,Entertainment,no-safe-match
-CrimenesImperfectos.us@SD,Crímenes imperfectos,,Undefined,no-safe-match
-Crunchyroll.us@SD,Crunchyroll (720p),,Animation,no-safe-match
 CruzTV.us@SD,Cruz TV,,Legislative,no-safe-match
 CSatTV.us@SD,CSat TV (1080p) [Not 24/7],,Religious,no-safe-match
 CSI.us@SD,CSI,,Series,no-safe-match
-CSIenespanol.us@SD,CSI en Español,,Undefined,no-safe-match
-CSIMiami.us@SD,CSI: Miami,,Series,no-safe-match
-CSIMiamienespanol.us@SD,CSI: Miami en español,,Entertainment,no-safe-match
-CSINY.us@SD,CSI: NY,,Series,no-safe-match
-CSINYenespanol.us@SD,CSI: NY en español,,Entertainment,no-safe-match
 CTNCourtFeed.us@SD,CT-N Court Feed (360p) [Not 24/7],,Legislative,no-safe-match
 CTNLiveStream2.us@SD,CT-N Live Stream 2 (360p) [Not 24/7],,Legislative,no-safe-match
 CTNTVConneticut.us@SD,CT-N TV Conneticut (720p) [Not 24/7],,Legislative,no-safe-match
-CTN.us@SD,CTN (720p),,Religious,no-safe-match
 CVTVChannel192.us@SD,CVTV Channel 192 (1080p),,General,no-safe-match
 CVTVChannel194.us@SD,CVTV Channel 194 (1080p),,General,no-safe-match
 CypressChannel36.us@SD,Cypress Public Access Channel 36 (Cypress CA) (360p),,Legislative,no-safe-match
 DarkMatterTV.us@SD,Dark Matter TV (720p),,Series,no-safe-match
 Dateline247.us@SD,Dateline 24/7 (1080p),,Documentary,no-safe-match
-DatingDisasters.us@SD,Dating Disasters,,Entertainment,no-safe-match
 DaystarTVEspanol.us@SD,Daystar Español (720p),,Religious,no-safe-match
 DaystarTV.us@SD,Daystar TV (1080p),,Religious,no-safe-match
 DCC.us@SD,DC Council Channel (1080p),,Legislative,no-safe-match
 DCCouncilHearingRoom120.us@SD,DC.gov Council Hearing Room 120 (Washington DC) (1080p),,Legislative,no-safe-match
 DKN.us@SD,DC.gov DKN (Washington DC) (1080p),,Education,no-safe-match
-DCCMakingtheTeam.us@SD,DCC: Making the Team,,Entertainment,no-safe-match
 DePeliculaUS.us@SD,De Pelicula US (720p),,Movies,no-safe-match
-DealorNoDeal.us@SD,Deal or No Deal (1080p),,Series,no-safe-match
 DegaTV.us@SD,Dega TV (720p) [Not 24/7],,Music,no-safe-match
-Degrassi.us@US,Degrassi (720p),,Series,no-safe-match
 Denver8TV.us@SD,Denver 8 TV (Denver CO) (720p),,Legislative,no-safe-match
 DerryTV17.us@SD,DerryTV 17 (720p),,Legislative,no-safe-match
 DerryTV23.us@SD,DerryTV 23 (720p),,Education;General,no-safe-match
@@ -389,68 +288,48 @@ DetroitChannel21.us@SD,Detroit Channel 21,,General,no-safe-match
 DetroitChannel22.us@SD,Detroit Channel 22,,Education,no-safe-match
 DetroitChannel68.us@SD,Detroit Channel 68,,General,no-safe-match
 DidgahTV.us@SD,Didgah TV (576p),,News,no-safe-match
-DisneyChannel.us@East,Disney Channel (720p) [Geo-blocked],,Kids,no-safe-match
 DistrictofColumbiaNetwork.us@SD,District of Columbia Network (DCN) (1080p),,Legislative,no-safe-match
-DocumentaryPlus.us@US,Documentary+ (1080p),,Documentary,no-safe-match
 Docurama.us@SD,Docurama (1080p),,Documentary,no-safe-match
 PlutoTVDogelcazarrecompensas.us@SD,Dog el cazarrecompensas,,Series,no-safe-match
-DogtheBountyHunter.us@US,Dog the Bounty Hunter (1080p),,Series,no-safe-match
 DontTellTheBride.uk@SD,Don't Tell The Bride (1080p),,Series,no-safe-match
-DoveChannel.us@SD,Dove Channel (1080p),,Family,no-safe-match
 MeritStreet.us@SD,Dr Phil's MeritTV (1080p),,Entertainment,no-safe-match
 DrGeneScott.us@SD,Dr. Gene Scott (1080p),,Religious,no-safe-match
 DryBarComedyPlus.us@SD,Dry Bar Comedy (720p),,Comedy,no-safe-match
 DuckHuntingTV.us@SD,Duck Hunting TV (1080p),,Outdoor,no-safe-match
 DungeonTV.us@SD,Dungeon TV (720p),,Undefined,no-safe-match
-Dynasty.us@SD,Dynasty,,Series,no-safe-match
 E.us@East,E! (1080p),,Entertainment,no-safe-match
-EKeepingUp.us@SD,E! Keeping Up (1080p),,Entertainment,no-safe-match
 E.us@West,E! West (720p),,Entertainment,no-safe-match
-EbonyTVbyLionsgate.us@SD,Ebony TV by Lionsgate (1080p),,Movies;Series,no-safe-match
 EBSCinema.us@SD,EBS Cinema (720p),,Movies,no-safe-match
 EBSMusika.us@SD,EBS Musika (720p),,Music,no-safe-match
 PlutoTVElReinoInfantil.us@SD,El Reino Infantil,,Undefined,no-safe-match
 ElSembradorNuevaEvangelizacionESNE.us@SD,El Sembrador Nueva Evangelizacion ESNE,,Religious,no-safe-match
 ElbesharaGTV.us@SD,Elbeshara GTV (1080p) [Not 24/7],,Religious,no-safe-match
-ElectricNow.us@SD,ElectricNOW (1080p) [Geo-blocked],,Entertainment,no-safe-match
 EntertainmentTonight.us@SD,Entertainment Tonight (1080p),,Entertainment;News,no-safe-match
 EntrepreneurTV.us@SD,EntrepreneurTV (720p),,Business,no-safe-match
 EscambiaCountyTV.us@SD,Escambia County TV ECTV (Escambia County FL) (720p),,Legislative,no-safe-match
+ESPNDeportes.us@SD,ESPN Deportes (720p),,Sports,matched-but-zero-programmes
+ESPNU.us@SD,ESPNU (720p),,Sports,matched-but-zero-programmes
 EstrellaGames.us@SD,Estrella Games (1080p),,Entertainment;Family,no-safe-match
 PlutoTVEstrellasdeAccion.us@SD,Estrellas de Acción,,Movies,no-safe-match
 ETVTelugu.in@USA,"like Gecko) Chrome/145.0.0.0 Safari/537.36"" group-title=""Entertainment"",ETV Telugu USA (720p)",,Entertainment,no-safe-match
-EWTN.us@English,EWTN (720p) [Geo-blocked],,Religious,no-safe-match
-EWTN.us@Spanish,EWTN Spanish (720p) [Geo-blocked],,Religious,no-safe-match
+EWTN.us@English,EWTN (720p) [Geo-blocked],,Religious,matched-but-zero-programmes
 ExtremaTV.us@SD,Extrema TV (720p),,Undefined,no-safe-match
 F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],,Sports,no-safe-match
-FailArmy.us@US,Failarmy International (720p),,Comedy,no-safe-match
 CityofFairfieldChannel26.us@SD,Fairfield Government Access Channel 26 (Fairfield CA) (720p) [Geo-blocked],,General,no-safe-match
-FamilyTies.us@SD,Family Ties,,Series,no-safe-match
 Farscape.us@SD,Farscape,,Series,no-safe-match
 FashionFinds.us@SD,Fashion Finds (720p),,Lifestyle;Shop,no-safe-match
 FCPublicMedia.us@SD,FC Public Media (Fort Collins CO) (1080p),,General,no-safe-match
-FearFactor.us@US,Fear Factor (1080p),,Series,no-safe-match
-FeelGoodDrama.us@SD,Feel Good Drama,,Series,no-safe-match
 FernandinaBeachChannel.us@SD,Fernandina Beach City Meeting (Fernandina Beach FL) (720p) [Not 24/7],,Legislative,no-safe-match
-FETV.us@SD,FETV (720p),,Family,no-safe-match
 FGTV.us@SD,FGTV,,Legislative,no-safe-match
-FIFAPlus.uk@UnitedStates,FIFA+ United States (720p),,Sports,no-safe-match
 FilAmTVNetwork.us@HD,FilAmTV Network (1080p),,General,no-safe-match
-FilmRiseAnime.us@SD,FilmRise Anime (720p),,Animation,no-safe-match
-FilmRiseClassicTV.us@SD,FilmRise Classic TV (720p),,Classic,no-safe-match
-FilmRiseWestern.us@SD,FilmRise Westerns (720p),,Movies,no-safe-match
-FITE247.us@SD,FITE 24/7 (1080p),,Sports,no-safe-match
-FlicksofFury.us@SD,Flicks of Fury,,Movies,no-safe-match
 FlowersTVUSA.us@SD,Flowers TV USA,,Culture,no-safe-match
 FNX.us@SD,FNX (1080p),,Culture,no-safe-match
 KVCRDT242.us@SD,FNX [Geo-blocked],,Culture,no-safe-match
 KFONTV.us@SD,Fontana Community Television (720p) [Geo-blocked],,General,no-safe-match
 FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],,Movies,no-safe-match
-ForensicFiles.us@SD,Forensic Files,,Documentary,no-safe-match
-ForeverKids.us@SD,Forever Kids,,Kids,no-safe-match
 FCTV.us@SD,Fort Collins Cable TV (FCTV) (Fort Collins CO) (1080p),,General,no-safe-match
 CityofFortPierce.us@SD,Fort Pierce Live Stream (Fort Pierce FL) (720p),,Legislative,no-safe-match
-Fox.us@East,Fox (1080p) [Geo-blocked],,General,no-safe-match
+Fox.us@East,Fox (1080p) [Geo-blocked],,General,matched-but-zero-programmes
 KTVU41.us@HD,FOX 2 San Francisco CA (KTVU) (720p),,General,no-safe-match
 WLUKTV141.us@HD,FOX 11 Green Bay WI (WLUK) (1080p),,Undefined,no-safe-match
 KCPQ131.us@HD,FOX 13 Seattle WA (KCPQ) (720p),,General,no-safe-match
@@ -462,31 +341,20 @@ WBFF451.us@HD,FOX 45 Baltimore MD (WBFF) (1080p),,Undefined,no-safe-match
 FoxBusinessNetwork.us@SD,Fox Business Network (720p),,Business,no-safe-match
 FoxNewsChannel.us@SD,Fox News Channel (720p),,News,no-safe-match
 FoxNewsRadio.us@SD,Fox News Radio (720p),,News,no-safe-match
-FoxSports1.us@HD,Fox Sports 1 (720p),,Sports,no-safe-match
-FoxSports2.us@HD,Fox Sports 2 (720p),,Sports,no-safe-match
-FoxWeather.us@SD,FOX Weather (1080p) [Geo-blocked],,Weather,no-safe-match
-Fox.us@West,Fox West (720p),,General,no-safe-match
 FreebieTV.us@SD,Freebie TV (720p) [Not 24/7],,Entertainment,no-safe-match
 CMAC1.us@SD,Fresno CMAC 1 Public Channel (720p),,General,no-safe-match
 CMAC2.us@SD,Fresno CMAC 2 Education Channel (720p),,Education,no-safe-match
 CMAC3.us@SD,Fresno CMAC 3 Government Channel (720p),,Legislative,no-safe-match
 FrightFlix.us@SD,FrightFlix (720p),,Movies,no-safe-match
-FTFSports.us@SD,FTF Sports (720p),,Sports,no-safe-match
-FuboSportsNetwork.us@SD,fubo Sports Network (1080p),,Sports,no-safe-match
-FunnyAF.us@SD,Funny AF,,Comedy,no-safe-match
 FXMovieChannel.us@SD,FX Movie Channel (720p),,Movies,no-safe-match
 FXMovieChannel.us@HD,FX Movie Channel HD (1080p),,Movies,no-safe-match
 Gagsnetwork.us@SD,Gagsnetwork (576p),,Comedy,no-safe-match
 Community12TV.us@SD,Gainesville Community 12TV (Gainesville FL) (720p),,Legislative,no-safe-match
 GalvestonCountyTV.us@SD,Galveston County TV (720p) [Not 24/7],,Legislative,no-safe-match
 GalxyTV.us@SD,Galxy TV (720p),,Entertainment,no-safe-match
-GameShowCentral.us@SD,Game Show Central (720p),,Entertainment,no-safe-match
-GameShowNetwork.us@East,Game Show Network East (720p) [Not 24/7],,Entertainment,no-safe-match
 GanjeHozourTV.us@SD,Ganj e Hozour TV (1080p),,General,no-safe-match
-GarfieldandFriends.us@US,Garfield and Friends,,Kids,no-safe-match
 GlobalBuddhistNetwork.us@SD,GBN Global Buddhist Network (1080p),,Religious,no-safe-match
 KBPXLD465.us@SD,Geb Tv (KBPX LD5) (1080p),,Culture;News,no-safe-match
-GemShoppingNetwork.us@SD,Gem Shopping Network (720p),,Shop,no-safe-match
 GiggleMug.us@SD,Giggle Mug (576p),,Kids,no-safe-match
 GillettePublicAccessTelevisionChannel189.us@SD,Gillette Public Access Television Channel 189,,Education,no-safe-match
 GillettePublicAccessTelevisionChannel190.us@SD,Gillette Public Access Television Channel 190,,General,no-safe-match
@@ -502,80 +370,54 @@ GCNAmerica.us@SD,Global Christian Network America (GCN) (720p),,Religious,no-saf
 GlobalFashionChannel.us@SD,Global Fashion Channel (1080p),,Lifestyle,no-safe-match
 GlobalWorldTV.us@SD,GlobalWorldTV (720p),,Entertainment,no-safe-match
 GMTV.us@SD,GMTV (1080p),,Music,no-safe-match
-GoUSATV.us@SD,Go USA TV (720p),,Travel,no-safe-match
 KPCBDT171.us@SD,God's Learning Channel (480p),,Religious,no-safe-match
-GolazoNetwork.us@SD,Golazo Network (720p),,Sports,no-safe-match
 GCOtv.us@SD,Golden Community Television (GCO.tv) (Golden CO) (1080p),,General,no-safe-match
-GolfChannel.us@SD,Golf Channel (1080p) [Geo-blocked],,Sports,no-safe-match
 GoodLife45.us@SD,GoodLife 45 (720p) [Not 24/7],,Religious,no-safe-match
 GordonRamsaysHellsKitchen.us@SD,Gordon Ramsay (720p),,Cooking,no-safe-match
 GBNTV.us@SD,Gospel Broadcasting Network (GBN) (1080p),,Religious,no-safe-match
 GospelTruthTV.us@SD,Gospel Truth TV (1080p),,Religious,no-safe-match
-GoTraveler.us@SD,GoTraveler (720p) [Geo-blocked],,Travel,no-safe-match
-GravitasMovies.us@SD,Gravitas Movies (1080p),,Movies,no-safe-match
 GreensboroTV.us@SD,Greensboro TV (Greensboro NC) (720p),,Legislative,no-safe-match
-GritXtra.us@SD,Grit Xtra (1080p),,Entertainment,no-safe-match
 GuangdongTVAmerica.us@SD,Guangdong TV America,,General,no-safe-match
 GunAzTV.us@SD,GunAz TV,,General,no-safe-match
-Gunsmoke.us@SD,Gunsmoke,,Series,no-safe-match
 HKTV.us@SD,Haddam Killingworth High School TV (HKTV) (1080p) [Geo-blocked],,Education,no-safe-match
-HallmarkChannel.us@East,Hallmark Channel (1080p),,Family,no-safe-match
 HallmarkMoviesMore.us@SD,Hallmark Movies & More (1080p),,Movies,no-safe-match
-HappyDays.us@SD,Happy Days,,Series,no-safe-match
 HappyKids.us@SD,HappyKids (1080p),,Kids,no-safe-match
 HarPalGeo.pk@SD,HarPal Geo (360p),,Culture,no-safe-match
 HarvestUSA.in@SD,Harvest USA (576p),,Religious,no-safe-match
-HasbroLegends.us@SD,Hasbro Legends (1080p) [Geo-blocked],,Animation;Kids,no-safe-match
 HCTVEducationalAccessChannel.us@SD,HCTV Educational Access Channel,,Education,no-safe-match
 HCTVGovernmentChannel.us@SD,HCTV Government Channel,,Legislative,no-safe-match
 HCTVPublicAccessChannel.us@SD,HCTV Public Access Channel,,General,no-safe-match
-Heartland.us@Eastern,Heartland (720p),,Entertainment,no-safe-match
-Heartland.us@Web,Heartland,,Entertainment,no-safe-match
-HiYAH.us@SD,Hi-YAH! (1080p),,Entertainment,no-safe-match
+Heartland.us@Eastern,Heartland (720p),,Entertainment,matched-but-zero-programmes
 HighVisionTV.us@SD,High Vision (1080p) [Not 24/7],,Music,no-safe-match
 HillsboroughTV.us@SD,Hillsborough County TV HTV (Hillsborough County FL) (360p),,Legislative,no-safe-match
 HisGloryTV.us@SD,His Glory TV (1080p),,General,no-safe-match
-HistoryHit.uk@SD,History Hit (1080p),,Documentary,no-safe-match
 HMIPROMZNEWS.us@SD,HMI PROMZ NEWS (720p),,Music,no-safe-match
 HmongStarTV.us@SD,Hmong Star TV (720p) [Not 24/7],,Culture,no-safe-match
 HmongTVNetwork.us@SD,Hmong TV Network (720p),,Culture,no-safe-match
 HogansHeroes.us@SD,Hogan's Heroes,,Classic,no-safe-match
 HollyWire.us@SD,HollyWire (720p),,Entertainment;News,no-safe-match
-HomeMadeNation.us@SD,Home.Made.Nation (720p),,Series,no-safe-match
-Homeful.ca@US,Homeful (1080p),,Undefined,no-safe-match
 Hope4LifeTV.us@SD,Hope4Life TV (720p),,Religious,no-safe-match
 HopeChannelInterAmerica.us@SD,Hope Channel Inter-America,,Religious,no-safe-match
 HopeChannelInterAmericaEnglish.us@SD,Hope Channel Inter-America English (1080p),,Religious,no-safe-match
 HopeChannelInternational.us@SD,Hope Channel International (1080p),,Religious,no-safe-match
 HopeChannelNorthAmerica.us@SD,Hope Channel North America (1080p),,Religious,no-safe-match
-HotBench.us@SD,Hot Bench (720p),,Entertainment,no-safe-match
-HSN.us@East,HSN (720p),,Shop,no-safe-match
-HSN.us@West,HSN West (720p),,Shop,no-safe-match
+HSN.us@East,HSN (720p),,Shop,matched-but-zero-programmes
 HTV1HoustonTelevision.us@SD,HTV 1 Houston Television (720p),,Legislative,no-safe-match
 HTV2HoustonTelevision.us@SD,HTV 2 Houston Television (720p),,Legislative,no-safe-match
 HumorMill.us@SD,"like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"" group-title=""Comedy"",Humor Mill (1080p)",,Comedy,no-safe-match
 Hungry.us@SD,Hungry (720p),,Cooking,no-safe-match
 HBTV.us@SD,Huntington Beach TV Channel 3 (720p),,General,no-safe-match
-ILoveLucy.us@SD,I Love Lucy,,Classic;Comedy,no-safe-match
 iCarly.us@SD,iCarly TV,,Series,no-safe-match
 ImanTV.us@SD,Iman TV (480p),,Religious,no-safe-match
-ImpossibleQuizShow.us@SD,Impossible Quiz Show (1080p),,Series,no-safe-match
 IntheKitchen.us@SD,In the kitchen (720p),,Cooking;Shop,no-safe-match
-InfoWars.us@SD,InfoWars Network (1080p),,News,no-safe-match
-InkMaster.us@SD,Ink Master,,Documentary,no-safe-match
 InstantSaga.us@US,Instant Saga,,Series,no-safe-match
-Investiga.us@US,Investiga,,Series,no-safe-match
 INWILD.nl@SD,INWILD (1080p),,Documentary,no-safe-match
-IONPlus.us@East,ION Plus (1080p),,Entertainment,no-safe-match
 IronChef.us@US,Iron Chef,,Series,no-safe-match
 ItIsWrittenTV.us@SD,It Is Written TV (1080p),,Religious,no-safe-match
 ItsSupernaturalNetwork.us@SD,It's Supernatural! Network (1080p),,Religious,no-safe-match
 G10TV.us@SD,Jacksonville Onslow Government Television (G10TV) (Jacksonville NC) (1080p),,Legislative,no-safe-match
-JerseyShore.us@SD,Jersey Shore,,Series,no-safe-match
 JewelryTV2.us@SD,Jewelry TV 2 (720p),,Shop,no-safe-match
 JewishLifeTelevision.us@SD,Jewish Life Television (1080p),,Culture;Religious,no-safe-match
-Journy.us@SD,JOURNY TV (720p),,Travel,no-safe-match
-JudgeNosey.us@US,Judge Nosey (1080p),,Series,no-safe-match
 JusHindi.us@SD,Jus Hindi (1080p),,Culture,no-safe-match
 JusOne.us@SD,Jus One (1080p),,Culture,no-safe-match
 JusPunjabi.us@SD,Jus Punjabi (1080p),,Culture,no-safe-match
@@ -584,7 +426,6 @@ JusticeCentralTV.us@SD,Justice Central TV (720p),,Entertainment,no-safe-match
 KContentbyCJENM.us@SD,K Content by CJ ENM (1080p),,Entertainment,no-safe-match
 KajouTV.us@SD,Kajou TV (720p) [Not 24/7],,Culture,no-safe-match
 KaloopyTV.us@SD,Kaloopy TV (1080p),,Lifestyle,no-safe-match
-KartoonChannel.us@SD,Kartoon Channel (1080p),,Kids,no-safe-match
 KATC31.us@HD,KATC 3.1 (1080p),,General,no-safe-match
 KBEV.us@SD,KBEV Spectrum Channel 6 [Beverly Hills] (1080p),,Education,no-safe-match
 KBRI8.us@SD,KBRI Brighton Channel 8 (Brighton CO) (720p),,Legislative,no-safe-match
@@ -630,7 +471,6 @@ KZTV101.us@HD,KZTV-DT1 (720p),,General,no-safe-match
 LACityView35.us@SD,LA CityView 35 (1080p),,Legislative,no-safe-match
 LaQueBuenaAtlanta.us@SD,La Que Buena Atlanta,,Music,no-safe-match
 LaVozdeJesusHD.do@HD,La Voz de Jesus HD (720p),,Religious,no-safe-match
-LacrosseTV.us@SD,Lacrosse TV (720p),,Sports,no-safe-match
 LakewoodChannel8.us@SD,Lakewood Channel 8 (Lakewood CO) (720p),,Undefined,no-safe-match
 CityTVLakewood.us@SD,Lakewood CityTV (720p),,General,no-safe-match
 LasVegasTonightwithDaleDavidson.us@HD,Las Vegas Tonight with Dale Davidson (1080p),,General,no-safe-match
@@ -639,7 +479,6 @@ LATV.us@SD,LATV (1080p) [Geo-blocked],,Entertainment,no-safe-match
 LawCrime.us@SD,Law & Crime (720p),,Documentary,no-safe-match
 LBCInternational.lb@SD,LBC International (1080p),,General,no-safe-match
 LakeFrontTV.us@SD,Leesburg Lakefront TV (Leesburg FL) (720p),,Legislative,no-safe-match
-LEGOKidsTV.us@SD,LEGO Kids TV,,Kids,no-safe-match
 LeominsterTVEducational.us@SD,Leominster TV Educational (720p),,Education,no-safe-match
 LeominsterTVGovernment.us@SD,Leominster TV Government (720p),,Legislative,no-safe-match
 LeominsterTVPublic.us@SD,Leominster TV Public (720p) [Not 24/7],,General,no-safe-match
@@ -648,7 +487,6 @@ LGTV.us@SD,LGTV (1080p),,Legislative,no-safe-match
 LakeHavasuCity4.us@SD,LHCAZTV,,Legislative,no-safe-match
 KSCE381.us@HD,Life! Christian Broadcasting Network (360p),,Religious,no-safe-match
 KSCE383.us@HD,LIFE! End Times TV (360p),,Religious,no-safe-match
-LifetimeMovies.us@East,Lifetime Movies (1080p),,Movies,no-safe-match
 LifevisionTV.us@SD,LifevisionTV (406p) [Not 24/7],,Religious,no-safe-match
 LLBNHisLight.us@SD,Lighting Lives Blessing Nations His Light (LLBN) (720p),,Religious,no-safe-match
 LLBNHisWord.us@SD,Lighting Lives Blessing Nations His Word (LLBN) (720p),,Religious,no-safe-match
@@ -661,14 +499,9 @@ LLBNTVRomanian.us@SD,Lighting Lives Blessing Nations TV Romanian (LLBN) (480p),,
 LLBNTVSouthAsia.us@SD,Lighting Lives Blessing Nations TV South Asia (LLBN) (480p),,Religious,no-safe-match
 LindellTV.us@SD,Lindell TV (720p),,News,no-safe-match
 LittleGuyanaTV.us@SD,Little Guyana TV (1080p),,General,no-safe-match
-LittleStarsUniverse.us@SD,Little Stars Universe,,Kids,no-safe-match
 Littleton8TV.us@SD,Littleton 8 TV (Littleton CO) (1080p),,General,no-safe-match
-LiveMusic.us@SD,Live Music,,Entertainment,no-safe-match
-LiveNOWfromFOX.us@SD,LiveNOW from FOX (1080p) [Geo-blocked],,News,no-safe-match
-LIVExLIVE.us@SD,LiveXLive (1080p),,Music,no-safe-match
 LivingFaithTV.us@SD,Living Faith TV (540p),,Religious,no-safe-match
 Localish.us@SD,Localish (1080p),,Lifestyle,no-safe-match
-LogoPlutoTV.us@SD,Logo Pluto TV,,Entertainment,no-safe-match
 LogosTV.es@SD,Logos TV (1080p) [Not 24/7],,Religious,no-safe-match
 LogosTV.us@SD,Logos TV (1080p) [Not 24/7],,Religious,no-safe-match
 LogosTVEnglish.us@SD,Logos TV English (1080p) [Not 24/7],,Religious,no-safe-match
@@ -690,15 +523,11 @@ CityofLovelandTV.us@SD,Loveland TV (Loveland CO) (1080p),,General,no-safe-match
 LoveWorldUSA.ng@SD,LoveWorld USA (720p),,Religious,no-safe-match
 LuckyDog.us@SD,Lucky Dog (720p),,Documentary,no-safe-match
 MadDogandMerrill.us@SD,Mad Dog and Merrill (540p) [Not 24/7],,Cooking,no-safe-match
-MadeInHollywood.us@SD,Made in Hollywood,,Movies,no-safe-match
 MagnificentMoviesNetwork.us@SD,Magnificent Movies Network,,Movies;Shop,no-safe-match
 MajestadTV.us@SD,Majestad Televisión (480p) [Not 24/7],,Religious,no-safe-match
 MSTV.us@SD,Manatee Schools Television MSTV (Manatee County FL) (1080p),,Education,no-safe-match
 MariaVisionUSA.us@SD,Maria Vision USA (1080p),,Religious,no-safe-match
 MartinCountyTV.us@SD,Martin County MCTV (Martin County FL) (720p),,Legislative,no-safe-match
-Masadrenalina.us@SD,Más adrenalina,,Entertainment,no-safe-match
-Matlock.us@SD,Matlock,,Series,no-safe-match
-MaverickBlackCinema.us@SD,Maverick Black Cinema (1080p),,Movies,no-safe-match
 MBC1USA.us@SD,MBC 1 USA (1080p) [Geo-blocked],,General,no-safe-match
 MBC3USA.us@SD,MBC 3 USA (1080p) [Geo-blocked],,Kids,no-safe-match
 MBCDramaUSA.us@SD,MBC Drama USA (1080p),,Series,no-safe-match
@@ -708,20 +537,15 @@ MCN6ArtsChannel.us@SD,MCN6 Arts Channel (1080p) [Not 24/7],,Culture;Education,no
 MCN6MusicChannel.us@SD,MCN6 Music Channel (1080p) [Not 24/7],,Animation;Kids;Music,no-safe-match
 MetaleitorTV.us@SD,Metaleitor TV,,Music,no-safe-match
 MBTV.us@SD,Miami Beach Tv (MBTV) (Miami Beach FL) (720p),,Legislative,no-safe-match
-MidnightPulp.us@SD,Midnight Pulp (1080p),,Entertainment,no-safe-match
 MidpenMediaCenterChannel30.us@SD,Midpen Media Center Arts Issues and Lifestyles Channel 30 (720p),,Culture,no-safe-match
 MidpenMediaCenterChannel75.us@SD,Midpen Media Center Diversity and Culture Channel 75 (720p),,Culture,no-safe-match
 MidpenMediaCenterChannel26.us@SD,Midpen Media Center Government etc Channel 26 (720p),,Undefined,no-safe-match
 MidpenMediaCenterChannel29.us@SD,Midpen Media Center Government etc Channel 29 (720p),,Legislative,no-safe-match
 MidpenMediaCenterChannel28.us@SD,Midpen Media Center Youth Education and Sports Channel 28 (720p),,Education,no-safe-match
-MidsomerMurders.us@SD,Midsomer Murders (1080p),,Series,no-safe-match
 MinisterioLaVozDeUnRemanenteTV.us@SD,Ministerio La Voz De Un Remanente TV,,Religious,no-safe-match
 PlutoTVMinutoParaGanar.us@SD,Minuto Para Ganar,,Series,no-safe-match
-MissionImpossible.us@SD,Mission Impossible,,Series,no-safe-match
 MissionTV.us@SD,Mission TV (1080p) [Not 24/7],,Religious,no-safe-match
 PlutoTVMisteriosMedicos.us@SD,Misterios Medicos,,Series,no-safe-match
-Misteriossinresolver.us@SD,Misterios sin Resolver,,Series,no-safe-match
-MLBNetwork.us@SD,MLB Network (1080p) [Geo-blocked],,Sports,no-safe-match
 MMATV.us@SD,MMA-TV (576p),,Sports,no-safe-match
 MCPSSTV.us@SD,Mobile County Public Schools TV Network (MCPSS),,Education,no-safe-match
 MohabatTV.us@SD,Mohabat TV (540p),,Religious,no-safe-match
@@ -729,38 +553,27 @@ MonroeCommunityMediaEducationChannel.us@SD,Monroe Community Media Education Chan
 MonroeCommunityMediaPublicAccessChannel.us@SD,Monroe Community Media Public Access Channel,,General,no-safe-match
 MonroeCountyTV.us@SD,Monroe County Television MCTV (Monroe County FL) (1080p),,Legislative,no-safe-match
 MontgomeryChannel.us@SD,Montgomery Channel,,General,no-safe-match
-MoreTrueCrime.us@SD,More True Crime,,Series,no-safe-match
-MoreTVDrama.us@SD,More TV Drama,,Entertainment,no-safe-match
-MoreTVSitcoms.us@SD,More TV Sitcoms,,Comedy,no-safe-match
 FastTV.us@SD,MotorTrend FAST TV (720p),,Undefined,no-safe-match
-MovieSphere.us@US,MovieSphere (1080p),,Movies,no-safe-match
 MrBeanAnimated.uk@English,Mr. Bean Animated (1080p),,Animation;Kids,no-safe-match
 MRVTVChannel44.us@SD,MRVTV Channel 44 (720p),,General,no-safe-match
 MRVTVChannel45.us@SD,MRVTV Channel 45 (720p),,General,no-safe-match
-MSG.us@SD,MSG (720p),,Sports,no-safe-match
-MST3K.us@US,MST3K (1080p),,Series,no-safe-match
 MTC.us@SD,MTC TV,,Undefined,no-safe-match
 MTV.us@East,MTV (720p),,Entertainment,no-safe-match
 MTV2.us@East,MTV2 (1080p),,Entertainment,no-safe-match
-MTVBiggestPop.us@US,MTV Biggest Pop (1080p),,Music,no-safe-match
-MTVenEspanol.us@SD,MTV en español,,Entertainment,no-safe-match
-MTVFlowLatino.us@SD,MTV Flow Latino (720p),,Music,no-safe-match
-MTVPlutoTV.us@US,MTV Pluto TV,,Entertainment,no-safe-match
 MTVSpankinNew.us@US,MTV Spankin' New (1080p),,Music,no-safe-match
 MuslimNetworkTV.us@SD,Muslim Network TV,,Religious,no-safe-match
-MysteryScienceTheater3000.us@SD,Mystery Science Theater 3000 (1080p),,Comedy,no-safe-match
 MyTimeMovieNetworkEast.us@SD,MyTime Movie Network (1080p),,Movies,no-safe-match
 KCWX351.us@HD,myTV San Antonio TX (KCWX-TV) (720p) [Not 24/7],,Entertainment,no-safe-match
-Naruto.us@US,Naruto (1080p),,Animation,no-safe-match
 Narutoenespanol.us@SD,Naruto,,Animation,no-safe-match
-NashBridges.us@SD,Nash Bridges Channel (1080p) [Geo-blocked],,Series,no-safe-match
 NashuaETV.us@SD,Nashua ETV Channel 22 Nashua NH (720p),,Education,no-safe-match
 GovernmentTV16.us@SD,Nashua GTV Channel 16 Nashua NH (720p),,Legislative,no-safe-match
 NATTV.us@SD,NAT TV (1080p),,General,no-safe-match
 NatickEducationChannel.us@SD,Natick Education Channel (720p),,Education,no-safe-match
 NatickGovernmentChannel.us@SD,Natick Government Channel (720p),,Legislative,no-safe-match
 NatickPublicAccessChannel.us@SD,Natick Public Access Channel (720p),,General,no-safe-match
-NBC.us@East,NBC (1080p),,General,no-safe-match
+NationalGeographic.us@East,National Geographic (720p),,Documentary,matched-but-zero-programmes
+NationalGeographicWild.us@East,National Geographic Wild (720p),,Documentary,matched-but-zero-programmes
+NBC.us@East,NBC (1080p),,General,matched-but-zero-programmes
 KSNV31.us@HD,NBC 3 Las Vegas NV (KSNV) (1080p),,General,no-safe-match
 KCRATV581.us@HD,NBC 3 Sacramento CA (KCRA) (720p),,General,no-safe-match
 KOBDT1.us@SD,NBC 4 Albuquerque NM (KOB) (1080p),,General,no-safe-match
@@ -779,11 +592,8 @@ WBALTV111.us@HD,NBC 11 Baltimore MD (WBAL) (720p),,Undefined,no-safe-match
 WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),,News,no-safe-match
 WNYT131.us@HD,NBC 13 Albany NY (WNYT) (1080p),,Undefined,no-safe-match
 WGBATV261.us@HD,NBC 26 Green Bay WI (WGBA) (720p),,Undefined,no-safe-match
-NBCLXHome.us@HD,NBC LX Home (1080p),,Entertainment;Lifestyle,no-safe-match
-NBCNewsNOW.us@SD,NBC News NOW (1080p),,News,no-safe-match
 NBCUniverso.us@East,NBC Universo (720p),,Entertainment,no-safe-match
 NBCUniverso.us@West,NBC Universo West (720p),,Entertainment,no-safe-match
-NBC.us@West,NBC West (720p),,General,no-safe-match
 KNSD481.us@HD,NBC West (San Diego) (1080p) [Not 24/7],,General,no-safe-match
 NBCLX.us@SD,NBCLX (1080p),,Entertainment,no-safe-match
 NCMEducationalKidsChannel.us@SD,NCM Educational & Kids Channel,,Education;Kids,no-safe-match
@@ -797,27 +607,15 @@ News12PlusHudsonValley.us@HD,News12+ Hudson Valley (1080p) [Geo-blocked],,News,n
 News12PlusLongIsland.us@HD,News12+ Long Island (1080p) [Geo-blocked],,News,no-safe-match
 News12PlusNewJersey.us@HD,News12+ New Jersey (1080p) [Geo-blocked],,News,no-safe-match
 News12PlusNewYork.us@HD,News12+ New York (1080p) [Geo-blocked],,News,no-safe-match
-News12Bronx.us@SD,News12 Bronx [Geo-blocked],,News,no-safe-match
-News12Brooklyn.us@SD,News12 Brooklyn [Geo-blocked],,News,no-safe-match
 News12Conneticut.us@SD,News12 Conneticut [Geo-blocked],,News,no-safe-match
-News12HudsonValley.us@SD,News12 Hudson Valley [Geo-blocked],,News,no-safe-match
 News12LongIsland.us@SD,News12 Long Island (1080p) [Geo-blocked],,News,no-safe-match
 News12NewYork.us@SD,News 12 New York (1080p),,News,no-safe-match
-News12Westchester.us@SD,News12 Westchester [Geo-blocked],,News,no-safe-match
-Newsmax2.us@SD,Newsmax 2 (1080p),,News,no-safe-match
 NewsmaxSpanish.us@SD,Newsmax Spanish (1080p),,News,no-safe-match
 NewsNet.us@SD,NewsNet (720p) [Not 24/7],,News,no-safe-match
 NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],,Sports,no-safe-match
-NFLNetwork.us@SD,NFL Network (720p),,Sports,no-safe-match
-NHLNetwork.us@SD,NHL Network (1080p),,Sports,no-safe-match
-NHRATV.us@SD,NHRA TV (1080p),,Sports,no-safe-match
-NickJrPlutoTV.us@US,Nick Jr. Pluto TV (720p),,Kids,no-safe-match
-Nickelodeonenespanol.us@SD,Nickelodeon en español,,Kids,no-safe-match
-NickelodeonPlutoTV.us@SD,Nickelodeon Pluto TV (720p),,Animation;Kids,no-safe-match
 NinjaKidzTV.us@SD,Ninja Kidz (720p),,Kids,no-safe-match
 NorCastWeather.us@HD,NorCast Weather (1080p),,Weather,no-safe-match
 NMBTV.us@SD,North Miami Beach TV (NMBTV) (North Miami Beach FL) (720p),,Legislative,no-safe-match
-NOST.us@SD,NOST (720p),,Movies,no-safe-match
 KNOVCD411.us@HD,NOTV New Orleans TV (720p),,Travel,no-safe-match
 Novelisima.us@SD,Novelisima,,Series,no-safe-match
 NewsoftheWorld.us@Arabic,NOW News Arabic (720p),,News,no-safe-match
@@ -827,7 +625,6 @@ NTDTV.us@East,NTD TV (1080p),,General,no-safe-match
 NTDTVEnglish.us@USA,NTD TV English (1080p),,General;News,no-safe-match
 NTDTV.us@West,NTD TV West,,General,no-safe-match
 NYXT.us@SD,NYXT (1080p),,Culture,no-safe-match
-OANPlus.us@SD,OANPlus (1080p),,News,no-safe-match
 KOCTChannel18.us@SD,Oceanside Community Television (KOCT) Community Channel 18 (720p),,General,no-safe-match
 KOCTChannel19.us@SD,Oceanside Community Television (KOCT) Education and Government Channel 19 (720p),,Education,no-safe-match
 OCNTV.us@SD,OCN TV,,Religious,no-safe-match
@@ -836,27 +633,19 @@ Olelo53.us@SD,Olelo Community Media Channel 53 (720p),,Culture,no-safe-match
 Olelo54.us@SD,Olelo Community Media Channel 54 (720p),,Legislative,no-safe-match
 Olelo55.us@SD,Olelo Community Media Channel 55 (720p),,Entertainment,no-safe-match
 OmideIranTV.us@SD,Omide Iran,,Entertainment,no-safe-match
-OneAmericaNewsNetwork.us@SD,One America News Network (1080p),,News,no-safe-match
-OnePiece.us@US,One Piece,,Animation,no-safe-match
 OntarioPublicAccessChannel.us@SD,Ontario Public Access Channel (360p),,General,no-safe-match
 OnTV4U.us@SD,OnTV4U (1080p) [Geo-blocked],,Shop,no-safe-match
 OrangeGovernmentAccessTV.us@SD,Orange Government Access TV (Orange CT) (720p),,Legislative,no-safe-match
-OutdoorAmerica.us@SD,Outdoor America (1080p),,Outdoor,no-safe-match
-OutdoorChannel.us@SD,Outdoor Channel (1080p),,Outdoor,no-safe-match
-OutdoorChannel.us@HD,Outdoor Channel HD (1080p),,Outdoor,no-safe-match
+OutdoorChannel.us@SD,Outdoor Channel (1080p),,Outdoor,matched-but-zero-programmes
 OuterSphere.us@SD,OuterSphere (1080p),,Movies;Series,no-safe-match
 OvercomersTV.us@SD,Overcomers TV (720p),,General,no-safe-match
 Overtime.us@SD,Overtime (1080p),,Sports,no-safe-match
 Oxygen.us@East,Oxygen (720p),,Entertainment,no-safe-match
-Pac12Insider.us@SD,Pac 12 Insider (1080p),,Sports,no-safe-match
 PCTChannel27.us@SD,Pacific Coast TV HMB Coastside Channel 27 (720p),,General,no-safe-match
 PCTChannel26.us@SD,Pacific Coast TV MWSD Channel 26 (720p),,General,no-safe-match
 PacificIslandNetwork.us@HD,Pacific Island Network (1080p),,General,no-safe-match
 PBCTVChannel20.us@SD,Palm Beach County TV Channel 20 (Palm Beach County FL) (720p),,Legislative,no-safe-match
 PalmBeachesTV.us@SD,Palm Beaches TV (720p),,Travel,no-safe-match
-ParamountMovieChannel.us@SD,Paramount Movie Channel,,Movies,no-safe-match
-ParamountNetwork.us@East,Paramount Network (720p),,Movies;Series,no-safe-match
-ParamountPlusPicks.us@SD,Paramount+ Picks,,Movies,no-safe-match
 ParsTV.us@SD,Pars TV,,General,no-safe-match
 PascoTV.us@SD,Pasco TV (Pasco County FL) (480p),,Legislative,no-safe-match
 PayamJavanTV.us@SD,Payam Javan TV (720p) [Not 24/7],,Education,no-safe-match
@@ -864,8 +653,6 @@ PayameAfghanTV.us@SD,Payam-e-Afghan TV (480p) [Not 24/7],,General,no-safe-match
 PayameArameshTV.us@SD,Payame Aramesh TV (720p),,Religious,no-safe-match
 PayvandTV.us@SD,Payvand TV (720p),,News,no-safe-match
 PBCTapeshTV.us@SD,PBC Tapesh TV (720p),,General,no-safe-match
-PBRRidePass.us@SD,PBR RidePass (720p),,Sports,no-safe-match
-AntiquesRoadTrip.us@SD,PBS Antiques Road Trip (1080p),,Lifestyle,no-safe-match
 KHET111.us@HD,PBS Honolulu HI (KHET) (1080p) [Not 24/7],,Education,no-safe-match
 WKPCDT2.us@SD,PBS KET2 (720p),,Undefined,no-safe-match
 WKPCTV153.us@SD,PBS KET KY (480p),,Undefined,no-safe-match
@@ -879,14 +666,9 @@ PBSKidsPacific.us@SD,PBS Kids Pacific (1080p),,Education;Kids,no-safe-match
 KUONTV121.us@HD,PBS Lincoln NE (KUON) (1080p) [Geo-blocked],,Education,no-safe-match
 WMPT541.us@HD,PBS MPT Baltimore MD (WMPB) (1080p),,Undefined,no-safe-match
 PBS.us@East,PBS National East (1080p) [Geo-blocked],,Education,no-safe-match
-PBSNature.us@SD,PBS Nature (1080p),,Series,no-safe-match
 WNJT521.us@HD,PBS New Jersey NJ (WNJT) (1080p) [Not 24/7],,Undefined,no-safe-match
 KMOSTV61.us@HD,PBS Sedalia British Columbia MO (KMOS) (1080p) [Geo-blocked],,Education,no-safe-match
 PBSTravel.us@SD,PBS Travel (1080p),,Lifestyle,no-safe-match
-PeopleAreAwesome.us@SD,People Are Awesome (720p),,Entertainment,no-safe-match
-PeppaPig.us@SD,Peppa Pig,,Kids,no-safe-match
-PerryMason.us@SD,Perry Mason,,Series,no-safe-match
-PGATour.us@SD,PGA Tour (1080p),,Sports,no-safe-match
 PhillyCAM.us@SD,PhillyCAM (720p),,General,no-safe-match
 PHLgovTV.us@SD,PHLgovTV (720p),,Legislative,no-safe-match
 PHXTV.us@SD,PHXTV,,Legislative,no-safe-match
@@ -894,51 +676,14 @@ PCTV26.us@SD,Pinole Community Television (PCTV) Channel 26 (Pinole CA) (480p),,L
 PCTV28.us@SD,Pinole Community Television (PCTV) Channel 28 (Pinole CA) (480p),,General,no-safe-match
 PixLTV.us@SD,PixL TV (720p),,Undefined,no-safe-match
 Placid.us@EastHD,Placid (1080p) [Not 24/7],,Animation,no-safe-match
-PlutoTVAction.us@US,Pluto TV Action,,Movies,no-safe-match
 PlutoTVAdventure.us@US,Pluto TV Adventure,,Entertainment;Outdoor;Series,no-safe-match
-PlutoTVAnime.us@US,Pluto TV Anime,,Animation,no-safe-match
-PlutoTVAnimeMovies.us@SD,Pluto TV Anime Movies,,Animation,no-safe-match
-PlutoTVBackcountry.us@SD,Pluto TV Backcountry,,Outdoor,no-safe-match
-PlutoTVCars.us@SD,Pluto TV Cars,,Auto,no-safe-match
-PlutoTVComedy.us@US,Pluto TV Comedy,,Comedy,no-safe-match
-PlutoTVCompetition.us@SD,Pluto TV Competition,,Sports,no-safe-match
-PlutoTVCrimeDrama.us@SD,Pluto TV Crime Drama,,Movies,no-safe-match
-PlutoTVCrimeMovies.us@SD,Pluto TV Crime Movies,,Movies,no-safe-match
-PlutoTVCultFilms.us@US,Pluto TV Cult Films,,Movies,no-safe-match
-PlutoTVDrama.us@US,Pluto TV Drama,,Movies,no-safe-match
-PlutoTVFantastic.us@SD,Pluto TV Fantastic,,Series,no-safe-match
 PlutoTVFranchiseFavorites.us@SD,Pluto TV Franchise Favorites,,Movies,no-safe-match
-PlutoTVGameShows.us@SD,Pluto TV Game Shows,,Entertainment,no-safe-match
-PlutoTVHistory.us@US,Pluto TV History,,Documentary,no-safe-match
 PlutoTVHometownDrama.us@SD,Pluto TV Hometown Drama,,Series,no-safe-match
-PlutoTVHorror.us@US,Pluto TV Horror,,Movies;Series,no-safe-match
-PlutoTVIcons.us@SD,Pluto TV Icons,,Movies,no-safe-match
-PlutoTVLives.us@US,Pluto TV Lives,,Series,no-safe-match
-PlutoTVMilitary.us@SD,Pluto TV Military,,Series,no-safe-match
-PlutoTVNovelas.us@US,Pluto TV Novelas,,Series,no-safe-match
-PlutoTVParanormal.us@US,Pluto TV Paranormal,,Documentary,no-safe-match
-PlutoTVReality.us@US,Pluto TV Pride,,Entertainment,no-safe-match
-PlutoTVReaction.us@SD,Pluto TV Reaction,,Movies,no-safe-match
-PlutoTVRomance.us@US,Pluto TV Romance,,Movies;Series,no-safe-match
-PlutoTVSciFi.us@US,Pluto TV Sci-Fi,,Movies;Series,no-safe-match
-PlutoTVScience.us@US,Pluto TV Science,,Documentary;Science,no-safe-match
-PlutoTVSpotlight.us@SD,Pluto TV Spotlight,,Movies,no-safe-match
-PlutoTVStaffPicks.us@SD,Pluto TV Staff Picks,,Movies,no-safe-match
-PlutoTVTerror.us@SD,Pluto TV Terror,,Movies,no-safe-match
-PlutoTVThrillers.us@US,Pluto TV Thrillers,,Movies,no-safe-match
-PlutoTVTrendingNow.us@SD,Pluto TV Trending Now,,Movies,no-safe-match
-PlutoTVTrueCrime.us@US,Pluto TV True Crime,,Documentary;Series,no-safe-match
-PlutoTVWesterns.us@US,Pluto TV Westerns,,Movies,no-safe-match
-pocketwatch.us@SD,pocket.watch Game On (1080p),,Kids,no-safe-match
 PoconoTelevisionNetwork.us@HD,Pocono Television Network (1080p),,Travel,no-safe-match
 PlutoTVPokemon.us@US,Pokémon,,Animation;Kids,no-safe-match
-PokerGo.us@US,PokerGO,,Sports,no-safe-match
 PomonaInternetStreamingChannel.us@SD,Pomona Internet Streaming Channel (Pomona CA) (720p),,Undefined,no-safe-match
 CityofPompanoBeach.us@SD,Pompano Beach Web Streaming (Pompano Beach FL) (720p),,Legislative,no-safe-match
-PopTV.us@SD,Pop TV (720p),,Entertainment,no-safe-match
-PopstarTV.us@SD,Popstar! TV (1080p) [Not 24/7],,Entertainment,no-safe-match
 PSLTV.us@SD,Port St Lucie PSL TV (Port St Lucie FL) (360p),,Legislative,no-safe-match
-Portlandia.us@SD,Portlandia (720p),,Undefined,no-safe-match
 PottaDivineTVUSA.us@SD,Potta-Divine TV USA (480p),,Religious,no-safe-match
 PSDTV.us@SD,Poudre School District TV (PSD TV) (Fort Collins CO) (720p),,Education,no-safe-match
 PowerNationTV.us@SD,PowerNation (1080p),,Auto,no-safe-match
@@ -954,23 +699,14 @@ RaiWorldPremium.it@SD,"like Gecko) Chrome/149.0.0.0 Safari/537.36"" group-title=
 RainbowRuby.us@SD,Rainbow Ruby (720p),,Undefined,no-safe-match
 RallyTV.us@SD,Rally TV (1080p),,Sports,no-safe-match
 RCTV3.us@SD,Rancho Cucamonga RCTV3 (Rancho Cucamonga CA) (480p),,General,no-safe-match
-Rawhide.us@SD,Rawhide,,Movies;Series,no-safe-match
 RealWild.uk@SD,Real Wild (1080p),,Undefined,no-safe-match
 RedApple21.us@SD,Red Apple 21 (Fairfax County Public Schools) (480p) [Not 24/7],,Education,no-safe-match
-RedBullTV.at@US,Red Bull TV US (1080p),,Outdoor;Sports,no-safe-match
 RedseatTheFirst.us@SD,Redseat The First (720p),,News,no-safe-match
-Reelz.us@SD,Reelz (720p),,Documentary,no-safe-match
-RetroTV.us@East,Retro TV (720p),,Classic,no-safe-match
 RetroCrush.us@SD,RetroCrush (1080p),,Animation;Classic,no-safe-match
-ReutersTV.us@SD,Reuters (1080p),,News,no-safe-match
 RevandRoll.us@SD,Rev and Roll (720p),,Undefined,no-safe-match
 REVNAction.us@SD,Rev'n Action (720p),,Auto;Outdoor;Series;Sports,no-safe-match
-Revry.us@SD,Revry (1080p),,Lifestyle,no-safe-match
 RevryLatinX.us@SD,Revry LatinX (720p),,Entertainment,no-safe-match
-RevryNews.us@SD,Revry News (720p) [Not 24/7],,Lifestyle,no-safe-match
 RevryQueer.us@SD,Revry Queer (720p),,Lifestyle,no-safe-match
-Ridiculousness.us@SD,Ridiculousness,,Comedy,no-safe-match
-RiffTrax.us@US,RiffTrax (720p),,Comedy,no-safe-match
 RCTV.us@SD,Rifle Community TV RCTV (Rifle CO) (720p),,Undefined,no-safe-match
 Roar.us@SD,Roar (1080p),,Entertainment,no-safe-match
 RockyHillChannel16.us@SD,Rocky Hill Government Access Channel 16 (480p),,Legislative,no-safe-match
@@ -980,12 +716,10 @@ RTRPlaneta.ru@US,RTR Planeta USA (720p) [Geo-blocked],,General,no-safe-match
 RTViUS.us@SD,RTVi US (1080p),,General,no-safe-match
 Runtime.us@SD,Runtime (720p),,Movies,no-safe-match
 RuntimeEspanol.us@SD,Runtime Espanol (720p),,Movies,no-safe-match
-RVTV.us@HD,RVTV (1080p),,Undefined,no-safe-match
 RVTVCivic.us@SD,RVTV Civic (720p),,General,no-safe-match
 RVTVGrantsPass.us@SD,RVTV Grants Pass (720p),,General,no-safe-match
 RVTVPrime.us@SD,RVTV Prime (720p),,General,no-safe-match
 RVTVVoices.us@SD,RVTV Voices (720p),,General,no-safe-match
-RyanandFriends.us@SD,Ryan and Friends (1080p),,Kids,no-safe-match
 SamsungWildlife.us@SD,Samsung Wild Life (720p) [Geo-blocked],,Undefined,no-safe-match
 PlutoTVSanctuary.us@SD,Sanctuary,,Series,no-safe-match
 SanskarUSA.in@SD,Sanskar USA (1080p),,Religious,no-safe-match
@@ -993,10 +727,8 @@ SMCTVChannel24.us@SD,Santa Maria Community Television Education Channel (720p),,
 SMCTVChannel23.us@SD,Santa Maria Community Television Government Channel (720p),,Legislative,no-safe-match
 SMCTVChannel25.us@SD,Santa Maria Community Television Public Access Channel (720p),,General,no-safe-match
 CityTV20SantaMonica.us@SD,Santa Monica City TV 20 (Santa Monica CA) (360p) [Not 24/7],,Legislative,no-safe-match
-SBNTV.us@SD,SBN TV (720p),,Religious,no-safe-match
 SCCurrents.us@SD,SC Currents,,News,no-safe-match
 SchwabNetwork.us@SD,Schwab Network (1080p),,Business,no-safe-match
-ScientologyNetwork.us@SD,Scientology Network (1080p),,Undefined,no-safe-match
 KSCNTV221.us@HD,Scientology Network KSCN-DT1,,Undefined,no-safe-match
 WFTTTV621.us@HD,Scientology Network WFTT-DT1,,Undefined,no-safe-match
 ScreenDreams.us@SD,Screen Dreams (720p),,Relax,no-safe-match
@@ -1014,40 +746,28 @@ ShemarooBollywood.us@SD,Shemaroo Bollywood (1080p),,Undefined,no-safe-match
 ShoutFactoryTV.us@SD,Shout! TV (1080p),,General,no-safe-match
 Showtime.us@East,Showtime (720p),,Undefined,no-safe-match
 Showtime.us@West,Showtime West (720p),,Undefined,no-safe-match
-SitcomLegends.us@SD,Sitcom Legends,,Comedy,no-safe-match
-SketchyAF.us@SD,Sketchy AF,,Comedy,no-safe-match
 SkwadPlay.us@SD,SKWAD (1080p),,Kids,no-safe-match
 SLOCountyChannel21.us@SD,SLO County Channel 21 (360p),,Undefined,no-safe-match
 SlopesTV.us@SD,Slopes TV (720p),,Sports,no-safe-match
 SmithsonianChannel.us@East,Smithsonian Channel (1080p),,Science,no-safe-match
-SmithsonianChannelSelects.us@SD,Smithsonian Channel Selects,,Science,no-safe-match
-SNLVault.us@SD,SNL Vault (1080p),,Comedy,no-safe-match
 SonicTV.us@SD,Sonic TV (720p),,Animation,no-safe-match
 SonyCanalNovelas.us@SD,Sony Canal Novelas,,Movies,no-safe-match
 SonyKALHindi.us@SD,Sony KAL Hindi (1080p),,Undefined,no-safe-match
 SoundViewCommunityMedia.us@SD,Sound View Community Media Education (480p),,General,no-safe-match
-SpikeOutdoors.us@SD,Spike Outdoors,,Outdoor,no-safe-match
-SpikePlutoTV.us@SD,Spike Pluto TV,,Documentary,no-safe-match
 SpiritTV.us@SD,Spirit TV (720p) [Not 24/7],,Music;Religious,no-safe-match
 SportsNetNewYork.us@SD,SportsNet New York (1080p),,Sports,no-safe-match
 StLuciePublicSchools.us@SD,St Lucie Public Schools,,Education,no-safe-match
 SPTV.us@SD,St. Pete TV (SPTV) (St Petersburg FL) (360p),,Legislative,no-safe-match
-Stadium.us@SD,Stadium (720p),,Sports,no-safe-match
 StarChannelInternational.gr@HD,STAR International (720p),,Entertainment,no-safe-match
 StarTrek.us@US,Star Trek,,Series,no-safe-match
-StarTrekDeepSpaceNine.us@SD,Star Trek: Deep Space Nine,,Movies;Series,no-safe-match
-StarTrekTheNextGeneration.us@SD,Star Trek: The Next Generation,,Movies;Series,no-safe-match
-StarTrekVoyager.us@SD,Star Trek: Voyager,,Movies;Series,no-safe-match
 StarzKidsFamily.us@East,Starz Kids & Family (1080p),,Kids,no-safe-match
 StingrayGreatestHolidayHits.us@SD,Stingray Greatest Holiday Hits,,Music,no-safe-match
 StocktonGovTV.us@SD,Stockton GovTV (Stockton CA) (720p),,Legislative,no-safe-match
 PlutoTVStorageWars.us@SD,Storage Wars by A&E (720p),,Series,no-safe-match
-WCIUTV265.us@SD,Story Television,,Undefined,no-safe-match
 StrykTV.us@HD,Stryk TV (1080p),,Music,no-safe-match
 SUMtvEnglish.us@SD,SUMtv English (1080p),,Religious,no-safe-match
 SuperSimpleSongs.us@SD,Super Simple Songs (1080p),,Kids,no-safe-match
 WACX551.us@SD,SuperChannel Orlando (WACX-DT1) (720p),,Undefined,no-safe-match
-SupernaturalDrama.us@SD,Supernatural Drama,,Series,no-safe-match
 Survivor.us@SD,Survivor (1080p),,Series,no-safe-match
 SwamijiTVAmerican.at@SD,Swamiji TV American (1080p) [Not 24/7],,Outdoor,no-safe-match
 SwerveSports.us@SD,Swerve Combat (1080p),,Sports,no-safe-match
@@ -1055,93 +775,50 @@ TaiwanPlusTV.tw@SD,Taiwan Plus TV (1080p),,Undefined,no-safe-match
 TalkinLiveClassicsTV.us@SD,Talkin Live Classics TV (480p),,Entertainment,no-safe-match
 TBCN.us@SD,Tampa Bay Communnity Network TBCN (Tampa Bay FL) (480p),,General,no-safe-match
 Tapesh2.us@SD,Tapesh 2,,Undefined,no-safe-match
-TBN.us@East,TBN (1080p),,Religious,no-safe-match
 TBNArmenia.us@SD,TBN Armenia,,Undefined,no-safe-match
 TBNAsia.us@SD,TBN Asia (480p),,Religious,no-safe-match
 TBNPacific.us@SD,TBN Pacific,,Undefined,no-safe-match
 TBNUkraine.us@SD,TBN Україна (720p),,Undefined,no-safe-match
-TED.us@SD,TED (1080p),,Undefined,no-safe-match
-TeenMom.us@SD,Teen Mom,,Documentary,no-safe-match
 TeleBoston.us@SD,Tele Boston (480p),,Entertainment,no-safe-match
 TelePam.us@SD,Tele Pam (1080p),,General,no-safe-match
 TeleMIX.us@SD,TeleMIX (720p),,Entertainment,no-safe-match
 Telemundo.us@East,Telemundo (1080p),,General,no-safe-match
-TelemundoAlDia.us@HD,Telemundo Al Dia,,General,no-safe-match
 TelemundoCorpusChristi.us@SD,Telemundo Corpus Christi (720p),,Entertainment,no-safe-match
-TelemundoTelenovelasClasicas.us@SD,Telemundo telenovelas clásicas,,Series,no-safe-match
 Telemundo.us@West,Telemundo West (2160p),,General,no-safe-match
 TemeculaTV.us@SD,Temecula TV (Temecula CA) (1080p),,Undefined,no-safe-match
 Tempe11.us@SD,Tempe Channel 11,,Undefined,no-safe-match
-TennisChannel.us@SD,Tennis Channel (1080p),,Sports,no-safe-match
-TennisChannel.us@Plus2,TennisChannel 2 (720p),,Sports,no-safe-match
+TennisChannel.us@SD,Tennis Channel (1080p),,Sports,matched-but-zero-programmes
 TerraMaterWILD.de@English,Terra Mater WILD English (1080p),,Documentary,no-safe-match
 TeveVidaNetwork.us@SD,Teve Vida Network (480p) [Not 24/7],,Religious,no-safe-match
-TheAddamsFamily.us@SD,The Addams Family,,Series,no-safe-match
-TheAmazingRace.us@SD,The Amazing Race,,Series,no-safe-match
-TheAndyGriffithShow.us@SD,The Andy Griffith Show,,Classic,no-safe-match
-TheArchive.us@SD,The Archive (1080p),,Classic,no-safe-match
 TheAsylum.us@US,The Asylum (1080p),,Series,no-safe-match
 TheBobRossChannel.us@SD,The Bob Ross Channel (720p),,Series,no-safe-match
 TheCarolBurnettShow.us@SD,The Carol Burnett Show (1080p),,Classic,no-safe-match
-TheChallenge.us@SD,The Challenge,,Series,no-safe-match
 TheChatShowChannel.uk@SD,The Chat Show Channel (1080p),,Comedy;Series,no-safe-match
-TheConners.us@SD,The Conners (1080p) [Geo-blocked],,Comedy;Series,no-safe-match
-TheCountryNetwork.us@SD,The Country Network (1080p),,Music,no-safe-match
-TheDesignNetwork.us@SD,The Design Network (1080p),,Lifestyle,no-safe-match
 TheFirstTV.us@SD,The First TV (1080p),,News,no-safe-match
 TheGrahamNortonShow.uk@SD,The Graham Norton Show (1080p),,Entertainment,no-safe-match
 TheHillTV.us@SD,The Hill TV (1080p) [Geo-blocked],,Undefined,no-safe-match
-TheJamieOliverChannel.us@SD,The Jamie Oliver Channel (1080p),,Lifestyle,no-safe-match
-JohnnyCarsonTV.us@SD,The Johnny Carson Show (720p),,Series,no-safe-match
-TheJudgeJudyChannel.us@SD,The Judge Judy Channel (720p),,Series,no-safe-match
 LegoChannel.us@SD,The LEGO Channel (1080p),,Kids,no-safe-match
-TheLoveBoat.us@SD,The Love Boat,,Classic,no-safe-match
-TheNewDetectives.us@US,The New Detectives,,Series,no-safe-match
 TheNowNetwork.us@SD,The Now Network (480p) [Not 24/7],,Religious,no-safe-match
-ThePetCollective.us@US,The Pet Collective (1080p) [Geo-blocked],,Family,no-safe-match
-ThePriceIsRight.us@HD,The Price Is Right,,Entertainment,no-safe-match
-ThePriceIsRightTheBarkerEra.us@SD,The Price Is Right: The Barker Era (1080p) [Geo-blocked],,Entertainment,no-safe-match
-TheRifleman.us@SD,The Rifleman,,Series,no-safe-match
 PlutoTVTheTwilightZone.us@SD,The Twilight Zone,,Classic;Series,no-safe-match
-TheWalkingDeadenEspanol.us@SD,The Walking Dead en español (720p),,Undefined,no-safe-match
-TheWalkingDeadUniverse.us@SD,The Walking Dead Universe (720p),,Series,no-safe-match
-TheWildWildWest.us@SD,The Wild Wild West,,Movies;Series,no-safe-match
 TheYoungTurks.us@SD,The Young Turks (1080p) [Geo-blocked],,News,no-safe-match
 theDoveTV.us@SD,theDove TV (720p),,Religious,no-safe-match
-ThisOldHouse.us@SD,This Old House (1080p),,Series,no-safe-match
 Thornton8.us@SD,Thornton Government Access Channel 17 (Thornton CO) (1080p),,Legislative,no-safe-match
 ThreesCompany.us@SD,Three's Company,,Series,no-safe-match
 TimelessTV.us@SD,Timeless TV,,Classic;Shop,no-safe-match
 TinTV.us@SD,Tin TV (720p),,Entertainment,no-safe-match
-TinyHouseNation.us@SD,Tiny House Nation (720p),,Series,no-safe-match
 TLNMediaChicago.us@SD,TLN Media Chicago (720p),,Religious,no-safe-match
 TLNMediaSanFrancisco.us@SD,TLN Media San Francisco (720p),,Religious,no-safe-match
-TMZ.us@SD,TMZ (1080p) [Geo-blocked],,Entertainment,no-safe-match
 TODAYAllDay.us@SD,TODAY All Day (1080p),,News,no-safe-match
 TomAndJerry.do@HD,Tom And Jerry (720p),,Kids,no-safe-match
-TGJunior.us@SD,Toon Goggles Junior (720p),,Kids,no-safe-match
-ToonamiAftermath.us@East,Toonami Aftermath East (480p),,Animation,no-safe-match
-ToonGoggles.us@SD,ToonGoggles (720p),,Kids,no-safe-match
 TopStoriesbyNewsy.us@SD,Top Stories by Newsy (720p),,News,no-safe-match
-Tosh0.us@SD,Tosh.0,,Series,no-safe-match
-TotallyTurtles.us@US,TOTALLY TURTLES,,Kids,no-safe-match
-ToughJobs.us@SD,Tough Jobs,,Entertainment,no-safe-match
-TransformersTV.us@SD,Transformers TV (720p),,Kids,no-safe-match
 CommunityTVChannel189.us@SD,Traverse Area Community Media CommunityTV Channel 189 (Traverse City MI) (1080p) [Geo-blocked],,General,no-safe-match
-TribecaChannel.us@SD,Tribeca Channel (1080p) [Geo-blocked],,Undefined,no-safe-match
-TrueCrimeNetwork.us@SD,True Crime Network+ (1080p) [Geo-blocked],,Series,no-safe-match
-TrueCrimeNow.us@SD,True Crime Now (1080p),,Undefined,no-safe-match
-TrueHistory.us@SD,True History (720p),,Undefined,no-safe-match
 TSTV.us@SD,TSTV (720p),,Undefined,no-safe-match
 TurismoHD.do@HD,Turismo HD (720p),,Entertainment,no-safe-match
 TUTV.us@SD,TUTV (1080p),,Education,no-safe-match
 TV4.us@SD,TV4 (360p),,Legislative,no-safe-match
 TVDaja.do@SD,TV Daja (1080p) [Not 24/7],,General,no-safe-match
 TVHispanic.us@SD,TV Hispanic [Not 24/7],,General,no-safe-match
-TVLandDrama.us@SD,TV Land Drama,,Movies,no-safe-match
-TVLandSitcoms.us@SD,TV Land Sitcoms,,Comedy,no-safe-match
 TVPanou.ht@SD,TV Panou (720p) [Not 24/7],,General,no-safe-match
-TVQuisqueya.us@SD,TV QUISQUEYA (720p),,General,no-safe-match
 TVEInternacionalAmerica.es@SD,"like Gecko) Chrome/130.0.0.0 Safari/537.36"" group-title=""Undefined"",TVE Internacional America (720p)",,Undefined,no-safe-match
 TVEInternacionalAmerica.es@HD,TVE Internacional America HD (1080p) [Geo-blocked],,Undefined,no-safe-match
 TVSBowlingNetwork.us@SD,TVS Bowling Network (720p),,Sports,no-safe-match
@@ -1178,14 +855,11 @@ TVSWomenSports.us@SD,TVS Women Sports (720p),,Sports,no-safe-match
 TVSAGovernmentChannel.us@SD,TVSA Government Channel (720p),,Legislative,no-safe-match
 TVSAPublicChannel.us@SD,TVSA Public Channel (720p),,General,no-safe-match
 TVSConsumerDirect.us@SD,TVSConsumerDirect (720p),,Shop,no-safe-match
-TyCSportsUSA.ar@SD,TyC Sports USA,,Sports,no-safe-match
 UCTV.us@SD,UCTV University of California (720p) [Not 24/7],,Education,no-safe-match
 Unbeaten.us@SD,Unbeaten (1080p),,Sports,no-safe-match
-Unidentified.us@SD,Unidentified (1080p),,Documentary,no-safe-match
+UniMas.us@Central,UniMas Central (720p),,Undefined,matched-but-zero-programmes
 UniversalComedy.us@SD,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Comedy;Movies;Series"",Universal Comedy (1080p)",,Comedy;Movies;Series,no-safe-match
-UnsolvedMysteries.us@US,Unsolved Mysteries (720p),,Series,no-safe-match
-USANetwork.us@East,USA Network (1080p),,Comedy;Movies;Series;Sports,no-safe-match
-USANetwork.us@West,USA Network West (1080p),,Comedy;Movies;Series;Sports,no-safe-match
+USANetwork.us@East,USA Network (1080p),,Comedy;Movies;Series;Sports,matched-but-zero-programmes
 USATODAY.us@SD,USA Today (1080p),,News,no-safe-match
 VCAT.us@SD,Vallejo Community Access Television (V-CAT) (Vallejo CA) (480p),,General,no-safe-match
 VallenatoInternacional.us@SD,Vallenato Internacional (720p) [Not 24/7],,Music,no-safe-match
@@ -1196,7 +870,6 @@ VelayatTVNetwork.us@SD,Velayat TV (480p),,Religious,no-safe-match
 VenevisionInternacional.ve@SD,Venevisión Internacional (720p),,General,no-safe-match
 VevoRB.us@SD,Vevo R&B (1080p),,Music,no-safe-match
 VevoRetroRock.us@SD,Vevo Retro Rock (1080p),,Music,no-safe-match
-VH1QueensofReality.us@SD,VH1 Queens of Reality,,Entertainment,no-safe-match
 VICETV.us@SD,VICE TV (1080p),,Undefined,no-safe-match
 VidaMejorTV.us@SD,Vida Mejor TV (480p),,Religious,no-safe-match
 WHOHTV.us@SD,Village of Hastings-On-Hudson NY (WHOH-TV) (360p),,General,no-safe-match
@@ -1213,7 +886,6 @@ WATCDT572.us@HD,WATC The POINT Network (1080p),,Undefined,no-safe-match
 WATCDT571.us@HD,WATC TV57 (1080p),,Undefined,no-safe-match
 WatchitKID.us@SD,Watch it KID! (720p),,Kids,no-safe-match
 WatchitScream.us@SD,Watch it Scream! (720p),,Movies,no-safe-match
-WaypointTV.us@SD,Waypoint TV (1080p),,Outdoor,no-safe-match
 WBBJTV71.us@HD,WBBJ (Jackson TN) (432p),,Undefined,no-safe-match
 WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),,News;Weather,no-safe-match
 WBTSCD151.us@HD,WBTS-CD1 (1080p),,Undefined,no-safe-match
@@ -1224,12 +896,9 @@ WCCADT1.us@SD,WCCA 194 Worcester MA (WCCA-TV) (480p),,Undefined,no-safe-match
 WCETVDigitalChannel318.us@SD,WCETV Digital Channel 31.8,,General,no-safe-match
 WCOT.us@SD,WCOT 13 (Tallahassee FL) (720p),,General,no-safe-match
 WDEFTV121.us@HD,WDEF-TV News Chattanooga TN (720p),,Undefined,no-safe-match
-WeatherNation.us@SD,WeatherNation (1080p),,Weather,no-safe-match
-WeatherSpy.us@SD,WeatherSpy (720p),,Weather,no-safe-match
 WEDQ34.us@HD,WEDQ-DT4 (1080p),,Undefined,no-safe-match
 WeedsNurseJackie.us@SD,Weeds / Nurse Jackie (720p),,Series,no-safe-match
 WeHoTV.us@SD,West Hollywood WeHoTV (West Hollywood CA) (360p),,Undefined,no-safe-match
-WesternTV.us@SD,Western TV,,Classic,no-safe-match
 Westerns4U.us@SD,Westerns 4U (1080p),,Classic,no-safe-match
 WFLD501.us@HD,WFLD-DT1 (1080p),,Undefined,no-safe-match
 WFTXTV361.us@HD,WFTX News Fort Myers FL (720p),,Undefined,no-safe-match
@@ -1249,13 +918,10 @@ WhitePlainsCommunityMedia.us@SD,White Plains Community Media (360p),,Undefined,n
 CityTVWhittier.us@SD,Whittier CityTV (Whittier CA) (720p),,Legislative,no-safe-match
 WHPSCD152.us@SD,WHPS Detroit,,General,no-safe-match
 WildNOut.us@SD,Wild 'N Out,,Series,no-safe-match
-Willow.us@SD,Willow (720p),,Sports,no-safe-match
-WillowSports.us@SD,Willow Sports (1080p),,Sports,no-safe-match
 WindowTV.us@SD,Window TV (720p),,Undefined,no-safe-match
 WineWatchesWhiskey.us@HD,Wine Watches Whiskey (1080p),,Undefined,no-safe-match
 WCATDT15.us@SD,Winthrop Community Access TV (WCAT 15) (360p) [Not 24/7],,Undefined,no-safe-match
 PlutoTVWipeout.us@SD,Wipeout,,Series,no-safe-match
-WipeoutXtra.us@SD,Wipeout Xtra (1080p),,Entertainment,no-safe-match
 Wired2FishTV.us@SD,Wired2Fish (720p) [Geo-blocked],,Undefined,no-safe-match
 WITI61.us@HD,WITI-DT1 (1080p),,Undefined,no-safe-match
 WITN22.us@SD,WITN 22 (Wilmington DE) (1080p) [Not 24/7],,General,no-safe-match
@@ -1271,7 +937,6 @@ WMPT222.us@SD,WMPT-DT2 (PBS Create),,Undefined,no-safe-match
 WNBC471.us@HD,WNBC-DT1 (1080p),,Undefined,no-safe-match
 WNYW51.us@HD,WNYW-DT1 (1080p),,Undefined,no-safe-match
 WomensSportsNetwork.us@SD,Women's Sports Network (1080p),,Undefined,no-safe-match
-WorldPokerTour.us@US,World Poker Tour (1080p),,Sports,no-safe-match
 WPIXHD.us@SD,WPIX-HD (576p),,Undefined,no-safe-match
 WPSTV.us@SD,WPS TV (360p),,Education,no-safe-match
 WPTVTV51.us@HD,WPTV News West Palm Beach FL (720p),,Undefined,no-safe-match
@@ -1288,7 +953,6 @@ WTVJ61.us@HD,WTVJ-DT1 (1080p),,Undefined,no-safe-match
 WTVQDT361.us@HD,WTVQ ABC 36 News (Lexington KY) (720p),,Undefined,no-safe-match
 WTVT131.us@HD,WTVT-DT1 (1080p),,Undefined,no-safe-match
 WTXFTV291.us@HD,WTXF-DT1 (1080p),,Undefined,no-safe-match
-WuTangCollection.us@SD,Wu Tang Collection (720p),,Movies,no-safe-match
 WVCULP.us@SD,WVCU-LP Concord University Radio The Cure 97.7 (1080p),,Music,no-safe-match
 WVIT301.us@HD,WVIT-DT1 (1080p),,Undefined,no-safe-match
 WVVHCD181.us@HD,WVVH-CD 18.1 (720p),,Undefined,no-safe-match
@@ -1297,20 +961,10 @@ WWORTV91.us@HD,WWOR-DT1,,Undefined,no-safe-match
 WXTVDT681.us@HD,WXTV-DT1,,Undefined,no-safe-match
 WXXVTV251.us@HD,WXXV-TV News (Biloxi MS) (720p),,Undefined,no-safe-match
 XFCTV.us@SD,XFC TV (720p),,Sports,no-safe-match
-XITE90sThrowback.us@SD,XITE 90's Throwback (1080p),,Music,no-safe-match
-XITEClassicCountry.nl@SD,XITE Classic Country (1080p) [Geo-blocked],,Music,no-safe-match
-XITEJustChill.nl@US,XITE Just Chill (1080p),,Music,no-safe-match
-XITENuevoLatino.us@SD,XITE Nuevo Latino (1080p),,Music,no-safe-match
-XITEReggaeVibes.nl@HD,XITE Reggae Vibes (1080p),,Music,no-safe-match
-XITERockxMetal.nl@US,XITE Rock x Metal (1080p),,Music,no-safe-match
-XITESiempreLatino.us@SD,XITE Siempre Latino (1080p),,Music,no-safe-match
 XploreTV.us@SD,Xplore (1080p),,Entertainment,no-safe-match
-YahooFinance.us@SD,Yahoo! Finance (1080p),,Business,no-safe-match
-YoMTV.us@SD,Yo! MTV (1080p),,Music,no-safe-match
 YouDotGov.us@SD,YouDotGov,,Legislative,no-safe-match
 YoungHollywood.us@SD,Young Hollywood (1080p) [Geo-blocked],,Entertainment,no-safe-match
 YTATV.us@SD,YTA TV (720p),,Entertainment,no-safe-match
-YuGiOh.us@SD,Yu-Gi-Oh! (1080p),,Animation,no-safe-match
 YuGiOhenespanol.us@SD,Yu-Gi-Oh! en espanol (1080p),,Undefined,no-safe-match
 Yuma77.us@SD,Yuma77,,Legislative,no-safe-match
 YumaChannel72.us@SD,Yuma AZ CH 72 (1080p),,Legislative,no-safe-match

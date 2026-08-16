@@ -1,3 +1,5 @@
 playlist_channels=1495
-matched_channels=176
-unmatched_channels=1319
+matched_channels=522
+unmatched_channels=973
+primary_matches=444
+fallback_matches=78
