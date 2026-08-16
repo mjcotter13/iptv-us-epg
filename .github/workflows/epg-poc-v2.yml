@@ -1,0 +1,71 @@
+name: Five Channel EPG POC v2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  poc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Clone IPTV-org EPG
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git _iptv_epg
+      - name: Install dependencies
+        working-directory: _iptv_epg
+        run: npm ci
+      - name: Prepare mappings
+        run: python poc_v2_prepare.py
+      - name: Show mappings
+        run: cat poc_v2_work/selected_mappings.csv
+      - name: Grab ESPNU
+        continue-on-error: true
+        working-directory: _iptv_epg
+        env:
+          NODE_OPTIONS: --max-old-space-size=2048
+        run: npm run grab --- --channels=../poc_v2_work/ESPNU_us_SD.channels.xml --output=../poc_v2_work/ESPNU_us_SD.guide.xml --days=1 --maxConnections=1 --delay=1000 --timeout=30000
+      - name: Grab NFL Network
+        continue-on-error: true
+        working-directory: _iptv_epg
+        env:
+          NODE_OPTIONS: --max-old-space-size=2048
+        run: npm run grab --- --channels=../poc_v2_work/NFLNetwork_us_SD.channels.xml --output=../poc_v2_work/NFLNetwork_us_SD.guide.xml --days=1 --maxConnections=1 --delay=1000 --timeout=30000
+      - name: Grab Tennis Channel
+        continue-on-error: true
+        working-directory: _iptv_epg
+        env:
+          NODE_OPTIONS: --max-old-space-size=2048
+        run: npm run grab --- --channels=../poc_v2_work/TennisChannel_us_SD.channels.xml --output=../poc_v2_work/TennisChannel_us_SD.guide.xml --days=1 --maxConnections=1 --delay=1000 --timeout=30000
+      - name: Grab MTV East
+        continue-on-error: true
+        working-directory: _iptv_epg
+        env:
+          NODE_OPTIONS: --max-old-space-size=2048
+        run: npm run grab --- --channels=../poc_v2_work/MTV_us_East.channels.xml --output=../poc_v2_work/MTV_us_East.guide.xml --days=1 --maxConnections=1 --delay=1000 --timeout=30000
+      - name: Grab USA Network East
+        continue-on-error: true
+        working-directory: _iptv_epg
+        env:
+          NODE_OPTIONS: --max-old-space-size=2048
+        run: npm run grab --- --channels=../poc_v2_work/USANetwork_us_East.channels.xml --output=../poc_v2_work/USANetwork_us_East.guide.xml --days=1 --maxConnections=1 --delay=1000 --timeout=30000
+      - name: Merge and analyze
+        run: python poc_v2_merge.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add poc_v2_results/
+          if git diff --cached --quiet; then echo "No changes."; else
+            git commit -m "Update five-channel EPG POC v2 results"
+            git pull --rebase origin main
+            git push
+          fi
