@@ -1,46 +1,36 @@
 id,name,group,exact_mappings,attempts_prepared
 30AGolfKingdom.us@SD,30A Golf Kingdom (720p),Sports,0,0
-BEKSports.us@West,BEK TV Sports West (720p),Sports,0,1
 ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,2,2
 ESPNU.us@SD,ESPNU (720p),Sports,5,5
-F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,3,3
 MMATV.us@SD,MMA-TV (576p),Sports,0,0
-NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,4,4
-NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,6,5
+NFLNetwork.us@SD,NFL Network (720p),Sports,9,5
 RallyTV.us@SD,Rally TV (1080p),Sports,0,0
 REVNAction.us@SD,Rev'n Action (720p),Auto;Outdoor;Series;Sports,0,0
-SlopesTV.us@SD,Slopes TV (720p),Sports,10,5
 TVSBowlingNetwork.us@SD,TVS Bowling Network (720p),Sports,0,0
+TVSBoxing.us@SD,TVS Boxing (360p),Sports,1,1
+TVSClassicSports.us@SD,TVS Classic Sports (360p),Sports,1,1
 TVSSports.us@SD,TVS Sports (720p) [Not 24/7],Sports,0,0
 TVSSportsBureau.us@SD,TVS Sports Bureau (720p),Sports,0,0
+TVSTurbo.us@SD,TVS Turbo (360p),Sports,1,1
+TVSWomenSports.us@SD,TVS Women Sports (720p),Sports,1,1
 TennisChannel.us@SD,Tennis Channel (1080p),Sports,9,5
 USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,2,2
-XFCTV.us@SD,XFC TV (720p),Sports,9,5
+beINSportsUSA.us@SD,beIN Sports USA (1080p) [Geo-blocked],Sports,6,5
 30AGeorgiaHollywoodReview.us@SD,30A Georgia Hollywood Review TV (720p),Entertainment;News,0,0
 30ALionelNation.us@SD,30A Lionel Nation TV,News,0,0
 30ALoomeredTV.us@SD,30A Loomered TV,Documentary;News,0,0
-WPLG101.us@HD,ABC (WPLG-DT1) Miami FL (720p),News,3,3
-WMARTV21.us@HD,ABC 2 Baltimore MD (WMAR) (720p),News,3,3
-WTXLTV271.us@HD,ABC 27 Tallahassee FL (WTXL) (720p),News,3,3
-WMURTV91.us@HD,ABC 9 Manchester NH (WMUR-TV) (720p),News;Weather,2,2
-WFTV91.us@HD,ABC 9 Orlando FL (WFTV) (720p),News,5,5
-WWAY31.us@HD,ABC WWAY 3,News,3,3
 AlhurraIraq.us@SD,Alhurra Iraq (720p),News,0,0
+AmericasVoice.us@SD,America's Voice (720p),News,1,1
 AmuTV.us@SD,Amu TV,News,0,0
 BEKNews.us@SD,BEK TV News (720p),News,0,0
 BXInform.us@SD,BX Inform (1080p),General;News,0,0
 BlackNewsChannel.us@SD,Black News Channel (1080p),News,0,0
-ChannelOne.us@SD,Channel One,Culture;News,0,3
 DidgahTV.us@SD,Didgah TV (576p),News,0,0
-EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,6,5
 FoxNewsRadio.us@SD,Fox News Radio (720p),News,0,0
 KBPXLD465.us@SD,Geb Tv (KBPX LD5) (1080p),Culture;News,0,0
-KPVMLD255.us@SD,KPVM Newsmax 2,News,0,1
 KPVMLD254.us@SD,KPVM OAN Plus,News,0,0
 KPVMLD253.us@HD,KPVM Real America's Voice,News,0,0
 LindellTV.us@SD,Lindell TV (720p),News,0,0
-WXIITV201.us@HD,NBC 12 Winston-Salem NC (WXII) (720p),News,3,3
-WGAL81.us@HD,NBC 8 Lancaster PA (WGAL) (720p),News,2,2
 NewsoftheWorld.us@Arabic,NOW News Arabic (720p),News,0,0
 NewsoftheWorld.us@Spanish,NOW News Spanish (1080p),News,0,0
 NewsoftheWorld.us@USA,NOW News USA (1080p),News,0,0
@@ -55,7 +45,6 @@ News12PlusNewYork.us@HD,News12+ New York (1080p) [Geo-blocked],News,0,0
 NewsNet.us@SD,NewsNet (720p) [Not 24/7],News,1,1
 NewsmaxSpanish.us@SD,Newsmax Spanish (1080p),News,0,0
 PayvandTV.us@SD,Payvand TV (720p),News,0,0
-RTenEspanol.ru@SD,RT en Espanol (1080p),News,4,4
 RedseatTheFirst.us@SD,Redseat The First (720p),News,0,0
 SCCurrents.us@SD,SC Currents,News,0,0
 TheYoungTurks.us@SD,The Young Turks (1080p) [Geo-blocked],News,0,0
@@ -63,30 +52,33 @@ TopStoriesbyNewsy.us@SD,Top Stories by Newsy (720p),News,0,0
 VoATVPersian.us@SD,VOA Persian (1080p),News,0,0
 VoATV.us@SD,VOA TV Africa (1080p),News,0,0
 W14DKD142.us@SD,W14DK-D 14.2 NEWSNET,News,0,0
-WBRZTV21.us@HD,WBRZ Weather Channel Baton Rouge LA (480p),News;Weather,3,3
 WGALDT3.us@SD,WGAL-DT3 (1080p) [Geo-blocked],News,0,0
 WGGSTV162.us@SD,WGGS-DT2 (720p),News,0,0
-WJBK21.us@HD,WJBK-DT1 (1080p),News,5,5
 WSOCNow.us@SD,WSOC Now (1080p) [Geo-blocked],News,0,0
 ZoomNews.us@SD,Zoom TV Kurdish (720p),News,0,0
 30ASidewalks.us@SD,30A Sidewalks (720p),Entertainment,0,0
 30ATelevisionChannel.us@SD,30A Television Channel (720p),Entertainment,0,0
 AbsoluteRealitybyWETV.us@SD,AMC Absolute Reality,Entertainment,0,0
 BarkTV.us@SD,Bark TV (1080p),Entertainment,0,0
-CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,2,2
 MeritStreet.us@SD,Dr Phil's MeritTV (1080p),Entertainment,0,0
 FreebieTV.us@SD,Freebie TV (720p) [Not 24/7],Entertainment,0,0
+GalxyTV.us@SD,Galxy TV (720p),Entertainment,9,5
 GlobalWorldTV.us@SD,GlobalWorldTV (720p),Entertainment,0,0
 Heartland.us@Eastern,Heartland (720p),Entertainment,1,1
 KContentbyCJENM.us@SD,K Content by CJ ENM (1080p),Entertainment,0,0
 KCKSLD253.us@HD,KCKS-LD 25.3 (720p),Entertainment,0,0
+KFTRDT461.us@HD,KFTR-DT1 [Geo-blocked],Entertainment,2,2
 KQED92.us@HD,KQED-DT2 (1080p),Entertainment,1,1
 KRGVTV52.us@HD,KRGV-DT2 [Geo-blocked],Entertainment,0,0
 KVIE62.us@HD,KVIE-DT2 (1080p),Entertainment,0,0
 KVVBLD331.us@SD,KVVB-TV 33 Victor Valley (1080p) [Not 24/7],Entertainment,0,0
 MCN6MainChannel.us@SD,MCN6 (1080p) [Not 24/7],Entertainment;General,0,0
+MTV.us@East,MTV (720p),Entertainment,3,3
+MTV2.us@East,MTV2 (1080p),Entertainment,4,4
+NBCLX.us@SD,NBCLX (1080p),Entertainment,2,2
 Olelo55.us@SD,Olelo Community Media Channel 55 (720p),Entertainment,0,0
 OmideIranTV.us@SD,Omide Iran,Entertainment,0,0
+Oxygen.us@East,Oxygen (720p),Entertainment,4,4
 Roar.us@SD,Roar (1080p),Entertainment,0,0
 StarChannelInternational.gr@HD,STAR International (720p),Entertainment,0,0
 Shabakeh7.us@SD,Shabakeh 7,Entertainment,0,0
@@ -106,27 +98,32 @@ ETVTelugu.in@USA,"like Gecko) Chrome/145.0.0.0 Safari/537.36"" group-title=""Ent
 KCWX351.us@HD,myTV San Antonio TX (KCWX-TV) (720p) [Not 24/7],Entertainment,0,0
 30ATVClassicMovies.us@SD,30A TV Classic Movies (720p),Movies,0,0
 ABNBibleMoviesChannel.us@SD,ABN Bible Movies (720p),Movies;Religious,0,0
-AdrenalinaPuraTV.us@SD,Adrenalina Pura TV (720p),Movies,0,2
 AmericanHorrors.us@SD,American Horrors (480p),Movies,0,0
 ARTFLIXMovieClassics.us@SD,Artflix Movie Classics (720p),Classic;Movies,0,1
+Cinevault80s.us@SD,Cinevault 80s (720p),Movies,1,1
 EBSCinema.us@SD,EBS Cinema (720p),Movies,0,0
-PlutoTVEstrellasdeAccion.us@SD,Estrellas de Acción,Movies,0,3
-KPVMLD252.us@SD,KPVM Movies!,Movies,0,1
+FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,1,1
+GirlfriendsFilms.us@SD,Girlfriends,Movies,2,2
+GrjngoWesternMovies.de@SD,Grjngo Western Movies (720p),Movies,8,5
 MagnificentMoviesNetwork.us@SD,Magnificent Movies Network,Movies;Shop,0,0
+Runtime.us@SD,Runtime (720p),Movies,7,5
+SonyCanalNovelas.us@SD,Sony Canal Novelas,Movies,1,1
+TVSDriveInMovie.us@SD,TVS Drive In Movie (360p),Movies,1,1
+TVSFilmNoirNetwork.us@SD,TVS Film Noir Network (720p),Movies,1,1
 WhiplashCinema.us@SD,Whiplash Cinema (480p),Movies,0,0
-PlutoTVDogelcazarrecompensas.us@SD,Dog el cazarrecompensas,Series,0,3
-InstantSaga.us@US,Instant Saga,Series,0,2
-PlutoTVMinutoParaGanar.us@SD,Minuto Para Ganar,Series,0,3
-PlutoTVMisteriosMedicos.us@SD,Misterios Medicos,Series,0,3
-PlutoTVSanctuary.us@SD,Sanctuary,Series,0,2
+UniversalComedy.us@SD,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Comedy;Movies;Series"",Universal Comedy (1080p)",Comedy;Movies;Series,1,1
+LoveHipHop.us@SD,Love & Hip Hop,Series,4,4
+Survivor.us@SD,Survivor (1080p),Series,3,3
 TheChatShowChannel.uk@SD,The Chat Show Channel (1080p),Comedy;Series,0,0
-PlutoTVWipeout.us@SD,Wipeout,Series,0,3
+WildNOut.us@SD,Wild 'N Out,Series,4,4
 3ABNKids.us@SD,3ABN Kids Network,Animation;Kids;Religious,0,1
 BBCKids.us@SD,BBC Kids (720p),Kids,0,2
 BabyFirst.us@US,BabyFirst (720p),Kids,2,2
 ChristianYouthChannelCYC.us@SD,Christian Youth Channel (CYC) (1080p),Kids;Religious,0,0
 GiggleMug.us@SD,Giggle Mug (576p),Kids,0,0
+KetchupTV.us@SD,Ketchup TV (720p),Kids,1,1
 LogosTVKids.es@SD,Logos TV Kids (720p) [Not 24/7],Kids;Religious,0,0
+MBC3USA.us@SD,MBC 3 USA (1080p) [Geo-blocked],Kids,1,1
 MCN6MusicChannel.us@SD,MCN6 Music Channel (1080p) [Not 24/7],Animation;Kids;Music,0,0
 NCMEducationalKidsChannel.us@SD,NCM Educational & Kids Channel,Education;Kids,0,0
 PBSKidsAlaska.us@SD,PBS Kids Alaska (1080p),Education;Kids,0,0
@@ -134,20 +131,29 @@ PBSKidsEasternCentral.us@SD,PBS Kids Eastern/Central (720p),Education;Kids,1,1
 PBSKidsHawaii.us@SD,PBS Kids Hawaii (720p),Education;Kids,0,0
 PBSKidsMountain.us@SD,PBS Kids Mountain (1080p),Education;Kids,0,0
 PBSKidsPacific.us@SD,PBS Kids Pacific (1080p),Education;Kids,0,0
+PlutoTVPokemon.us@US,Pokémon,Animation;Kids,2,2
+SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,1,1
+TVSHiTops.us@SD,TVS Hi Tops (720p),Kids,1,1
+TVSPinballNetwork.us@SD,TVS Pinball Network (480p),Kids,1,1
 TomAndJerry.do@HD,Tom And Jerry (720p),Kids,0,0
+WatchitKID.us@SD,Watch it KID! (720p),Kids,8,5
 Atlas.us@SD,Atlas (480p),Documentary,0,0
+AutenticHistory.de@SD,Autentic History (1080p),Documentary,1,1
+Backstage.us@SD,Backstage (1080p),Documentary,4,4
 BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,14,5
+Crime360.us@SD,Crime 360 (720p),Documentary,6,5
+Dateline247.us@SD,Dateline 24/7 (1080p),Documentary,6,5
 Docurama.us@SD,Docurama (1080p),Documentary,1,1
+INWILD.nl@SD,INWILD (1080p),Documentary,1,1
 KPVMLD256.us@SD,KPVM Story Television,Documentary,0,0
 KTOOTV33.us@HD,KTOO 360TV 3 (FNX),Documentary,0,0
+LoveThePlanet.es@EN,Love the Planet (1080p),Documentary,2,2
 NationalGeographic.us@East,National Geographic (720p),Documentary,4,4
 NationalGeographicWild.us@East,National Geographic Wild (720p),Documentary,4,4
+TerraMaterWILD.de@English,Terra Mater WILD English (1080p),Documentary,1,1
 30ARidiculousTV.us@SD,30A Ridiculous TV (720p),Comedy,0,0
 AFVEspanol.us@SD,AFV en Español (720p) [Not 24/7],Comedy,0,0
 CameraSmileTV.us@SD,Camera Smile (480p),Comedy,0,0
-ComedyCentralAnimation.us@SD,Comedy Central Animation,Comedy,0,3
-Gagsnetwork.us@SD,Gagsnetwork (576p),Comedy,0,1
+TVSComedyNetwork.us@SD,TVS Comedy Network (720p),Comedy,1,1
 HumorMill.us@SD,"like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"" group-title=""Comedy"",Humor Mill (1080p)",Comedy,9,5
-KMBYLD275.us@SD,Blues TV,Animation,0,3
-Narutoenespanol.us@SD,Naruto,Animation,0,3
 Placid.us@EastHD,Placid (1080p) [Not 24/7],Animation,0,0
