@@ -1,21 +1,21 @@
 id,name,group,match_kind,match_score,candidate_xmltv_id,candidate_name,site,attempt_used,programmes,success
 30AGolfKingdom.us@SD,30A Golf Kingdom (720p),Sports,,,,,,,0,NO
 BEKSports.us@West,BEK TV Sports West (720p),Sports,fuzzy,0.9474,,BEK Sports,tvpassport.com,1,14,YES
-ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,exact,1.0000,ESPNDeportes.us@SD,Canal ESPN Deportes,gatotv.com,1,19,YES
+ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,exact,1.0000,ESPNDeportes.us@SD,Canal ESPN Deportes,gatotv.com,1,21,YES
 ESPNU.us@SD,ESPNU (720p),Sports,exact,1.0000,ESPNU.us@SD,ESPN U,tvpassport.com,1,13,YES
 F1Channel.ie@US,F1 Channel (1080p) [Geo-blocked],Sports,exact,1.0000,F1Channel.ie@US,F1 Channel,i.mjh.nz,2,11,YES
 MMATV.us@SD,MMA-TV (576p),Sports,,,,,,,0,NO
-NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,exact,1.0000,NBCSportsNOW.us@SD,NBC Sports NOW,i.mjh.nz,2,24,YES
+NBCSportsNOW.us@SD,NBC Sports NOW (1080p),Sports,exact,1.0000,NBCSportsNOW.us@SD,NBC Sports NOW,i.mjh.nz,2,18,YES
 NFLChannel.us@SD,NFL Channel (1080p) [Geo-blocked],Sports,exact,1.0000,NFLChannel.us@SD,NFL Channel,i.mjh.nz,2,6,YES
 RallyTV.us@SD,Rally TV (1080p),Sports,,,,,,,0,NO
 REVNAction.us@SD,Rev'n Action (720p),Auto;Outdoor;Series;Sports,,,,,,,0,NO
-SlopesTV.us@SD,Slopes TV (720p),Sports,exact,1.0000,SlopesTV.us@SD,SLOPES,i.mjh.nz,2,19,YES
+SlopesTV.us@SD,Slopes TV (720p),Sports,exact,1.0000,SlopesTV.us@SD,SLOPES,i.mjh.nz,2,13,YES
 TVSBowlingNetwork.us@SD,TVS Bowling Network (720p),Sports,,,,,,,0,NO
 TVSSports.us@SD,TVS Sports (720p) [Not 24/7],Sports,,,,,,,0,NO
 TVSSportsBureau.us@SD,TVS Sports Bureau (720p),Sports,,,,,,,0,NO
 TennisChannel.us@SD,Tennis Channel (1080p),Sports,exact,1.0000,TennisChannel.us@SD,The Tennis Channel HD,tvpassport.com,1,4,YES
 USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,exact,1.0000,USANetwork.us@East,USA,tvguide.com,1,30,YES
-XFCTV.us@SD,XFC TV (720p),Sports,exact,1.0000,XFCTV.us@SD,XFC TV,i.mjh.nz,2,7,YES
+XFCTV.us@SD,XFC TV (720p),Sports,exact,1.0000,XFCTV.us@SD,XFC TV,i.mjh.nz,1,4,YES
 30AGeorgiaHollywoodReview.us@SD,30A Georgia Hollywood Review TV (720p),Entertainment;News,,,,,,,0,NO
 30ALionelNation.us@SD,30A Lionel Nation TV,News,,,,,,,0,NO
 30ALoomeredTV.us@SD,30A Loomered TV,Documentary;News,,,,,,,0,NO
@@ -32,7 +32,7 @@ BXInform.us@SD,BX Inform (1080p),General;News,,,,,,,0,NO
 BlackNewsChannel.us@SD,Black News Channel (1080p),News,,,,,,,0,NO
 ChannelOne.us@SD,Channel One,Culture;News,fuzzy,1.0000,,ONE TV HD,tvpassport.com,1,39,YES
 DidgahTV.us@SD,Didgah TV (576p),News,,,,,,,0,NO
-EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,exact,1.0000,EntertainmentTonight.us@SD,ET,i.mjh.nz,2,17,YES
+EntertainmentTonight.us@SD,Entertainment Tonight (1080p),Entertainment;News,exact,1.0000,EntertainmentTonight.us@SD,ET,i.mjh.nz,2,22,YES
 FoxNewsRadio.us@SD,Fox News Radio (720p),News,,,,,,,0,NO
 KBPXLD465.us@SD,Geb Tv (KBPX LD5) (1080p),Culture;News,,,,,,,0,NO
 KPVMLD255.us@SD,KPVM Newsmax 2,News,fuzzy,0.9630,,KPVM Newsmax2,ontvtonight.com,1,21,YES
@@ -73,7 +73,7 @@ ZoomNews.us@SD,Zoom TV Kurdish (720p),News,,,,,,,0,NO
 30ATelevisionChannel.us@SD,30A Television Channel (720p),Entertainment,,,,,,,0,NO
 AbsoluteRealitybyWETV.us@SD,AMC Absolute Reality,Entertainment,,,,,,,0,NO
 BarkTV.us@SD,Bark TV (1080p),Entertainment,,,,,,,0,NO
-CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,exact,1.0000,CrimePlusInvestigation.us@SD,Crime & Investigation Network,tvguide.com,1,30,YES
+CrimePlusInvestigation.us@SD,Crime + Investigation (720p),Entertainment,exact,1.0000,CrimePlusInvestigation.us@SD,Crime & Investigation Network,tvguide.com,1,32,YES
 MeritStreet.us@SD,Dr Phil's MeritTV (1080p),Entertainment,,,,,,,0,NO
 FreebieTV.us@SD,Freebie TV (720p) [Not 24/7],Entertainment,,,,,,,0,NO
 GlobalWorldTV.us@SD,GlobalWorldTV (720p),Entertainment,,,,,,,0,NO
@@ -114,17 +114,17 @@ PlutoTVEstrellasdeAccion.us@SD,Estrellas de Acción,Movies,fuzzy,1.0000,,Estrell
 KPVMLD252.us@SD,KPVM Movies!,Movies,fuzzy,1.0000,,KPVM Movies!,ontvtonight.com,1,12,YES
 MagnificentMoviesNetwork.us@SD,Magnificent Movies Network,Movies;Shop,,,,,,,0,NO
 WhiplashCinema.us@SD,Whiplash Cinema (480p),Movies,,,,,,,0,NO
-UniversalComedy.us@SD,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Comedy;Movies;Series"",Universal Comedy (1080p)",Comedy;Movies;Series,,,,,,,0,NO
-PlutoTVDogelcazarrecompensas.us@SD,Dog el cazarrecompensas,Series,fuzzy,1.0000,,Dog el cazarrecompensas,i.mjh.nz,1,29,YES
-InstantSaga.us@US,Instant Saga,Series,fuzzy,1.0000,InstantSaga.us@France,Instant Saga,i.mjh.nz,1,11,YES
-PlutoTVMinutoParaGanar.us@SD,Minuto Para Ganar,Series,fuzzy,1.0000,,Minuto Para Ganar,i.mjh.nz,1,16,YES
-PlutoTVMisteriosMedicos.us@SD,Misterios Medicos,Series,fuzzy,1.0000,,Misterios Medicos,i.mjh.nz,1,26,YES
-PlutoTVSanctuary.us@SD,Sanctuary,Series,fuzzy,1.0000,,Sanctuary,i.mjh.nz,1,17,YES
+UniversalComedy.us@SD,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Comedy;Movies;Series"",Universal Comedy (1080p)",Comedy;Movies;Series,exact,1.0000,UniversalComedy.us@SD,Canal Universal Comedy,gatotv.com,1,49,YES
+PlutoTVDogelcazarrecompensas.us@SD,Dog el cazarrecompensas,Series,fuzzy,1.0000,,Dog el cazarrecompensas,i.mjh.nz,1,27,YES
+InstantSaga.us@US,Instant Saga,Series,fuzzy,1.0000,InstantSaga.us@France,Instant Saga,i.mjh.nz,1,14,YES
+PlutoTVMinutoParaGanar.us@SD,Minuto Para Ganar,Series,fuzzy,1.0000,,Minuto Para Ganar,i.mjh.nz,1,15,YES
+PlutoTVMisteriosMedicos.us@SD,Misterios Medicos,Series,fuzzy,1.0000,,Misterios Medicos,i.mjh.nz,1,16,YES
+PlutoTVSanctuary.us@SD,Sanctuary,Series,fuzzy,1.0000,,Sanctuary,i.mjh.nz,1,15,YES
 TheChatShowChannel.uk@SD,The Chat Show Channel (1080p),Comedy;Series,,,,,,,0,NO
-PlutoTVWipeout.us@SD,Wipeout,Series,fuzzy,1.0000,,Wipeout,i.mjh.nz,1,10,YES
+PlutoTVWipeout.us@SD,Wipeout,Series,fuzzy,1.0000,,Wipeout,i.mjh.nz,1,8,YES
 3ABNKids.us@SD,3ABN Kids Network,Animation;Kids;Religious,,,,,,,0,NO
 BBCKids.us@SD,BBC Kids (720p),Kids,,,,,,,0,NO
-BabyFirst.us@US,BabyFirst (720p),Kids,exact,1.0000,BabyFirst.us@US,Canal BabyFirst TV,gatotv.com,1,41,YES
+BabyFirst.us@US,BabyFirst (720p),Kids,exact,1.0000,BabyFirst.us@US,Canal BabyFirst TV,gatotv.com,1,48,YES
 ChristianYouthChannelCYC.us@SD,Christian Youth Channel (CYC) (1080p),Kids;Religious,,,,,,,0,NO
 GiggleMug.us@SD,Giggle Mug (576p),Kids,,,,,,,0,NO
 LogosTVKids.es@SD,Logos TV Kids (720p) [Not 24/7],Kids;Religious,,,,,,,0,NO
@@ -137,7 +137,7 @@ PBSKidsMountain.us@SD,PBS Kids Mountain (1080p),Education;Kids,,,,,,,0,NO
 PBSKidsPacific.us@SD,PBS Kids Pacific (1080p),Education;Kids,,,,,,,0,NO
 TomAndJerry.do@HD,Tom And Jerry (720p),Kids,,,,,,,0,NO
 Atlas.us@SD,Atlas (480p),Documentary,,,,,,,0,NO
-BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,exact,1.0000,BloombergOriginals.us@SD,Bloomberg Originals,i.mjh.nz,3,6,YES
+BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,exact,1.0000,BloombergOriginals.us@SD,Bloomberg Originals,i.mjh.nz,3,4,YES
 Docurama.us@SD,Docurama (1080p),Documentary,,,,,,,0,NO
 KPVMLD256.us@SD,KPVM Story Television,Documentary,,,,,,,0,NO
 KTOOTV33.us@HD,KTOO 360TV 3 (FNX),Documentary,,,,,,,0,NO
@@ -146,9 +146,9 @@ NationalGeographicWild.us@East,National Geographic Wild (720p),Documentary,exact
 30ARidiculousTV.us@SD,30A Ridiculous TV (720p),Comedy,,,,,,,0,NO
 AFVEspanol.us@SD,AFV en Español (720p) [Not 24/7],Comedy,,,,,,,0,NO
 CameraSmileTV.us@SD,Camera Smile (480p),Comedy,,,,,,,0,NO
-ComedyCentralAnimation.us@SD,Comedy Central Animation,Comedy,fuzzy,1.0000,,Comedy Central Animation,i.mjh.nz,1,41,YES
+ComedyCentralAnimation.us@SD,Comedy Central Animation,Comedy,fuzzy,1.0000,,Comedy Central Animation,i.mjh.nz,1,27,YES
 Gagsnetwork.us@SD,Gagsnetwork (576p),Comedy,fuzzy,1.0000,,Gagsnetwork,tv.mail.ru,1,74,YES
 HumorMill.us@SD,"like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"" group-title=""Comedy"",Humor Mill (1080p)",Comedy,,,,,,,0,NO
 KMBYLD275.us@SD,Blues TV,Animation,fuzzy,1.0000,,Blues,ontvtonight.com,1,24,YES
-Narutoenespanol.us@SD,Naruto,Animation,fuzzy,1.0000,,Naruto,i.mjh.nz,1,12,YES
+Narutoenespanol.us@SD,Naruto,Animation,fuzzy,1.0000,,Naruto,i.mjh.nz,1,11,YES
 Placid.us@EastHD,Placid (1080p) [Not 24/7],Animation,,,,,,,0,NO
