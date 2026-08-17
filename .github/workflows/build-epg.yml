@@ -77,11 +77,7 @@ jobs:
 
       - name: Apply non-regression stability merge
         run: |
-          python stable_merge.py \
-            --previous /tmp/previous_guide.xml.gz \
-            --candidate /tmp/candidate_guide.xml.gz \
-            --output public/guide.xml.gz \
-            --status public/status.txt
+          python stable_merge.py             --previous /tmp/previous_guide.xml.gz             --candidate /tmp/candidate_guide.xml.gz             --output public/guide.xml.gz             --status public/status.txt
 
       - name: Preserve targeted diagnostics
         run: |
@@ -92,15 +88,43 @@ jobs:
           cp v7_attempt_status.csv public/v7/attempt_status.csv || true
           cp v7_targeted_guide.xml public/v7/targeted_guide.xml || true
 
-      - name: Commit stable published guide
+      - name: Commit stable published guide safely
+        shell: bash
         run: |
+          set -e
+          mkdir -p /tmp/publish/public/v7
+          cp public/guide.xml.gz /tmp/publish/public/guide.xml.gz
+          cp public/status.txt /tmp/publish/public/status.txt
+          cp public/candidate_status.txt /tmp/publish/public/candidate_status.txt
+
+          for f in channels.csv attempts.csv targeted_status.csv attempt_status.csv targeted_guide.xml; do
+            if [ -f "public/v7/$f" ]; then
+              cp "public/v7/$f" "/tmp/publish/public/v7/$f"
+            fi
+          done
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          mkdir -p public/v7
+          cp /tmp/publish/public/guide.xml.gz public/guide.xml.gz
+          cp /tmp/publish/public/status.txt public/status.txt
+          cp /tmp/publish/public/candidate_status.txt public/candidate_status.txt
+
+          for f in channels.csv attempts.csv targeted_status.csv attempt_status.csv targeted_guide.xml; do
+            if [ -f "/tmp/publish/public/v7/$f" ]; then
+              cp "/tmp/publish/public/v7/$f" "public/v7/$f"
+            fi
+          done
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/
+
+          git add public/guide.xml.gz public/status.txt public/candidate_status.txt public/v7/
+
           if git diff --cached --quiet; then
             echo "No published changes."
           else
             git commit -m "Refresh stable custom US EPG"
-            git pull --rebase origin main
-            git push
+            git push origin main
           fi
