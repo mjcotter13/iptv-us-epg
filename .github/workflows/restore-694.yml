@@ -1,0 +1,36 @@
+name: Restore Known-Good 694 EPG
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository with history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore exact public guide from known-good commit
+        run: |
+          git checkout 4c6d667 -- public/guide.xml.gz
+          git checkout 4c6d667 -- public/status.txt
+          cp public/status.txt public/restored_694_status.txt
+
+      - name: Commit restored production guide
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/guide.xml.gz public/status.txt public/restored_694_status.txt
+          if git diff --cached --quiet; then
+            echo "Known-good guide is already published."
+          else
+            git commit -m "Restore known-good 694-channel EPG"
+            git pull --rebase origin main
+            git push
+          fi

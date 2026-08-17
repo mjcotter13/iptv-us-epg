@@ -8,6 +8,8 @@ on:
     branches: [ "main" ]
     paths:
       - "build_epg.py"
+      - "stable_merge.py"
+      - "proven_mappings.csv"
       - "v7_prepare.py"
       - "v7_run.py"
       - "v7_merge.py"
@@ -16,52 +18,89 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: production-epg
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+
     steps:
-      - name: Check out repository
+      - name: Check out repository with history
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+
+      - name: Save currently published guide
+        run: |
+          if [ -f public/guide.xml.gz ]; then
+            cp public/guide.xml.gz /tmp/previous_guide.xml.gz
+          else
+            git show 4c6d667:public/guide.xml.gz > /tmp/previous_guide.xml.gz
+          fi
+
       - name: Clone official IPTV-org EPG repository
         run: git clone --depth 1 https://github.com/iptv-org/epg.git _iptv_epg
+
       - name: Install IPTV-org EPG dependencies
         working-directory: _iptv_epg
         run: npm ci
-      - name: Prepare exact and conservative fuzzy candidates
+
+      - name: Prepare accurate targeted candidates
         run: python v7_prepare.py
+
       - name: Run conditional targeted grabs
         run: python v7_run.py
+
       - name: Merge targeted results
         run: python v7_merge.py
-      - name: Build merged production EPG
+
+      - name: Build fresh candidate EPG
         run: python build_epg.py
-      - name: Preserve V7.4 diagnostics
+
+      - name: Save candidate diagnostics
+        run: |
+          cp public/status.txt public/candidate_status.txt
+          cp public/guide.xml.gz /tmp/candidate_guide.xml.gz
+
+      - name: Apply non-regression stability merge
+        run: |
+          python stable_merge.py \
+            --previous /tmp/previous_guide.xml.gz \
+            --candidate /tmp/candidate_guide.xml.gz \
+            --output public/guide.xml.gz \
+            --status public/status.txt
+
+      - name: Preserve targeted diagnostics
         run: |
           mkdir -p public/v7
-          cp v7_work/channels.csv public/v7/channels.csv
-          cp v7_work/remaining_source_matrix.csv public/v7/remaining_source_matrix.csv
-          cp v7_work/attempts.csv public/v7/attempts.csv
-          cp v7_targeted_status.csv public/v7/targeted_status.csv
-          cp v7_attempt_status.csv public/v7/attempt_status.csv
-          cp v7_targeted_guide.xml public/v7/targeted_guide.xml
-      - name: Commit refreshed guide
+          cp v7_work/channels.csv public/v7/channels.csv || true
+          cp v7_work/attempts.csv public/v7/attempts.csv || true
+          cp v7_targeted_status.csv public/v7/targeted_status.csv || true
+          cp v7_attempt_status.csv public/v7/attempt_status.csv || true
+          cp v7_targeted_guide.xml public/v7/targeted_guide.xml || true
+
+      - name: Commit stable published guide
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No published changes."
           else
-            git commit -m "Refresh custom US EPG"
+            git commit -m "Refresh stable custom US EPG"
             git pull --rebase origin main
             git push
           fi
