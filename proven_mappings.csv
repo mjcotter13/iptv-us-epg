@@ -1,0 +1,50 @@
+id,name,group,match_kind,match_score,candidate_xmltv_id,candidate_name,site,attempt_used,programmes
+ESPNDeportes.us@SD,ESPN Deportes (720p),Sports,exact,1.0,ESPNDeportes.us@SD,Canal ESPN Deportes,gatotv.com,1.0,18
+ESPNU.us@SD,ESPNU (720p),Sports,exact,1.0,ESPNU.us@SD,ESPN U,tvpassport.com,1.0,14
+NFLNetwork.us@SD,NFL Network (720p),Sports,exact,1.0,NFLNetwork.us@SD,NFL Network,tvpassport.com,1.0,9
+TVSBoxing.us@SD,TVS Boxing (360p),Sports,exact,1.0,TVSBoxing.us@SD,TVS Boxing Network,watchyour.tv,1.0,27
+TVSClassicSports.us@SD,TVS Classic Sports (360p),Sports,exact,1.0,TVSClassicSports.us@SD,TVS Classic Sports,watchyour.tv,1.0,27
+TVSTurbo.us@SD,TVS Turbo (360p),Sports,exact,1.0,TVSTurbo.us@SD,TVS Turbo Network,watchyour.tv,1.0,27
+TVSWomenSports.us@SD,TVS Women Sports (720p),Sports,exact,1.0,TVSWomenSports.us@SD,TVS Women's Sports Network,watchyour.tv,1.0,27
+TennisChannel.us@SD,Tennis Channel (1080p),Sports,exact,1.0,TennisChannel.us@SD,The Tennis Channel HD,tvpassport.com,1.0,4
+USANetwork.us@East,USA Network (1080p),Comedy;Movies;Series;Sports,exact,1.0,USANetwork.us@East,USA,tvguide.com,1.0,30
+beINSportsUSA.us@SD,beIN Sports USA (1080p) [Geo-blocked],Sports,exact,1.0,beINSportsUSA.us@SD,beIN Sport USA HD,tvpassport.com,1.0,26
+AmericasVoice.us@SD,America's Voice (720p),News,exact,1.0,AmericasVoice.us@SD,America's Voice,i.mjh.nz,1.0,18
+GalxyTV.us@SD,Galxy TV (720p),Entertainment,exact,1.0,GalxyTV.us@SD,Galxy TV,i.mjh.nz,1.0,1
+Heartland.us@Eastern,Heartland (720p),Entertainment,exact,1.0,Heartland.us@Eastern,Heartland,xumo.tv,1.0,33
+KFTRDT461.us@HD,KFTR-DT1 [Geo-blocked],Entertainment,exact,1.0,KFTRDT461.us@HD,KFTR UniMás 46 HDTV,ontvtonight.com,1.0,27
+MTV.us@East,MTV (720p),Entertainment,exact,1.0,MTV.us@East,MTV USA - Eastern Feed,tvpassport.com,1.0,47
+MTV2.us@East,MTV2 (1080p),Entertainment,exact,1.0,MTV2.us@East,MTV 2 - East,tvpassport.com,1.0,38
+NBCLX.us@SD,NBCLX (1080p),Entertainment,exact,1.0,NBCLX.us@SD,NBC LX Home,i.mjh.nz,1.0,12
+Oxygen.us@East,Oxygen (720p),Entertainment,exact,1.0,Oxygen.us@East,Oxygen True Crime - Eastern Feed,tvpassport.com,1.0,24
+Cinevault80s.us@SD,Cinevault 80s (720p),Movies,exact,1.0,Cinevault80s.us@SD,CINEVAULT,i.mjh.nz,1.0,2
+FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,exact,1.0,FilmRiseForensicFiles.us@SD,FilmRise Forensic Files,i.mjh.nz,1.0,59
+GirlfriendsFilms.us@SD,Girlfriends,Movies,exact,1.0,GirlfriendsFilms.us@SD,Girlfriends,i.mjh.nz,1.0,30
+GrjngoWesternMovies.de@SD,Grjngo Western Movies (720p),Movies,exact,1.0,GrjngoWesternMovies.de@SD,Grjngo - Western Movies,i.mjh.nz,1.0,1
+Runtime.us@SD,Runtime (720p),Movies,exact,1.0,Runtime.us@SD,Runtime,i.mjh.nz,1.0,15
+SonyCanalNovelas.us@SD,Sony Canal Novelas,Movies,exact,1.0,SonyCanalNovelas.us@SD,Dramon,i.mjh.nz,1.0,6
+TVSDriveInMovie.us@SD,TVS Drive In Movie (360p),Movies,exact,1.0,TVSDriveInMovie.us@SD,TVS Drive In Movie,watchyour.tv,1.0,13
+TVSFilmNoirNetwork.us@SD,TVS Film Noir Network (720p),Movies,exact,1.0,TVSFilmNoirNetwork.us@SD,TVS Film Noir Network,watchyour.tv,1.0,15
+UniversalComedy.us@SD,"like Gecko) Chrome/124.0.0.0 Safari/537.36"" group-title=""Comedy;Movies;Series"",Universal Comedy (1080p)",Comedy;Movies;Series,exact,1.0,UniversalComedy.us@SD,Canal Universal Comedy,gatotv.com,1.0,31
+LoveHipHop.us@SD,Love & Hip Hop,Series,exact,1.0,LoveHipHop.us@SD,Love &amp; Hip Hop,i.mjh.nz,1.0,13
+Survivor.us@SD,Survivor (1080p),Series,exact,1.0,Survivor.us@SD,Survivor,i.mjh.nz,1.0,11
+WildNOut.us@SD,Wild 'N Out,Series,exact,1.0,WildNOut.us@SD,Wild 'N Out,i.mjh.nz,1.0,26
+BabyFirst.us@US,BabyFirst (720p),Kids,exact,1.0,BabyFirst.us@US,Canal BabyFirst TV,gatotv.com,1.0,44
+KetchupTV.us@SD,Ketchup TV (720p),Kids,exact,1.0,KetchupTV.us@SD,Ketchup TV,freeview.co.uk,1.0,17
+MBC3USA.us@SD,MBC 3 USA (1080p) [Geo-blocked],Kids,exact,1.0,MBC3USA.us@SD,MBC3,shahid.mbc.net,1.0,79
+PlutoTVPokemon.us@US,Pokémon,Animation;Kids,exact,1.0,PlutoTVPokemon.us@US,Pokémon,i.mjh.nz,1.0,30
+SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,exact,1.0,SuperSimpleSongs.us@SD,Super Simple Songs,i.mjh.nz,1.0,39
+TVSHiTops.us@SD,TVS Hi Tops (720p),Kids,exact,1.0,TVSHiTops.us@SD,TVS Hi Tops,watchyour.tv,1.0,64
+TVSPinballNetwork.us@SD,TVS Pinball Network (480p),Kids,exact,1.0,TVSPinballNetwork.us@SD,TVS Pinball Network,watchyour.tv,1.0,80
+WatchitKID.us@SD,Watch it KID! (720p),Kids,exact,1.0,WatchitKID.us@SD,Watch it Kid,i.mjh.nz,2.0,4
+AutenticHistory.de@SD,Autentic History (1080p),Documentary,exact,1.0,AutenticHistory.de@SD,Autentic History,watch.whaletvplus.com,1.0,26
+Backstage.us@SD,Backstage (1080p),Documentary,exact,1.0,Backstage.us@SD,Complex TV,i.mjh.nz,1.0,21
+BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,exact,1.0,BloombergOriginals.us@SD,Bloomberg Originals,i.mjh.nz,3.0,8
+Crime360.us@SD,Crime 360 (720p),Documentary,exact,1.0,Crime360.us@SD,A&amp;E Crime 360,i.mjh.nz,2.0,14
+Dateline247.us@SD,Dateline 24/7 (1080p),Documentary,exact,1.0,Dateline247.us@SD,Dateline,i.mjh.nz,1.0,21
+INWILD.nl@SD,INWILD (1080p),Documentary,exact,1.0,INWILD.nl@SD,INWILD,watch.whaletvplus.com,1.0,36
+LoveThePlanet.es@EN,Love the Planet (1080p),Documentary,exact,1.0,LoveThePlanet.es@EN,Love The Planet (EN),watch.whaletvplus.com,1.0,26
+NationalGeographic.us@East,National Geographic (720p),Documentary,exact,1.0,NationalGeographic.us@East,National Geographic US - Eastern,tvpassport.com,1.0,27
+NationalGeographicWild.us@East,National Geographic Wild (720p),Documentary,exact,1.0,NationalGeographicWild.us@East,National Geographic Wild HD,tvpassport.com,1.0,29
+TerraMaterWILD.de@English,Terra Mater WILD English (1080p),Documentary,exact,1.0,TerraMaterWILD.de@English,Terra Mater Wild (EN),watch.whaletvplus.com,1.0,29
+TVSComedyNetwork.us@SD,TVS Comedy Network (720p),Comedy,exact,1.0,TVSComedyNetwork.us@SD,TVS Comedy,watchyour.tv,1.0,27
