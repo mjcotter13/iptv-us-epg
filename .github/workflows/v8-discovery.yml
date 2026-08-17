@@ -1,0 +1,30 @@
+name: V8 EPG Discovery Sandbox
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run source discovery only
+        run: python v8_discover.py
+      - name: Commit discovery report only
+        run: |
+          mkdir -p public/v8
+          cp v8_work/source_discovery.csv public/v8/source_discovery.csv
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/v8/source_discovery.csv
+          if git diff --cached --quiet; then
+            echo "No discovery changes."
+          else
+            git commit -m "Update V8 EPG discovery report"
+            git pull --rebase origin main
+            git push
+          fi
