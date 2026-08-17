@@ -1,0 +1,10 @@
+playlist_channels=1480
+matched_channels=672
+unmatched_channels=808
+primary_matches=451
+fallback_matches=150
+additive_matches=71
+pluto_additive_matches=20
+samsung_additive_matches=17
+targeted_v7_matches=34
+high_value_unmatched=158

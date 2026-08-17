@@ -1,10 +1,7 @@
-playlist_channels=1495
-matched_channels=694
-unmatched_channels=801
-primary_matches=461
-fallback_matches=156
-additive_matches=77
-pluto_additive_matches=20
-samsung_additive_matches=17
-targeted_v7_matches=40
-high_value_unmatched=152
+generated_utc=2026-08-17T03:21:01.417439+00:00
+candidate_channels_with_current_or_future_programmes=672
+previous_channels_with_current_or_future_programmes=679
+preserved_channels_from_previous=42
+published_channels_with_current_or_future_programmes=714
+known_good_baseline_commit=4c6d667
+known_good_baseline_historical_matches=694
