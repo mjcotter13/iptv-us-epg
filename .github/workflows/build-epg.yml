@@ -70,6 +70,12 @@ jobs:
       - name: Build fresh candidate EPG
         run: python build_epg.py
 
+      - name: V9 rescue priority favorites
+        run: python v9_priority_rescue.py
+      
+      - name: Merge V9 priority favorites
+        run: python v9_merge_priority.py
+
       - name: Save candidate diagnostics
         run: |
           cp public/status.txt public/candidate_status.txt
