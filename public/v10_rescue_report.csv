@@ -1,14 +1,14 @@
 playlist_id,playlist_name,group,source,source_id,match_method,score,programmes
-AmericasTestKitchen.us@SD,America's Test Kitchen (1080p) [Geo-blocked],Cooking,Pluto TV US,5e84f54a82f05300080e6746,exact-compact-name,0.995,27
-Dateline247.us@SD,Dateline 24/7 (1080p),Documentary,Pluto TV US,637413d8531e0c0007442d6d,exact-compact-name,0.995,13
-Heartland.us@Eastern,Heartland (720p),Entertainment,Pluto TV US,61f07513227feb00073ee6bc,exact-normalized-name,1.0,14
-HSN.us@East,HSN (720p),Shop,Pluto TV US,5f8a02476b72230007e62b7d,exact-normalized-name,1.0,14
-LoveHipHop.us@SD,Love & Hip Hop,Series,Pluto TV US,5d51ddf0369acdb278dfb05e,exact-normalized-name,1.0,14
-PlutoTVPokemon.us@US,Pokémon,Animation;Kids,Pluto TV US,6675c7868768aa0008d7f1c7,exact-normalized-name,1.0,31
-Survivor.us@SD,Survivor (1080p),Series,Pluto TV US,5f21e7b24744c60007c1f6fc,exact-normalized-name,1.0,13
-WildNOut.us@SD,Wild 'N Out,Series,Pluto TV US,5d48678d34ceb37d3c458a55,exact-normalized-name,1.0,25
-BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,Plex US,6a1610bebdf296985fd95603-68fafe0dae4af1c7478fbeec,exact-compact-name,0.995,8
+AmericasTestKitchen.us@SD,America's Test Kitchen (1080p) [Geo-blocked],Cooking,Pluto TV US,5e84f54a82f05300080e6746,exact-compact-name,0.995,19
+Dateline247.us@SD,Dateline 24/7 (1080p),Documentary,Pluto TV US,637413d8531e0c0007442d6d,exact-compact-name,0.995,8
+Heartland.us@Eastern,Heartland (720p),Entertainment,Pluto TV US,61f07513227feb00073ee6bc,exact-normalized-name,1.0,9
+HSN.us@East,HSN (720p),Shop,Pluto TV US,5f8a02476b72230007e62b7d,exact-normalized-name,1.0,9
+LoveHipHop.us@SD,Love & Hip Hop,Series,Pluto TV US,5d51ddf0369acdb278dfb05e,exact-normalized-name,1.0,9
+PlutoTVPokemon.us@US,Pokémon,Animation;Kids,Pluto TV US,6675c7868768aa0008d7f1c7,exact-normalized-name,1.0,21
+Survivor.us@SD,Survivor (1080p),Series,Pluto TV US,5f21e7b24744c60007c1f6fc,exact-normalized-name,1.0,9
+WildNOut.us@SD,Wild 'N Out,Series,Pluto TV US,5d48678d34ceb37d3c458a55,exact-normalized-name,1.0,17
+BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,Plex US,6a1610bebdf296985fd95603-68fafe0dae4af1c7478fbeec,exact-compact-name,0.995,16
 AmericasVoice.us@SD,America's Voice (720p),News,Roku,d748045d77105901b8e25fcc34aa9e2f,exact-compact-name,0.995,58
-FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,Roku,62945e18ab825bfd8b4995d9bd14917b,exact-compact-name,0.995,173
-SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,Roku,9aff620ece2457a3a7572886ecae0495,exact-compact-name,0.995,128
+FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,Roku,62945e18ab825bfd8b4995d9bd14917b,exact-compact-name,0.995,172
+SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,Roku,9aff620ece2457a3a7572886ecae0495,exact-compact-name,0.995,125
 VenevisionInternacional.ve@SD,Venevisión Internacional (720p),General,Roku,cc04d77fd589a818cd036c850b6be867,exact-compact-name,0.995,43
