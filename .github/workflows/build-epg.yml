@@ -13,6 +13,10 @@ on:
       - "v7_prepare.py"
       - "v7_run.py"
       - "v7_merge.py"
+      - "v9_priority_rescue.py"
+      - "v9_merge_priority.py"
+      - "v10_generic_rescue.py"
+      - "v10_merge_rescue.py"
       - ".github/workflows/build-epg.yml"
 
 permissions:
@@ -72,18 +76,31 @@ jobs:
 
       - name: V9 rescue priority favorites
         run: python v9_priority_rescue.py
-      
+
       - name: Merge V9 priority favorites
         run: python v9_merge_priority.py
+
+      - name: V10 generic multi-platform rescue
+        run: python v10_generic_rescue.py
+
+      - name: Merge V10 rescue
+        run: python v10_merge_rescue.py
 
       - name: Save candidate diagnostics
         run: |
           cp public/status.txt public/candidate_status.txt
           cp public/guide.xml.gz /tmp/candidate_guide.xml.gz
+          cp v9_priority_status.txt public/v9_priority_status.txt || true
+          cp v10_rescue_status.txt public/v10_rescue_status.txt || true
+          cp v10_rescue_report.csv public/v10_rescue_report.csv || true
 
       - name: Apply non-regression stability merge
         run: |
-          python stable_merge.py             --previous /tmp/previous_guide.xml.gz             --candidate /tmp/candidate_guide.xml.gz             --output public/guide.xml.gz             --status public/status.txt
+          python stable_merge.py \
+            --previous /tmp/previous_guide.xml.gz \
+            --candidate /tmp/candidate_guide.xml.gz \
+            --output public/guide.xml.gz \
+            --status public/status.txt
 
       - name: Preserve targeted diagnostics
         run: |
@@ -98,10 +115,24 @@ jobs:
         shell: bash
         run: |
           set -e
+
           mkdir -p /tmp/publish/public/v7
+
           cp public/guide.xml.gz /tmp/publish/public/guide.xml.gz
           cp public/status.txt /tmp/publish/public/status.txt
           cp public/candidate_status.txt /tmp/publish/public/candidate_status.txt
+
+          if [ -f public/v9_priority_status.txt ]; then
+            cp public/v9_priority_status.txt /tmp/publish/public/v9_priority_status.txt
+          fi
+
+          if [ -f public/v10_rescue_status.txt ]; then
+            cp public/v10_rescue_status.txt /tmp/publish/public/v10_rescue_status.txt
+          fi
+
+          if [ -f public/v10_rescue_report.csv ]; then
+            cp public/v10_rescue_report.csv /tmp/publish/public/v10_rescue_report.csv
+          fi
 
           for f in channels.csv attempts.csv targeted_status.csv attempt_status.csv targeted_guide.xml; do
             if [ -f "public/v7/$f" ]; then
@@ -113,9 +144,22 @@ jobs:
           git reset --hard origin/main
 
           mkdir -p public/v7
+
           cp /tmp/publish/public/guide.xml.gz public/guide.xml.gz
           cp /tmp/publish/public/status.txt public/status.txt
           cp /tmp/publish/public/candidate_status.txt public/candidate_status.txt
+
+          if [ -f /tmp/publish/public/v9_priority_status.txt ]; then
+            cp /tmp/publish/public/v9_priority_status.txt public/v9_priority_status.txt
+          fi
+
+          if [ -f /tmp/publish/public/v10_rescue_status.txt ]; then
+            cp /tmp/publish/public/v10_rescue_status.txt public/v10_rescue_status.txt
+          fi
+
+          if [ -f /tmp/publish/public/v10_rescue_report.csv ]; then
+            cp /tmp/publish/public/v10_rescue_report.csv public/v10_rescue_report.csv
+          fi
 
           for f in channels.csv attempts.csv targeted_status.csv attempt_status.csv targeted_guide.xml; do
             if [ -f "/tmp/publish/public/v7/$f" ]; then
@@ -126,7 +170,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add public/guide.xml.gz public/status.txt public/candidate_status.txt public/v7/
+          git add \
+            public/guide.xml.gz \
+            public/status.txt \
+            public/candidate_status.txt \
+            public/v7/ \
+            public/v9_priority_status.txt \
+            public/v10_rescue_status.txt \
+            public/v10_rescue_report.csv
 
           if git diff --cached --quiet; then
             echo "No published changes."
