@@ -1,5 +1,5 @@
-playlist_channels=1467
-covered_before_v10=645
+playlist_channels=1466
+covered_before_v10=644
 eligible_for_rescue=822
 v10_rescued_channels=13
 pluto_tv_us_matches=8
