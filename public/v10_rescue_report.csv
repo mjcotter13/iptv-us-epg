@@ -1,48 +1,15 @@
 playlist_id,playlist_name,group,source,source_id,match_method,score,programmes
-AmericasTestKitchen.us@SD,America's Test Kitchen (1080p) [Geo-blocked],Cooking,Pluto TV US,5e84f54a82f05300080e6746,exact-compact-name,0.995,29
-BloombergTV.us@US,Bloomberg TV (1080p),Business,Pluto TV US,54ff7ba69222cb1c2624c584,exact-compact-name,0.995,15
-BloombergTV.us@LiveEvent,Bloomberg TV US Live Event (720p),Business,Pluto TV US,54ff7ba69222cb1c2624c584,exact-compact-name,0.995,15
-BloombergTV.us@PoliticsLiveEvent,Bloomberg TV US Politics Live Event (720p),Business,Pluto TV US,54ff7ba69222cb1c2624c584,exact-compact-name,0.995,15
+AmericasTestKitchen.us@SD,America's Test Kitchen (1080p) [Geo-blocked],Cooking,Pluto TV US,5e84f54a82f05300080e6746,exact-compact-name,0.995,28
 Dateline247.us@SD,Dateline 24/7 (1080p),Documentary,Pluto TV US,637413d8531e0c0007442d6d,exact-compact-name,0.995,13
 Heartland.us@Eastern,Heartland (720p),Entertainment,Pluto TV US,61f07513227feb00073ee6bc,exact-normalized-name,1.0,15
 HSN.us@East,HSN (720p),Shop,Pluto TV US,5f8a02476b72230007e62b7d,exact-normalized-name,1.0,15
 LoveHipHop.us@SD,Love & Hip Hop,Series,Pluto TV US,5d51ddf0369acdb278dfb05e,exact-normalized-name,1.0,15
-MLB.us@SD,MLB Channel (1080p) [Geo-blocked],Sports,Pluto TV US,5e66968a70f34c0007d050be,exact-normalized-name,1.0,13
-PlutoTVPokemon.us@US,Pokémon,Animation;Kids,Pluto TV US,6675c7868768aa0008d7f1c7,exact-normalized-name,1.0,34
-Survivor.us@SD,Survivor (1080p),Series,Pluto TV US,5f21e7b24744c60007c1f6fc,exact-normalized-name,1.0,14
-TODAYAllDay.us@SD,TODAY All Day (1080p),News,Pluto TV US,5d695f7db53adf96b78e7ce3,exact-compact-name,0.995,21
-Vevo70s.us@SD,Vevo 70s (1080p),Music,Pluto TV US,5f32f26bcd8aea00071240e5,exact-compact-name,0.995,11
-Vevo80s.us@SD,Vevo 80s (1080p),Music,Pluto TV US,5fd7b8bf927e090007685853,exact-compact-name,0.995,14
-Vevo90s.us@SD,Vevo 90s (1080p),Music,Pluto TV US,5fd7bb1f86d94a000796e2c2,exact-compact-name,0.995,15
-WildNOut.us@SD,Wild 'N Out,Series,Pluto TV US,5d48678d34ceb37d3c458a55,exact-normalized-name,1.0,28
-24HourFreeMovies.us@SD,24 Hour Free Movies (720p),Movies,Plex US,6a1610bebdf296985fd95603-5fd115bab7ef8d002dcf181d,exact-compact-name,0.995,32
-AfroLandTV.us@SD,AfroLandTV (1080p),Entertainment,Plex US,6a1610bebdf296985fd95603-60e737a4ebef9d002c4d0a0c,exact-normalized-name,1.0,1
-beINSPORTSXTRAenEspanol.us@SD,beIN SPORTS XTRA en Espanol (1080p),Sports,Plex US,6a1610bebdf296985fd95603-64a8903d273b89c4e7396553,exact-compact-name,0.995,6
+OANPlus.us@KPVMLD,OAN Plus KPVM-LD,News,Pluto TV US,5e7cf6c7b156d500078c5f44,exact-compact-name,0.995,15
+PlutoTVPokemon.us@US,Pokémon,Animation;Kids,Pluto TV US,6675c7868768aa0008d7f1c7,exact-normalized-name,1.0,35
+Survivor.us@SD,Survivor (1080p),Series,Pluto TV US,5f21e7b24744c60007c1f6fc,exact-normalized-name,1.0,15
+WildNOut.us@SD,Wild 'N Out,Series,Pluto TV US,5d48678d34ceb37d3c458a55,exact-normalized-name,1.0,29
 BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,Plex US,6a1610bebdf296985fd95603-68fafe0dae4af1c7478fbeec,exact-compact-name,0.995,14
-CampSpoopy.us@SD,Camp Spoopy (576p),Kids,Plex US,6a1610bebdf296985fd95603-6164a963766ab4f9f57e81b1,exact-compact-name,0.995,4
-DarkMatterTV.us@SD,Dark Matter TV (720p),Series,Plex US,6a1610bebdf296985fd95603-5eea605674085f0040ddc7a6,exact-compact-name,0.995,6
-DontTellTheBride.uk@SD,Don't Tell The Bride (1080p),Series,Plex US,6a1610bebdf296985fd95603-635847d0d3a668f1cafc1f9d,exact-compact-name,0.995,11
-Farscape.us@SD,Farscape,Series,Plex US,6a1610bebdf296985fd95603-635195e9ccee3e1547a8831a,exact-normalized-name,1.0,64
-FrightFlix.us@SD,FrightFlix (720p),Movies,Plex US,6a1610bebdf296985fd95603-621674502c2627c068e73ada,exact-normalized-name,1.0,7
-IronChef.us@US,Iron Chef,Series,Plex US,6a1610bebdf296985fd95603-6707cfa5da81682f2d1e6837,exact-normalized-name,1.0,41
-KidsFlix.us@SD,KidsFlix (1080p) [Not 24/7],Kids;Movies,Plex US,6a1610bebdf296985fd95603-5eea605574085f0040ddc797,exact-normalized-name,1.0,7
-LATV.us@SD,LATV (1080p) [Geo-blocked],Entertainment,Plex US,6a1610bebdf296985fd95603-6685a97b59703916799193a5,exact-normalized-name,1.0,19
-LoneStar.us@SD,Lone Star (1080p),Entertainment,Plex US,6a1610bebdf296985fd95603-6196c9241d310bf925e02616,exact-compact-name,0.995,7
-Novelisima.us@SD,Novelisima,Series,Plex US,6a1610bebdf296985fd95603-64d4e82ac5d4668c9cb7b5df,exact-normalized-name,1.0,10
-RealWild.uk@SD,Real Wild (1080p),Undefined,Plex US,6a1610bebdf296985fd95603-63584a0cf8e2be1350f802a4,exact-compact-name,0.995,39
-RevryLatinX.us@SD,Revry LatinX (720p),Entertainment,Plex US,6a1610bebdf296985fd95603-68c87052da79d98d977dc90e,exact-compact-name,0.995,12
-RuntimeEspanol.us@SD,Runtime Espanol (720p),Movies,Plex US,6a1610bebdf296985fd95603-5f5132e362fe160040f26c15,exact-compact-name,0.995,28
-ShemarooBollywood.us@SD,Shemaroo Bollywood (1080p),Undefined,Plex US,6a1610bebdf296985fd95603-62d1a58e520656fda09e609d,exact-compact-name,0.995,16
-SonicTV.us@SD,Sonic TV (720p),Animation,Plex US,6a1610bebdf296985fd95603-62ba4aaff663580a7238f327,exact-compact-name,0.995,70
-TheCarolBurnettShow.us@SD,The Carol Burnett Show (1080p),Classic,Plex US,6a1610bebdf296985fd95603-60d4edd6b2fdec002c141125,exact-compact-name,0.995,16
-TheDoctors.us@HD,The Doctors (720p),Series,Plex US,6a1610bebdf296985fd95603-6720271c727d52d7a0e0b495,exact-compact-name,0.995,14
-TheGrahamNortonShow.uk@SD,The Graham Norton Show (1080p),Entertainment,Plex US,6a1610bebdf296985fd95603-68dcbb869beaa3a402966dba,exact-compact-name,0.995,83
-Unbeaten.us@SD,Unbeaten (1080p),Sports,Plex US,6a1610bebdf296985fd95603-633239caa6615514fb78ecf3,exact-normalized-name,1.0,18
-WatchitScream.us@SD,Watch it Scream! (720p),Movies,Plex US,6a1610bebdf296985fd95603-621671d05abdd3d5556a1baf,exact-compact-name,0.995,9
-AmericasVoice.us@SD,America's Voice (720p),News,Roku,d748045d77105901b8e25fcc34aa9e2f,exact-compact-name,0.995,53
-FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,Roku,62945e18ab825bfd8b4995d9bd14917b,exact-compact-name,0.995,175
-NBCComedyVault.us@SD,NBC Comedy Vault (1080p),Comedy,Roku,4b631847108256fd8c77f6ba3bf3af03,exact-compact-name,0.995,182
-SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,Roku,9aff620ece2457a3a7572886ecae0495,exact-compact-name,0.995,108
-VenevisionInternacional.ve@SD,Venevisión Internacional (720p),General,Roku,cc04d77fd589a818cd036c850b6be867,exact-compact-name,0.995,47
-Bravo.us@East,Bravo (720p),Undefined,MJH Combined,mjh-bravo,exact-normalized-name,1.0,137
-Nicktoons.us@East,Nicktoons (1080p),Kids,MJH Combined,mjh-10-nicktoons,exact-normalized-name,1.0,220
+AmericasVoice.us@SD,America's Voice (720p),News,Roku,d748045d77105901b8e25fcc34aa9e2f,exact-compact-name,0.995,55
+FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,Roku,62945e18ab825bfd8b4995d9bd14917b,exact-compact-name,0.995,173
+SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,Roku,9aff620ece2457a3a7572886ecae0495,exact-compact-name,0.995,114
+VenevisionInternacional.ve@SD,Venevisión Internacional (720p),General,Roku,cc04d77fd589a818cd036c850b6be867,exact-compact-name,0.995,46
