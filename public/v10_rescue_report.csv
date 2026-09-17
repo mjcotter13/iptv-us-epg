@@ -8,10 +8,10 @@ Newsmax2.us@KPVMLD,KPVM Newsmax 2,News,Pluto TV US,55b179af994403942f3061d6,exac
 LoveHipHop.us@SD,Love & Hip Hop,Series,Pluto TV US,5d51ddf0369acdb278dfb05e,exact-normalized-name,1.0,14
 OANPlus.us@KPVMLD,OAN Plus KPVM-LD,News,Pluto TV US,5e7cf6c7b156d500078c5f44,exact-compact-name,0.995,14
 PlutoTVPokemon.us@US,Pokémon,Animation;Kids,Pluto TV US,6675c7868768aa0008d7f1c7,exact-normalized-name,1.0,29
-Survivor.us@SD,Survivor (1080p),Series,Pluto TV US,5f21e7b24744c60007c1f6fc,exact-normalized-name,1.0,11
+Survivor.us@SD,Survivor (1080p),Series,Pluto TV US,5f21e7b24744c60007c1f6fc,exact-normalized-name,1.0,14
 WildNOut.us@SD,Wild 'N Out,Series,Pluto TV US,5d48678d34ceb37d3c458a55,exact-normalized-name,1.0,26
-BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,Plex US,6a1610bebdf296985fd95603-68fafe0dae4af1c7478fbeec,exact-compact-name,0.995,14
-AmericasVoice.us@SD,America's Voice (720p),News,Roku,d748045d77105901b8e25fcc34aa9e2f,exact-compact-name,0.995,55
-FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,Roku,62945e18ab825bfd8b4995d9bd14917b,exact-compact-name,0.995,163
-SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,Roku,9aff620ece2457a3a7572886ecae0495,exact-compact-name,0.995,106
-VenevisionInternacional.ve@SD,Venevisión Internacional (720p),General,Roku,cc04d77fd589a818cd036c850b6be867,exact-compact-name,0.995,49
+BloombergOriginals.us@SD,Bloomberg Originals (1080p),Business;Documentary,Plex US,6a1610bebdf296985fd95603-68fafe0dae4af1c7478fbeec,exact-compact-name,0.995,4
+AmericasVoice.us@SD,America's Voice (720p),News,Roku,d748045d77105901b8e25fcc34aa9e2f,exact-compact-name,0.995,56
+FilmRiseForensicFiles.us@SD,Forensic Files (720p) [Geo-blocked],Movies,Roku,62945e18ab825bfd8b4995d9bd14917b,exact-compact-name,0.995,165
+SuperSimpleSongs.us@SD,Super Simple Songs (1080p),Kids,Roku,9aff620ece2457a3a7572886ecae0495,exact-compact-name,0.995,110
+VenevisionInternacional.ve@SD,Venevisión Internacional (720p),General,Roku,cc04d77fd589a818cd036c850b6be867,exact-compact-name,0.995,48
