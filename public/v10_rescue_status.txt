@@ -1,11 +1,11 @@
-playlist_channels=1504
-covered_before_v10=653
-eligible_for_rescue=851
-v10_rescued_channels=16
+playlist_channels=1492
+covered_before_v10=646
+eligible_for_rescue=846
+v10_rescued_channels=18
 pluto_tv_us_matches=8
 plex_us_matches=3
-samsung_tv_plus_us_matches=0
+samsung_tv_plus_us_matches=2
 roku_matches=4
 pbs_matches=0
 mjh_combined_matches=1
-remaining_after_v10=835
+remaining_after_v10=828
